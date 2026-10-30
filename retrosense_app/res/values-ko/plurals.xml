@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">매 %1$d주마다 %2$s에서</item>
+        <item quantity="one">매주마다 %2$s에서</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d 번</item>
+        <item quantity="one">한 번</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">%d 일마다</item>
+        <item quantity="one">%d 일마다</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">%d 주마다</item>
+        <item quantity="one">%d 주마다</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">%d 달마다</item>
+        <item quantity="one">%d 달마다</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">%d 년마다</item>
+        <item quantity="one">%d 년마다</item>
+    </plurals>
+</resources>

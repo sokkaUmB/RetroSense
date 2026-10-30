@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/align_base" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/comma" android:singleLine="true" android:layout_weight="0.0" style="@style/custom_fixed_masthead_01" />
+    <TextView android:ellipsize="marquee" android:id="@id/city_name" android:paddingRight="@dimen/theme_italic_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_alignBaseline="@id/align_base" style="@style/custom_fixed_masthead_01" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <TextView android:id="@id/align_base2" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/comma" android:singleLine="true" android:layout_weight="0.0" style="@style/custom_fixed_masthead_01" />
+        <TextView android:id="@id/separatrix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/theme_italic_padding_shift" android:text="@string/dash" android:layout_weight="0.0" android:layout_alignTop="@id/week_date" android:layout_alignBottom="@id/week_date" style="@style/custom_fixed_masthead_01" />
+        <TextView android:ellipsize="marquee" android:id="@id/week_date" android:paddingRight="@dimen/theme_italic_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.0" android:layout_alignBaseline="@id/align_base2" style="@style/custom_fixed_masthead_01" />
+        <TextView android:ellipsize="marquee" android:id="@id/holiday" android:paddingRight="@dimen/leading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/theme_italic_padding_shift" android:singleLine="true" android:layout_weight="1.0" android:layout_alignBaseline="@id/align_base2" style="@style/custom_fixed_masthead_01" />
+    </LinearLayout>
+</LinearLayout>

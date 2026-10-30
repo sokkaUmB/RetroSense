@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Әрбір %1$d апта сайын %2$s</item>
+        <item quantity="one">Апта сайын %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d рет</item>
+        <item quantity="one">бір рет</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Әр %d күн</item>
+        <item quantity="one">Әр %d күн</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Әр %d апта</item>
+        <item quantity="one">Әр %d апта</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Әр %d ай</item>
+        <item quantity="one">Әр %d ай</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Әр %d жыл</item>
+        <item quantity="one">Әр %d жыл</item>
+    </plurals>
+</resources>

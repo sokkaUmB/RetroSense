@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>tous les premiers dimanches</item>
+        <item>tous les deuxièmes dimanches</item>
+        <item>tous les troisièmes dimanches</item>
+        <item>tous les quatrièmes dimanches</item>
+        <item>tous les derniers dimanches</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>tous les premiers lundis</item>
+        <item>tous les deuxièmes lundis</item>
+        <item>tous les troisièmes lundis</item>
+        <item>tous les quatrièmes lundis</item>
+        <item>tous les derniers lundis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>tous les premiers mardis</item>
+        <item>tous les deuxièmes mardis</item>
+        <item>tous les troisièmes mardis</item>
+        <item>tous les quatrièmes mardis</item>
+        <item>tous les derniers mardis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>tous les premiers mercredis</item>
+        <item>tous les deuxièmes mercredis</item>
+        <item>tous les troisièmes mercredis</item>
+        <item>tous les quatrièmes mercredis</item>
+        <item>tous les derniers mercredis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>tous les premiers jeudis</item>
+        <item>tous les deuxièmes jeudis</item>
+        <item>tous les troisièmes jeudis</item>
+        <item>tous les quatrièmes jeudis</item>
+        <item>tous les derniers jeudis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>tous les premiers vendredis</item>
+        <item>tous les deuxièmes vendredis</item>
+        <item>tous les troisièmes vendredis</item>
+        <item>tous les quatrièmes vendredis</item>
+        <item>tous les derniers vendredis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>tous les premiers samedis</item>
+        <item>tous les deuxièmes samedis</item>
+        <item>tous les troisièmes samedis</item>
+        <item>tous les quatrièmes samedis</item>
+        <item>tous les derniers samedis</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Ensoleillé</item>
+        <item>Principalement ensoleillé</item>
+        <item>Partiellement ensoleillé</item>
+        <item>Nuages intermittents</item>
+        <item>Soleil voilé</item>
+        <item>Principalement nuageux</item>
+        <item>Nuageux</item>
+        <item>Morne</item>
+        <item>Brouillard</item>
+        <item>Averses</item>
+        <item>Principalement nuageux avec averses</item>
+        <item>Partiellement ensoleillé avec averses</item>
+        <item>Orages</item>
+        <item>Principalement nuageux avec averses orageuses</item>
+        <item>Partiellement ensoleillé avec averses orageuses</item>
+        <item>Pluie</item>
+        <item>Bourrasques</item>
+        <item>Principalement nuageux avec bourrasques</item>
+        <item>Partiellement ensoleillé avec bourrasques</item>
+        <item>Neige</item>
+        <item>Principalement nuageux avec neige</item>
+        <item>Verglas</item>
+        <item>Neige mouillée</item>
+        <item>Pluie verglaçante</item>
+        <item>Pluie et neige mélangées</item>
+        <item>Chaud</item>
+        <item>Froid</item>
+        <item>Venteux</item>
+        <item>Clair</item>
+        <item>Principalement clair</item>
+        <item>Partiellement nuageux</item>
+        <item>Nuages intermittents</item>
+        <item>Voilé</item>
+        <item>Principalement nuageux</item>
+        <item>Partiellement nuageux avec averses</item>
+        <item>Principalement nuageux avec averses</item>
+        <item>Partiellement nuageux avec averses orageuses</item>
+        <item>Principalement nuageux avec averses orageuses</item>
+        <item>Partiellement nuageux avec bourrasques</item>
+        <item>Principalement nuageux avec bourrasques</item>
+        <item>Orages et legère neige</item>
+        <item>Sable</item>
+        <item>Poussière</item>
+        <item>Tornade</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Petite</item>
+        <item>Moyenne</item>
+        <item>Grande</item>
+        <item>Très grande</item>
+        <item>Énorme</item>
+    </string-array>
+</resources>

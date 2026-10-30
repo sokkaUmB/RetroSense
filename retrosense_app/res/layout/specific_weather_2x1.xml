@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:paddingLeft="@dimen/widget_padding" android:paddingRight="@dimen/widget_padding" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/widget_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_panel" android:layout_width="match_parent" android:layout_height="@dimen/digitalclock_main_height" android:layout_centerVertical="true" />
+    <include android:id="@id/temp_block" android:layout_width="match_parent" android:layout_height="@dimen/digitalclock_main_height" android:layout_alignTop="@id/background_panel" layout="@layout/specific_weather_2x1_temp" />
+    <include android:id="@id/info_block" android:layout_width="match_parent" android:layout_height="@dimen/digitalclock_main_height" android:layout_alignTop="@id/background_panel" layout="@layout/specific_weather_2x1_info" />
+    <FrameLayout android:id="@id/sun_block" android:layout_width="@dimen/weather_image_width" android:layout_height="@dimen/weather_image_height" android:layout_marginTop="@dimen/weather_image_padding_top" android:layout_marginRight="@dimen/weather_image_padding_right" android:layout_alignTop="@id/background_panel" android:layout_alignParentRight="true" android:contentDescription="@string/accessibility_weather">
+        <ImageView android:id="@id/sun" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/no_weather_data" android:layout_width="match_parent" android:layout_height="@dimen/weather_temp_block_height" android:layout_marginLeft="@dimen/digitalclock_divider_margin_left_right" android:layout_marginTop="@dimen/weather_today_view_margin_top" android:layout_marginRight="@dimen/digitalclock_divider_margin_left_right" android:maxLines="@integer/weather_2x1_no_weather_max_lines" android:layout_alignTop="@id/background_panel" style="@style/fixed_widget_weather_15" />
+    <include android:id="@id/location_block" android:layout_width="match_parent" android:layout_height="@dimen/digitalclock_main_height" android:layout_alignTop="@id/background_panel" layout="@layout/specific_weather_2x1_location" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Každý %1$d týden v %2$s</item>
+        <item quantity="one">Každý týden v %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d krát</item>
+        <item quantity="one">jednou</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Každé %d dny</item>
+        <item quantity="one">Každý %d den</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Každé %d týdny</item>
+        <item quantity="one">Každý %d týden</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Každé %d měsíce</item>
+        <item quantity="one">Každý %d měsíc</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Každé %d roky</item>
+        <item quantity="one">Každý %d rok</item>
+    </plurals>
+</resources>

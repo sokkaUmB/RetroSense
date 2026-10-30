@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>în fiecare primă duminică</item>
+        <item>în fiecare a doua duminică</item>
+        <item>în fiecare a treia duminică</item>
+        <item>în fiecare a patra duminică</item>
+        <item>în fiecare ultimă duminică</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>în fiecare primă luni</item>
+        <item>în fiecare a doua luni</item>
+        <item>în fiecare a treia luni</item>
+        <item>în fiecare a patra luni</item>
+        <item>în fiecare ultimă luni</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>în fiecare primă marţi</item>
+        <item>în fiecare a doua marţi</item>
+        <item>în fiecare a treia marţi</item>
+        <item>în fiecare a patra marţi</item>
+        <item>în fiecare ultimă marţi</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>în fiecare primă miercuri</item>
+        <item>în fiecare a doua miercuri</item>
+        <item>în fiecare a treia miercuri</item>
+        <item>în fiecare a patra miercuri</item>
+        <item>în fiecare ultimă miercuri</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>în fiecare primă joi</item>
+        <item>în fiecare a doua joi</item>
+        <item>în fiecare a treia joi</item>
+        <item>în fiecare a patra joi</item>
+        <item>în fiecare ultimă joi</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>în fiecare primă vineri</item>
+        <item>în fiecare a doua vineri</item>
+        <item>în fiecare a treia vineri</item>
+        <item>în fiecare a patra vineri</item>
+        <item>în fiecare ultimă vineri</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>în fiecare primă sâmbătă</item>
+        <item>în fiecare a doua sâmbătă</item>
+        <item>în fiecare a treia sâmbătă</item>
+        <item>în fiecare a patra sâmbătă</item>
+        <item>în fiecare ultimă sâmbătă</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Soare</item>
+        <item>Mai mult însorit</item>
+        <item>Parţial însorit</item>
+        <item>Nori ocazionali</item>
+        <item>Soare cu ceaţă</item>
+        <item>Mai mult noros</item>
+        <item>Noros</item>
+        <item>Mohorât</item>
+        <item>Ceaţă</item>
+        <item>Averse</item>
+        <item>Mai mult noros cu averse</item>
+        <item>Parţial senin cu averse</item>
+        <item>Furtuni</item>
+        <item>Mai mult noros cu furtuni</item>
+        <item>Parţial senin cu furtuni</item>
+        <item>Ploaie</item>
+        <item>Ninsori trecătoare</item>
+        <item>Mai mult noros cu ninsori trecătoare</item>
+        <item>Parţial senin cu ninsori trecătoare</item>
+        <item>Zăpadă</item>
+        <item>Mai mult noros cu zăpadă</item>
+        <item>Gheaţă</item>
+        <item>Zloată</item>
+        <item>Lapoviţă</item>
+        <item>Ploaie şi ninsoare</item>
+        <item>Foarte cald</item>
+        <item>Frig</item>
+        <item>Vântos</item>
+        <item>Senin</item>
+        <item>Mai mult senin</item>
+        <item>Parţial noros</item>
+        <item>Nori ocazionali</item>
+        <item>Ceţos</item>
+        <item>Mai mult noros</item>
+        <item>Parţial noros cu averse</item>
+        <item>Mai mult noros cu averse</item>
+        <item>Parţial noros cu furtuni</item>
+        <item>Mai mult noros cu furtuni</item>
+        <item>Parţial noros cu ninsori trecătoare</item>
+        <item>Mai mult noros cu ninsori trecătoare</item>
+        <item>Furtuni cu lapoviţă</item>
+        <item>Nisip</item>
+        <item>Praf</item>
+        <item>Tornadă</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Mică</item>
+        <item>Mediu</item>
+        <item>Mare</item>
+        <item>Extra mare</item>
+        <item>Foarte mare</item>
+    </string-array>
+</resources>

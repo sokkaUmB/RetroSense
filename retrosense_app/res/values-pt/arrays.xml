@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>a cada primeiro domingo</item>
+        <item>a cada segundo domingo</item>
+        <item>a cada terceiro domingo</item>
+        <item>a cada quarto domingo</item>
+        <item>a cada último domingo</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>a cada primeira segunda-feira</item>
+        <item>a cada segunda segunda-feira</item>
+        <item>a cada terceira segunda-feira</item>
+        <item>a cada quarta segunda-feira</item>
+        <item>a cada última segunda-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>a cada primeira terça-feira</item>
+        <item>a cada segunda terça-feira</item>
+        <item>a cada terceira terça-feira</item>
+        <item>a cada quarta terça-feira</item>
+        <item>a cada última terça-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>a cada primeira quarta-feira</item>
+        <item>a cada segunda quarta-feira</item>
+        <item>a cada terceira quarta-feira</item>
+        <item>a cada quarta quarta-feira</item>
+        <item>a cada última quarta-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>a cada primeira quinta-feira</item>
+        <item>a cada segunda quinta-feira</item>
+        <item>a cada terceira quinta-feira</item>
+        <item>a cada quarta quinta-feira</item>
+        <item>a cada última quinta-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>a cada primeira sexta-feira</item>
+        <item>a cada segunda sexta-feira</item>
+        <item>a cada terceira sexta-feira</item>
+        <item>a cada quarta sexta-feira</item>
+        <item>a cada última sexta-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>a cada primeiro sábado</item>
+        <item>a cada segundo sábado</item>
+        <item>a cada terceiro sábado</item>
+        <item>a cada quarto sábado</item>
+        <item>a cada último sábado</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Céu limpo</item>
+        <item>Poucas nuvens</item>
+        <item>Muitas nuvens</item>
+        <item>Nuvens esparsas</item>
+        <item>Neblina</item>
+        <item>Muito nublado</item>
+        <item>Nublado</item>
+        <item>Escuro</item>
+        <item>Neblina</item>
+        <item>Chuva</item>
+        <item>Muito nublado com chuvas</item>
+        <item>Pouco nublado com chuvas</item>
+        <item>Tempestade</item>
+        <item>Muito nublado com chuvas e trovoadas</item>
+        <item>Pouco nublado com chuvas e trovoadas</item>
+        <item>Chuva</item>
+        <item>Muita neve</item>
+        <item>Muito nublado com flocos de neve</item>
+        <item>Pouco nublado com flocos de neve</item>
+        <item>Neve</item>
+        <item>Parcialmente nublado com neve</item>
+        <item>Gelo</item>
+        <item>Granizo</item>
+        <item>Chuva congelante</item>
+        <item>Mistura de chuva e neve</item>
+        <item>Quente</item>
+        <item>Frio</item>
+        <item>Ventando</item>
+        <item>Limpo</item>
+        <item>Quase limpo</item>
+        <item>Algumas nuvens</item>
+        <item>Nuvens esparsas</item>
+        <item>Nublado</item>
+        <item>Muito nublado</item>
+        <item>Algumas nuvens com chuvas</item>
+        <item>Muito nublado com chuvas</item>
+        <item>Parcialmente nublado com chuvas e trovoadas</item>
+        <item>Muito nublado com chuvas e trovoadas</item>
+        <item>Algumas nuvens com flocos de neve</item>
+        <item>Muito nublado com flocos de neve</item>
+        <item>Chuva de granizo</item>
+        <item>Areia</item>
+        <item>Poeira</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+        <item>Extra grande</item>
+        <item>Enorme</item>
+    </string-array>
+</resources>

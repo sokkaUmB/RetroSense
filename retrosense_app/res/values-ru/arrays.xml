@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>каждое первое воскресенье</item>
+        <item>каждое второе воскресенье</item>
+        <item>каждое третье воскресенье</item>
+        <item>каждое четвертое воскресенье</item>
+        <item>каждое последнее воскресенье</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>каждый первый понедельник</item>
+        <item>каждый второй понедельник</item>
+        <item>каждый третий понедельник</item>
+        <item>каждый четвертый понедельник</item>
+        <item>каждый последний понедельник</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>каждый первый вторник</item>
+        <item>каждый второй вторник</item>
+        <item>каждый третий вторник</item>
+        <item>каждый четвертый вторник</item>
+        <item>каждый последний вторник</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>каждую первую среду</item>
+        <item>каждую вторую среду</item>
+        <item>каждую третью среду</item>
+        <item>каждую четвертую среду</item>
+        <item>каждую последнюю среду</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>каждый первый четверг</item>
+        <item>каждый второй четверг</item>
+        <item>каждый третий четверг</item>
+        <item>каждый четвертый четверг</item>
+        <item>каждый последний четверг</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>каждую первую пятницу</item>
+        <item>каждую вторую пятницу</item>
+        <item>каждую третью пятницу</item>
+        <item>каждую четвертую пятницу</item>
+        <item>каждую последнюю пятницу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>каждую первую субботу</item>
+        <item>каждую вторую субботу</item>
+        <item>каждую третью субботу</item>
+        <item>каждую четвертую субботу</item>
+        <item>каждую последнюю субботу</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Солнечно</item>
+        <item>Чаще солнечно</item>
+        <item>Временами солнечно</item>
+        <item>Переменная облачность</item>
+        <item>Затуманенное солнце</item>
+        <item>Чаще облачно</item>
+        <item>Облачно</item>
+        <item>Пасмурно</item>
+        <item>Туман</item>
+        <item>Проливные дожди</item>
+        <item>Чаще облачно, прол. дожди</item>
+        <item>Временами солнечно, проливные дожди</item>
+        <item>Грозы</item>
+        <item>Облачно, возможны осадки</item>
+        <item>Временами солнечно, грозы, проливные дожди</item>
+        <item>Дождь</item>
+        <item>Порывы ветра</item>
+        <item>Чаще облачно, очень ветренно</item>
+        <item>Временами солнечно, сильные порывы ветра</item>
+        <item>Снег</item>
+        <item>Чаще облачно, снег</item>
+        <item>Гололед</item>
+        <item>Мокрый снег</item>
+        <item>Ледяной дождь</item>
+        <item>Дождь со снегом</item>
+        <item>Жарко</item>
+        <item>Холодно</item>
+        <item>Ветрено</item>
+        <item>Безоблачно</item>
+        <item>Чаще ясно</item>
+        <item>Временами облачно</item>
+        <item>Переменная облачность</item>
+        <item>Туман</item>
+        <item>Чаще облачно</item>
+        <item>Временами облачно, проливные дожди</item>
+        <item>Чаще облачно, прол. дожди</item>
+        <item>Временами облачно, грозы, проливные дожди</item>
+        <item>Облачно, возможны осадки</item>
+        <item>Временами облачно, сильные порывы ветра</item>
+        <item>Чаще облачно, очень ветренно</item>
+        <item>Грозы с дождем и снегом</item>
+        <item>Песок</item>
+        <item>Пыль</item>
+        <item>Торнадо</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Мелкий</item>
+        <item>Средний</item>
+        <item>Крупный</item>
+        <item>Самый крупный</item>
+        <item>Очень крупный</item>
+    </string-array>
+</resources>

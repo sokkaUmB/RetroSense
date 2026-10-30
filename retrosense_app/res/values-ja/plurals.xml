@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">%1$s 週間に一度の %2$s 曜日</item>
+        <item quantity="one">毎週 %2$s 回</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d 回</item>
+        <item quantity="one">1回</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">%d 日ごと</item>
+        <item quantity="one">%d 日ごと</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">%d 週間ごと</item>
+        <item quantity="one">%d 週間ごと</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">%d 月ごと</item>
+        <item quantity="one">%d 月ごと</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">%d 年ごと</item>
+        <item quantity="one">%d 年ごと</item>
+    </plurals>
+</resources>

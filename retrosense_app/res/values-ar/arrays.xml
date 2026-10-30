@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>كل أول أحد</item>
+        <item>كل ثاني أحد</item>
+        <item>كل ثالث أحد</item>
+        <item>كل رابع أحد</item>
+        <item>كل آخر أحد</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>كل أول اثنين</item>
+        <item>كل ثاني اثنين</item>
+        <item>كل ثالث اثنين</item>
+        <item>كل رابع اثنين</item>
+        <item>كل آخر اثنين</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>كل أول ثلاثاء</item>
+        <item>كل ثاني ثلاثاء</item>
+        <item>كل ثالث ثلاثاء</item>
+        <item>كل رابع ثلاثاء</item>
+        <item>كل آخر ثلاثاء</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>كل أول أربعاء</item>
+        <item>كل ثاني أربعاء</item>
+        <item>كل ثالث أربعاء</item>
+        <item>كل رابع أربعاء</item>
+        <item>كل آخر أربعاء</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>كل أول خميس</item>
+        <item>كل ثاني خميس</item>
+        <item>كل ثالث خميس</item>
+        <item>كل رابع خميس</item>
+        <item>كل آخر خميس</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>كل أول جمعة</item>
+        <item>كل ثاني جمعة</item>
+        <item>كل ثالث جمعة</item>
+        <item>كل رابع جمعة</item>
+        <item>كل آخر جمعة</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>كل أول سبت</item>
+        <item>كل ثاني سبت</item>
+        <item>كل ثالث سبت</item>
+        <item>كل رابع سبت</item>
+        <item>كل آخر سبت</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>مشمس</item>
+        <item>مشمس بوجه عام</item>
+        <item>مشمس جزئيًا</item>
+        <item>سحب متقطعة</item>
+        <item>شمس غائمة</item>
+        <item>ضباب بوجه عام</item>
+        <item>ضبابي</item>
+        <item>ضبابي غائم</item>
+        <item>ضباب</item>
+        <item>أمطار كثيفة</item>
+        <item>ضباب بوجه عام مع أمطار كثيفة</item>
+        <item>مشمس جزئيًا مع أمطار كثيفة</item>
+        <item>عواصف رعدية</item>
+        <item>ضباب بوجه عام مع أمطار رعدية</item>
+        <item>مشمس جزئيًا مع أمطار رعدية</item>
+        <item>أمطار</item>
+        <item>تساقط للثلوج</item>
+        <item>ضباب بوجه عام مع تقلبات</item>
+        <item>مشمس جزئيًا مع تساقط للثلوج</item>
+        <item>ثلج</item>
+        <item>ضباب بوجه عام مع ثلوج</item>
+        <item>ثلج</item>
+        <item>أمطار متجمدة</item>
+        <item>أمطار ثلجية</item>
+        <item>أمطار وثلوج</item>
+        <item>حار</item>
+        <item>بارد</item>
+        <item>رياح</item>
+        <item>صحو</item>
+        <item>صحو بوجه عام</item>
+        <item>ضباب جزئي</item>
+        <item>سحب متقطعة</item>
+        <item>غائم</item>
+        <item>ضباب بوجه عام</item>
+        <item>ضباب جزئي مع أمطار كثيفة</item>
+        <item>ضباب بوجه عام مع أمطار كثيفة</item>
+        <item>ضباب جزئي مع أمطار رعدية</item>
+        <item>ضباب بوجه عام مع أمطار رعدية</item>
+        <item>ضباب جزئي مع تساقط للثلوج</item>
+        <item>ضباب بوجه عام مع تقلبات</item>
+        <item>عواصف رعدية مع أمطار متجمدة</item>
+        <item>رمال</item>
+        <item>غبار</item>
+        <item>إعصار</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>صغير</item>
+        <item>متوسط</item>
+        <item>كبير</item>
+        <item>كبير جدًا</item>
+        <item>ضخم</item>
+    </string-array>
+</resources>

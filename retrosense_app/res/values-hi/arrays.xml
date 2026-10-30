@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>हर पहले रविवार को</item>
+        <item>हर दूसरे रविवार को</item>
+        <item>हर तीसरे रविवार को</item>
+        <item>हर चौथे रविवार को</item>
+        <item>हर अंतिम रविवार को</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>हर पहले सोमवार को</item>
+        <item>हर दूसरे सोमवार को</item>
+        <item>हर तीसरे सोमवार को</item>
+        <item>हर चौथे सोमवार को</item>
+        <item>हर अंतिम सोमवार को</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>हर पहले मंगलवार को</item>
+        <item>हर दूसरे मंगलवार को</item>
+        <item>हर तीसरे मंगलवार को</item>
+        <item>हर चौथे मंगलवार को</item>
+        <item>हर अंतिम मंगलवार को</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>हर पहले बुधवार को</item>
+        <item>हर दूसरे बुधवार को</item>
+        <item>हर तीसरे बुधवार को</item>
+        <item>हर चौथे बुधवार को</item>
+        <item>हर अंतिम बुधवार को</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>हर पहले गुरुवार को</item>
+        <item>हर दूसरे गुरुवार को</item>
+        <item>हर तीसरे गुरुवार को</item>
+        <item>हर चौथे गुरुवार को</item>
+        <item>हर अंतिम गुरुवार को</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>हर पहले शुक्रवार को</item>
+        <item>हर दूसरे शुक्रवार को</item>
+        <item>हर तीसरे शुक्रवार को</item>
+        <item>हर चौथे शुक्रवार को</item>
+        <item>हर अंतिम शुक्रवार को</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>हर पहले शनिवार को</item>
+        <item>हर दूसरे शनिवार को</item>
+        <item>हर तीसरे शनिवार को</item>
+        <item>हर चौथे शनिवार को</item>
+        <item>हर अंतिम शनिवार को</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>छोटा</item>
+        <item>मध्यम</item>
+        <item>बड़ा</item>
+        <item>असाधारण रूप से बड़ा</item>
+        <item>बहुत बड़ा</item>
+    </string-array>
+</resources>

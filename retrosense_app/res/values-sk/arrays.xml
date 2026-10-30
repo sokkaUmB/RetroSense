@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>každú prvú nedeľu</item>
+        <item>každú druhú nedeľu</item>
+        <item>každú tretiu nedeľu</item>
+        <item>každú štvrtú nedeľu</item>
+        <item>každú poslednú nedeľu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>každý prvý pondelok</item>
+        <item>každý druhý pondelok</item>
+        <item>každý tretí pondelok</item>
+        <item>každý štvrtý pondelok</item>
+        <item>každý posledný pondelok</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>každý prvý utorok</item>
+        <item>každý druhý utorok</item>
+        <item>každý tretí utorok</item>
+        <item>každý štvrtý utorok</item>
+        <item>každý posledný utorok</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>každú prvú stredu</item>
+        <item>každú druhú stredu</item>
+        <item>každú tretiu stredu</item>
+        <item>každú štvrtú stredu</item>
+        <item>každú poslednú stredu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>každý prvý štvrtok</item>
+        <item>každý druhý štvrtok</item>
+        <item>každý tretí štvrtok</item>
+        <item>každý štvrtý štvrtok</item>
+        <item>každý posledný štvrtok</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>každý prvý piatok</item>
+        <item>každý druhý piatok</item>
+        <item>každý tretí piatok</item>
+        <item>každý štvrtý piatok</item>
+        <item>každý posledný piatok</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>každú prvú sobotu</item>
+        <item>každú druhú sobotu</item>
+        <item>každú tretiu sobotu</item>
+        <item>každú štvrtú sobotu</item>
+        <item>každú poslednú sobotu</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Slnečno</item>
+        <item>Prevažne slnečno</item>
+        <item>Polojasno</item>
+        <item>Striedavá oblačnosť</item>
+        <item>Ranná hmla</item>
+        <item>Prevažne zamračené</item>
+        <item>Zamračené</item>
+        <item>Pochmúrne</item>
+        <item>Hmla</item>
+        <item>Prehánky</item>
+        <item>Prevažne zamračené s prehánkami</item>
+        <item>Polojasno s prehánkami</item>
+        <item>Búrky</item>
+        <item>Prevažne zamračené s búrkovými prehánkami</item>
+        <item>Polojasno s búrkovými prehánkami</item>
+        <item>Dážď</item>
+        <item>Snehové prehánky</item>
+        <item>Prevažne zamračené so snehovými prehánkami</item>
+        <item>Polojasno so snehovými prehánkami</item>
+        <item>Sneženie</item>
+        <item>Prevažne zamračené so snežením</item>
+        <item>Námraza</item>
+        <item>Krúpy</item>
+        <item>Mrznúci dážď</item>
+        <item>Dážď so snehom</item>
+        <item>Teplo</item>
+        <item>Chladno</item>
+        <item>Veterno</item>
+        <item>Jasno</item>
+        <item>Prevažne jasno</item>
+        <item>Polooblačno</item>
+        <item>Striedavá oblačnosť</item>
+        <item>Hmlisto</item>
+        <item>Prevažne zamračené</item>
+        <item>Oblačno s prehánkami</item>
+        <item>Prevažne zamračené s prehánkami</item>
+        <item>Oblačno s búrkovými prehánkami</item>
+        <item>Prevažne zamračené s búrkovými prehánkami</item>
+        <item>Oblačno so snehovými prehánkami</item>
+        <item>Prevažne zamračené so snehovými prehánkami</item>
+        <item>Búrky s krúpami</item>
+        <item>Piesok</item>
+        <item>Prach</item>
+        <item>Tornádo</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Veľké</item>
+        <item>Najväčšie</item>
+        <item>Veľmi veľké</item>
+    </string-array>
+</resources>

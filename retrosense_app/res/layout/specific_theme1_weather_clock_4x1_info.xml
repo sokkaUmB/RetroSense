@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/align_base" android:paddingTop="@dimen/theme1_temp_margin_top" android:paddingBottom="@dimen/theme1_temp_margin_bottom" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/comma" android:singleLine="true" style="@style/fixed_masthead_05" />
+    <TextView android:id="@id/week_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/align_base" android:layout_alignBaseline="@id/align_base" style="@style/fixed_masthead_05" />
+    <TextView android:id="@id/holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/week_date" android:layout_alignBaseline="@id/align_base" style="@style/fixed_masthead_05" />
+    <ImageView android:id="@id/separatrix" android:visibility="gone" android:layout_width="@dimen/theme1_separatrix_width" android:layout_height="@dimen/theme1_separatrix_height" android:layout_marginLeft="@dimen/spacing" android:layout_marginRight="@dimen/spacing" android:layout_toRightOf="@id/holiday" android:layout_centerVertical="true" />
+    <TextView android:ellipsize="marquee" android:id="@id/city_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/separatrix" android:layout_alignBaseline="@id/week_date" style="@style/fixed_masthead_05" />
+</RelativeLayout>

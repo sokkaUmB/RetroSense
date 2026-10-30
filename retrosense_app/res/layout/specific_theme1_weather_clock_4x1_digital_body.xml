@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/digital_hour_tens" android:layout_width="@dimen/theme_clock_4x1_img_width" android:layout_height="@dimen/theme_clock_4x1_img_height" />
+    <ImageView android:id="@id/digital_hour_units" android:layout_width="@dimen/theme_clock_4x1_img_width" android:layout_height="@dimen/theme_clock_4x1_img_height" android:layout_toRightOf="@id/digital_hour_tens" />
+    <ImageView android:id="@id/digital_dot" android:layout_width="@dimen/theme_clock_point_4x1_width" android:layout_height="@dimen/theme_clock_4x1_img_height" android:layout_toRightOf="@id/digital_hour_units" />
+    <ImageView android:id="@id/digital_minute_tens" android:layout_width="@dimen/theme_clock_4x1_img_width" android:layout_height="@dimen/theme_clock_4x1_img_height" android:layout_toRightOf="@id/digital_dot" />
+    <ImageView android:id="@id/digital_minute_units" android:layout_width="@dimen/theme_clock_4x1_img_width" android:layout_height="@dimen/theme_clock_4x1_img_height" android:layout_toRightOf="@id/digital_minute_tens" />
+    <TextView android:id="@id/digital_am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/theme1_am_pm_margin_bottom" android:layout_toRightOf="@id/digital_minute_units" android:layout_alignBottom="@id/digital_minute_units" style="@style/fixed_masthead_05" />
+</merge>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>w każdą pierwszą niedzielę</item>
+        <item>w każdą drugą niedzielę</item>
+        <item>w każdą trzecią niedzielę</item>
+        <item>w każdą czwartą niedzielę</item>
+        <item>w każdą ostatnią niedzielę</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>w każdy pierwszy poniedziałek</item>
+        <item>w każdy drugi poniedziałek</item>
+        <item>w każdy trzeci poniedziałek</item>
+        <item>w każdy czwarty poniedziałek</item>
+        <item>w każdy ostatni poniedziałek</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>w każdy pierwszy wtorek</item>
+        <item>w każdy drugi wtorek</item>
+        <item>w każdy trzeci wtorek</item>
+        <item>w każdy czwarty wtorek</item>
+        <item>w każdy ostatni wtorek</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>w każdą pierwszą środę</item>
+        <item>w każdą drugą środę</item>
+        <item>w każdą trzecią środę</item>
+        <item>w każdą czwartą środę</item>
+        <item>w każdą ostatnią środę</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>w każdy pierwszy czwartek</item>
+        <item>w każdy drugi czwartek</item>
+        <item>w każdy trzeci czwartek</item>
+        <item>w każdy czwarty czwartek</item>
+        <item>w każdy ostatni czwartek</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>w każdy pierwszy piątek</item>
+        <item>w każdy drugi piątek</item>
+        <item>w każdy trzeci piątek</item>
+        <item>w każdy czwarty piątek</item>
+        <item>w każdy ostatni piątek</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>w każdą pierwszą sobotę</item>
+        <item>w każdą drugą sobotę</item>
+        <item>w każdą trzecią sobotę</item>
+        <item>w każdą czwartą sobotę</item>
+        <item>w każdą ostatnią sobotę</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Słonecznie</item>
+        <item>Przeważnie słonecznie</item>
+        <item>Częściowo słonecznie</item>
+        <item>Sporadyczne zachmurzenia</item>
+        <item>Słońce zza mgły</item>
+        <item>Przeważnie zachmurzenie</item>
+        <item>Zachmurzenie</item>
+        <item>Ponuro</item>
+        <item>Zamglenia</item>
+        <item>Przelotne deszcze</item>
+        <item>"Zachmurzenie,
+ deszcze"</item>
+        <item>"Słonecznie,
+ przelotne deszcze"</item>
+        <item>Burze z piorunami</item>
+        <item>"Zachmurzenie,
+ burze i deszcz"</item>
+        <item>"Słonecznie,
+burze i deszcz"</item>
+        <item>Deszcz</item>
+        <item>Krótkie, gwałtowne opady</item>
+        <item>"Zachmurzenie,
+ gwałtowne opady"</item>
+        <item>Częściowo słonecznie, krótkie, gwałtowne opady</item>
+        <item>Śnieg</item>
+        <item>"Zachmurzenie,
+opady śniegu"</item>
+        <item>Oblodzenia</item>
+        <item>Deszcz ze śniegiem</item>
+        <item>Zamarzający deszcz</item>
+        <item>"Deszcz
+ze śniegiem"</item>
+        <item>Gorąco</item>
+        <item>Zimno</item>
+        <item>Wietrznie</item>
+        <item>Czyste niebo</item>
+        <item>Przeważnie czyste niebo</item>
+        <item>Częściowe zachmurzenia</item>
+        <item>Sporadyczne zachmurzenia</item>
+        <item>Mgliście</item>
+        <item>Przeważnie zachmurzenie</item>
+        <item>"Zachmurzenie,
+przelotne deszcze"</item>
+        <item>"Zachmurzenie,
+ deszcze"</item>
+        <item>"Zachmurzenie,
+burze i deszcz"</item>
+        <item>"Zachmurzenie,
+ burze i deszcz"</item>
+        <item>"Zachmurzenie,
+gwałtowne opady"</item>
+        <item>"Zachmurzenie,
+ gwałtowne opady"</item>
+        <item>Burze z piorunami i śnieg z deszczem</item>
+        <item>Piasek</item>
+        <item>Kurz</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Mała</item>
+        <item>Średnia</item>
+        <item>Duża</item>
+        <item>Niezwykle duża</item>
+        <item>Bardzo duża</item>
+    </string-array>
+</resources>

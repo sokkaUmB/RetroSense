@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Кожен %1$s тиждень у %2$s</item>
+        <item quantity="one">Щотижня у %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d раз</item>
+        <item quantity="one">один раз</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Кожні %d дні(ів)</item>
+        <item quantity="one">Кожен %d день</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Кожні %d тижні(ів)</item>
+        <item quantity="one">Кожен %d тиждень</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Кожні %d місяці(ів)</item>
+        <item quantity="one">Кожен %d місяць</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Кожні %d роки(ів)</item>
+        <item quantity="one">Кожен %d рік</item>
+    </plurals>
+</resources>

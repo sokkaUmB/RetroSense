@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_m" android:src="@drawable/icon_indicator_scroll_up_dark_s" android:layout_marginEnd="@dimen/margin_m" />
+    <com.retrosense.lib1.cc.widget.ActionBarProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_s" android:indeterminateDrawable="@drawable/action_bar_progress_spinner" android:indeterminateDuration="1000" android:layout_marginEnd="@dimen/margin_s" />
+    <com.retrosense.lib1.cc.widget.ActionBarTextView android:ellipsize="marquee" android:id="@id/primary" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/fixed_info_primary_xl" />
+    <ImageView android:id="@id/arrow" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing" android:src="@drawable/common_arrow_down" android:scaleType="center" android:layout_marginStart="@dimen/spacing" />
+    <com.retrosense.lib1.cc.widget.ActionBarTextView android:ellipsize="marquee" android:id="@id/secondary" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/fixed_info_primary_s" />
+</merge>

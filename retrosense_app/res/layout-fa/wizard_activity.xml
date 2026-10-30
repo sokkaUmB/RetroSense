@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.retrosense.lib1.cc.widget.HtcOverlapLayout android:orientation="vertical" android:id="@id/overlap_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/base_layout" android:background="@color/dark_primaryfont_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.retrosense.lib1.cc.widget.HtcProgressBar android:id="@id/progress_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:secondaryProgress="0" style="?attr/htcProgressBarStyleHorizontalFull" />
+        <TextView android:gravity="center_vertical" android:id="@id/tip" android:background="@drawable/section_divider_top" android:paddingLeft="@dimen/margin_m" android:paddingRight="@dimen/margin_m" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/htc_setupwizard_subtitle_height" style="@style/fixed_list_body_primary_s" />
+        <com.retrosense.lib1.cc.widget.HtcListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" style="@style/HtcListView" />
+    </LinearLayout>
+    <com.retrosense.lib1.cc.widget.HtcFooter android:orientation="vertical" android:id="@id/footer" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.retrosense.lib1.cc.widget.HtcFooterButton android:id="@id/next" android:text="@string/va_next" />
+        <com.retrosense.lib1.cc.widget.HtcFooterButton android:id="@id/back" android:text="@string/va_back" />
+    </com.retrosense.lib1.cc.widget.HtcFooter>
+</com.retrosense.lib1.cc.widget.HtcOverlapLayout>

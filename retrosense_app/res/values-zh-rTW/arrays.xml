@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>每月的第一個星期天</item>
+        <item>每月的第二個星期天</item>
+        <item>每月的第三個星期天</item>
+        <item>每月的第四個星期天</item>
+        <item>每月的最後一個星期天</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>每月的第一個星期一</item>
+        <item>每月的第二個星期一</item>
+        <item>每月的第三個星期一</item>
+        <item>每月的第四個星期一</item>
+        <item>每月的最後一個星期一</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>每月的第一個星期二</item>
+        <item>每月的第二個星期二</item>
+        <item>每月的第三個星期二</item>
+        <item>每月的第四個星期二</item>
+        <item>每月的最後一個星期二</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>每月的第一個星期三</item>
+        <item>每月的第二個星期三</item>
+        <item>每月的第三個星期三</item>
+        <item>每月的第四個星期三</item>
+        <item>每月的最後一個星期三</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>每月的第一個星期四</item>
+        <item>每月的第二個星期四</item>
+        <item>每月的第三個星期四</item>
+        <item>每月的第四個星期四</item>
+        <item>每月的最後一個星期四</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>每月的第一個星期五</item>
+        <item>每月的第二個星期五</item>
+        <item>每月的第三個星期五</item>
+        <item>每月的第四個星期五</item>
+        <item>每月的最後一個星期五</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>每月的第一個星期六</item>
+        <item>每月的第二個星期六</item>
+        <item>每月的第三個星期六</item>
+        <item>每月的第四個星期六</item>
+        <item>每月的最後一個星期六</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>晴天</item>
+        <item>晴偶有雲</item>
+        <item>晴時有雲</item>
+        <item>晴時多雲</item>
+        <item>晴有薄霧</item>
+        <item>多雲時晴</item>
+        <item>多雲</item>
+        <item>陰天</item>
+        <item>有霧</item>
+        <item>陣雨</item>
+        <item>多雲時晴有陣雨</item>
+        <item>晴時有雲有陣雨</item>
+        <item>雷雨</item>
+        <item>多雲時晴有雷陣雨</item>
+        <item>晴時有雲有雷陣雨</item>
+        <item>雨天</item>
+        <item>飄雪</item>
+        <item>多雲時晴有飄雪</item>
+        <item>晴時有雲有飄雪</item>
+        <item>下雪</item>
+        <item>多雲時晴有雪</item>
+        <item>結冰</item>
+        <item>雨夾雪</item>
+        <item>凍雨</item>
+        <item>雨雪</item>
+        <item>炎熱</item>
+        <item>寒冷</item>
+        <item>風大</item>
+        <item>晴朗</item>
+        <item>晴有雲</item>
+        <item>局部多雲</item>
+        <item>晴時多雲</item>
+        <item>薄霧</item>
+        <item>多雲時晴</item>
+        <item>局部多雲有陣雨</item>
+        <item>多雲時晴有陣雨</item>
+        <item>局部多雲有雷陣雨</item>
+        <item>多雲時晴有雷陣雨</item>
+        <item>局部多雲有飄雪</item>
+        <item>多雲時晴有飄雪</item>
+        <item>雷雨冰雹</item>
+        <item>沙塵</item>
+        <item>灰塵</item>
+        <item>龍捲風</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+        <item>最大</item>
+    </string-array>
+</resources>

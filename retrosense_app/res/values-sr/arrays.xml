@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>svake prve nedelje u mesecu</item>
+        <item>svake druge nedelje u mesecu</item>
+        <item>svake treće nedelje u mesecu</item>
+        <item>svake četvrte nedelje u mesecu</item>
+        <item>svake poslednje nedelje u mesecu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>svakog prvog poned. u mesecu</item>
+        <item>svakog drugog ponedeljka u mesecu</item>
+        <item>svakog trećeg ponedeljka u mesecu</item>
+        <item>svakog četvrtog ponedeljka u mesecu</item>
+        <item>svakog poslednjeg ponedeljka u mesecu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>svakog prvog utorka u mesecu</item>
+        <item>svakog drugog utorka u mesecu</item>
+        <item>svakog trećeg utorka u mesecu</item>
+        <item>svakog četvrtog utorka u mesecu</item>
+        <item>svakog poslednjeg utorka u mesecu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>svake prve srede u mesecu</item>
+        <item>svake druge srede u mesecu</item>
+        <item>svake treće srede u mesecu</item>
+        <item>svake četvrte srede u mesecu</item>
+        <item>svake poslednje srede u mesecu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>svakog prvog četvrtka u mesecu</item>
+        <item>svakog drugog četvrtka u mesecu</item>
+        <item>svakog trećeg četvrtka u mesecu</item>
+        <item>svakog četvrtog četvrtka u mesecu</item>
+        <item>svakog poslednjeg četvrtka u mesecu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>svakog prvog petka u mesecu</item>
+        <item>svakog drugog petka u mesecu</item>
+        <item>svakog trećeg petka u mesecu</item>
+        <item>svakog četvrtog petka u mesecu</item>
+        <item>svakog poslednjeg petka u mesecu</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>svake prve subote u mesecu</item>
+        <item>svake druge subote u mesecu</item>
+        <item>svake treće subote u mesecu</item>
+        <item>svake četvrte subote u mesecu</item>
+        <item>svake poslednje subote u mesecu</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Sunčano</item>
+        <item>Pretežno sunčano</item>
+        <item>Delimično sunčano</item>
+        <item>Mestimično oblačno</item>
+        <item>Sunčano sa smogom</item>
+        <item>Pretežno oblačno</item>
+        <item>Oblačno</item>
+        <item>Tmurno</item>
+        <item>Magla</item>
+        <item>Kiša</item>
+        <item>Pretežno oblačno sa kišom</item>
+        <item>Delimično sunčano sa kišom</item>
+        <item>Oluje sa grmljavinom</item>
+        <item>Pretežno oblačno i grmljavina sa kišom</item>
+        <item>Delimično sunčano i grmljavina sa kišom</item>
+        <item>Kiša</item>
+        <item>Pljuskovi</item>
+        <item>Pretežno oblačno sa pljuskovima</item>
+        <item>Delimično sunčano sa pljuskovima</item>
+        <item>Sneg</item>
+        <item>Pretežno oblačno sa snegom</item>
+        <item>Led</item>
+        <item>Susnežica</item>
+        <item>Ledena kiša</item>
+        <item>Kiša sa snegom</item>
+        <item>Toplo</item>
+        <item>Hladno</item>
+        <item>Vetrovito</item>
+        <item>Obriši</item>
+        <item>Pretežno vedro</item>
+        <item>Delimično vedro</item>
+        <item>Mestimično oblačno</item>
+        <item>Maglovito</item>
+        <item>Pretežno oblačno</item>
+        <item>Delimično oblačno sa kišom</item>
+        <item>Pretežno oblačno sa kišom</item>
+        <item>Delimično oblačno i grmljavina sa kišom</item>
+        <item>Pretežno oblačno i grmljavina sa kišom</item>
+        <item>Delimično oblačno sa pljuskovima</item>
+        <item>Pretežno oblačno sa pljuskovima</item>
+        <item>Oluja sa susnežicom</item>
+        <item>Pesak</item>
+        <item>Prašina</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Mala</item>
+        <item>Srednja</item>
+        <item>Velika</item>
+        <item>Ekstra veliki</item>
+        <item>Ogromna</item>
+    </string-array>
+</resources>

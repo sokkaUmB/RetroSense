@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>κάθε πρώτη Κυριακή</item>
+        <item>κάθε δεύτερη Κυριακή</item>
+        <item>κάθε τρίτη Κυριακή</item>
+        <item>κάθε τέταρτη Κυριακή</item>
+        <item>κάθε τελευταία Κυριακή</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>κάθε πρώτη Δευτέρα</item>
+        <item>κάθε δεύτερη Δευτέρα</item>
+        <item>κάθε τρίτη Δευτέρα</item>
+        <item>κάθε τέταρτη Δευτέρα</item>
+        <item>κάθε τελευταία Δευτέρα</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>κάθε πρώτη Τρίτη</item>
+        <item>κάθε δεύτερη Τρίτη</item>
+        <item>κάθε τρίτη Τρίτη</item>
+        <item>κάθε τέταρτη Τρίτη</item>
+        <item>κάθε τελευταία Τρίτη</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>κάθε πρώτη Τετάρτη</item>
+        <item>κάθε δεύτερη Τετάρτη</item>
+        <item>κάθε τρίτη Τετάρτη</item>
+        <item>κάθε τέταρτη Τετάρτη</item>
+        <item>κάθε τελευταία Τετάρτη</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>κάθε πρώτη Πέμπτη</item>
+        <item>κάθε δεύτερη Πέμπτη</item>
+        <item>κάθε τρίτη Πέμπτη</item>
+        <item>κάθε τέταρτη Πέμπτη</item>
+        <item>κάθε τελευταία Πέμπτη</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>κάθε πρώτη Παρασκευή</item>
+        <item>κάθε δεύτερη Παρασκευή</item>
+        <item>κάθε τρίτη Παρασκευή</item>
+        <item>κάθε τέταρτη Παρασκευή</item>
+        <item>κάθε τελευταία Παρασκευή</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>κάθε πρώτο Σάββατο</item>
+        <item>κάθε δεύτερο Σάββατο</item>
+        <item>κάθε τρίτο Σάββατο</item>
+        <item>κάθε τέταρτο Σάββατο</item>
+        <item>κάθε τελευταίο Σάββατο</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Ηλιόλουστος</item>
+        <item>Κυρίως ηλιόλουστος</item>
+        <item>Μερικά ηλιόλουστος</item>
+        <item>Συννεφιά κατά τόπους</item>
+        <item>Ηλιόλουστος με καταχνιά</item>
+        <item>Κυρίως συννεφιά</item>
+        <item>Συννεφιά</item>
+        <item>Καταθλιπτικός</item>
+        <item>Ομίχλη</item>
+        <item>Νεροποντές</item>
+        <item>Κυρίως συννεφιά με νεροποντές</item>
+        <item>Μερικά ηλιόλουστος με νεροποντές</item>
+        <item>Καταιγίδες</item>
+        <item>Κυρίως συννεφιά με νεροποντές και βροντές</item>
+        <item>Μερικά ηλιόλουστος με νεροποντές και βροντές</item>
+        <item>Βροχή</item>
+        <item>Ριπές ανέμου</item>
+        <item>Κυρίως συννεφιά με ριπές ανέμου</item>
+        <item>Μερικά ηλιόλουστος με ριπές ανέμου</item>
+        <item>Χιόνι</item>
+        <item>Κυρίως συννεφιά με χιόνι</item>
+        <item>Πάγος</item>
+        <item>Χιονόνερο</item>
+        <item>Παγωμένη βροχή</item>
+        <item>Βροχή και χιόνι μαζί</item>
+        <item>Ζέστη</item>
+        <item>Ψύχος</item>
+        <item>Με ανέμους</item>
+        <item>Καθαρός</item>
+        <item>Κυρίως καθαρός</item>
+        <item>Μερική συννεφιά</item>
+        <item>Συννεφιά κατά τόπους</item>
+        <item>Καταχνιά</item>
+        <item>Κυρίως συννεφιά</item>
+        <item>Μερική συννεφιά με νεροποντές</item>
+        <item>Κυρίως συννεφιά με νεροποντές</item>
+        <item>Μερική συννεφιά με νεροποντές και βροντές</item>
+        <item>Κυρίως συννεφιά με νεροποντές και βροντές</item>
+        <item>Μερική συννεφιά με ριπές ανέμου</item>
+        <item>Κυρίως συννεφιά με ριπές ανέμου</item>
+        <item>Καταιγίδες με χαλάζι</item>
+        <item>Άμμος</item>
+        <item>Σκόνη</item>
+        <item>Ανεμοστρόβιλος</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Μικρό</item>
+        <item>Μεσαίο</item>
+        <item>Μεγάλο</item>
+        <item>Πολύ μεγάλο μέγεθος</item>
+        <item>Τεράστιο</item>
+    </string-array>
+</resources>

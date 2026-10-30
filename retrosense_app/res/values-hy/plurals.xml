@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Ամեն %1$d շաբաթ %2$s-ում</item>
+        <item quantity="one">Ամեն շաբաթ %2$s-ում</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d անգամ</item>
+        <item quantity="one">մեկ անգամ</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Ամեն %d օր</item>
+        <item quantity="one">Ամեն %d օր</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Ամեն %d շաբաթ</item>
+        <item quantity="one">Ամեն %d շաբաթ</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Ամեն %d ամիս</item>
+        <item quantity="one">Ամեն %d ամիս</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Ամեն %d տարի</item>
+        <item quantity="one">Ամեն %d տարի</item>
+    </plurals>
+</resources>

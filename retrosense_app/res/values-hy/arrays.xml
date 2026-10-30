@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>ամեն ամսվա առաջին կիրակի</item>
+        <item>ամեն ամսվա երկրորդ կիրակի</item>
+        <item>ամեն ամսվա երրորդ կիրակի</item>
+        <item>ամեն ամսվա չորրորդ կիրակի</item>
+        <item>ամեն ամսվա վերջին կիրակի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ամեն ամսվա առաջին երկուշաբթի</item>
+        <item>ամեն ամսվա երկրորդ երկուշաբթի</item>
+        <item>ամեն ամսվա երրորդ երկուշաբթի</item>
+        <item>ամեն ամսվա չորրորդ երկուշաբթի</item>
+        <item>ամեն ամսվա վերջին երկուշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ամեն ամսվա առաջին երեքշաբթիի</item>
+        <item>ամեն ամսվա երկրորդ երեքշաբթիի</item>
+        <item>ամեն ամսվա երրորդ երեքշաբթիի</item>
+        <item>ամեն ամսվա չորրորդ երեքշաբթիի</item>
+        <item>ամեն ամսվա վերջին երեքշաբթիի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ամեն ամսվա առաջին չորեքշաբթի</item>
+        <item>ամեն ամսվա երկրորդ չորեքշաբթի</item>
+        <item>ամեն ամսվա երրորդ չորեքշաբթի</item>
+        <item>ամեն ամսվա չորրորդ չորեքշաբթի</item>
+        <item>ամեն ամսվա վերջին չորեքշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ամեն ամսվա առաջին հինգշաբթի</item>
+        <item>ամեն ամսվա երկրորդ հինգշաբթի</item>
+        <item>ամեն ամսվա երրորդ հինգշաբթի</item>
+        <item>ամեն ամսվա չորրորդ հինգշաբթի</item>
+        <item>ամեն ամսվա վերջին հինգշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ամեն ամսվա առաջին ուրբաթ</item>
+        <item>ամեն ամսվա երկրորդ ուրբաթ</item>
+        <item>ամեն ամսվա երրորդ ուրբաթ</item>
+        <item>ամեն ամսվա չորրորդ ուրբաթ</item>
+        <item>ամեն ամսվա վերջին ուրբաթ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ամեն ամսվա առաջին շաբաթ</item>
+        <item>ամեն ամսվա երկրորդ շաբաթ</item>
+        <item>ամեն ամսվա երրորդ շաբաթ</item>
+        <item>ամեն ամսվա չորրորդ շաբաթ</item>
+        <item>ամեն ամսվա վերջին շաբաթ</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Արևոտ</item>
+        <item>Հիմնականում արևոտ</item>
+        <item>Մասամբ արևոտ</item>
+        <item>Մասամբ մապամած</item>
+        <item>Մառախուղ և արև</item>
+        <item>Հիմնականում ամպամած</item>
+        <item>Ամպամած</item>
+        <item>Մռայլ</item>
+        <item>Մառախուղ</item>
+        <item>Հորդառատ անձրևներ</item>
+        <item>Հիմնականում ամպամած` անձրևներով</item>
+        <item>Մասամբ արևոտ` անձրևներով</item>
+        <item>Ամպրոպներ</item>
+        <item>Ամպամած` ամպրոպներով</item>
+        <item>Մասամբ արևոտ` ամպրոպներով</item>
+        <item>Անձրև</item>
+        <item>Ուժեղ քամի</item>
+        <item>Հիմնականում ամպամած` ուժեղ քամիներով</item>
+        <item>Մասամբ արևոտ` ուժեք քամիներով</item>
+        <item>Ձյուն</item>
+        <item>Հիմնականում ամպամած` ձյունով</item>
+        <item>Սառույց</item>
+        <item>Ձնախառը անձրև</item>
+        <item>Սառը անձրև</item>
+        <item>Ձնախառը անձրև</item>
+        <item>Շոգ</item>
+        <item>Ցուրտ</item>
+        <item>Քամոտ</item>
+        <item>Մաքուր</item>
+        <item>Հիմնականում պայծառ</item>
+        <item>Մասամբ ամպամած</item>
+        <item>Մասամբ մապամած</item>
+        <item>Միագամած</item>
+        <item>Հիմնականում ամպամած</item>
+        <item>Մասամբ ամպամած` անձրևներով</item>
+        <item>Հիմնականում ամպամած` անձրևներով</item>
+        <item>Մասամբ ամպամած` ամպրոպներով</item>
+        <item>Ամպամած` ամպրոպներով</item>
+        <item>Մասամբ ամպամած` ուժեղ քամիով</item>
+        <item>Հիմնականում ամպամած` ուժեղ քամիներով</item>
+        <item>Ամպրոպներ` թաց անձրևով</item>
+        <item>Ավազ</item>
+        <item>Փոշի</item>
+        <item>Տորնադո</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Փոքր</item>
+        <item>Միջին</item>
+        <item>Մեծ</item>
+        <item>Գերմեծ</item>
+        <item>Ահռելի</item>
+    </string-array>
+</resources>

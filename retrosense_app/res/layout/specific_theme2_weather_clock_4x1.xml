@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/widget_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/background_block" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/accessibility_background_panel">
+        <include android:id="@id/digital_clock" layout="@layout/specific_theme2_weather_clock_4x1_digital" />
+        <FrameLayout android:id="@id/sun_block" android:paddingLeft="@dimen/theme_background_block_margin_left" android:paddingTop="@dimen/theme_widget_padding_top" android:layout_width="@dimen/theme_digital_clock_margin_left" android:layout_height="match_parent" android:contentDescription="@string/accessibility_weather">
+            <ImageView android:layout_gravity="right" android:id="@id/sun" android:layout_width="@dimen/theme_sun_small_width" android:layout_height="@dimen/theme_sun_small_height" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/info_temp_area" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/theme_digital_clock_margin_left" android:layout_marginTop="@dimen/theme_info_temp_area_margin_top">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/margin_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_m">
+                <include android:id="@id/temp_block" layout="@layout/specific_theme2_weather_clock_4x1_temp" />
+                <include android:id="@id/info_block" layout="@layout/specific_theme2_weather_clock_4x1_info" />
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@id/no_weather_data_area" android:paddingLeft="@dimen/theme_background_block_margin_left" android:paddingTop="@dimen/theme_widget_padding_top" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/no_weather_data" android:layout_width="@dimen/theme_error_text_width" android:layout_height="wrap_content" android:minHeight="@dimen/theme_error_text_height" android:maxLines="6" style="@style/custom_fixed_masthead_08" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/location_block" android:paddingLeft="@dimen/theme_background_block_margin_left" android:paddingTop="@dimen/theme_widget_padding_top" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/location_text" android:layout_width="@dimen/theme_error_text_width" android:layout_height="wrap_content" android:minHeight="@dimen/theme_error_text_height" android:maxLines="6" style="@style/custom_fixed_masthead_08" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

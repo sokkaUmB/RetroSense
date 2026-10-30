@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text_selection_opacity_color" format="color|reference" />
+    <attr name="text_selection_color" format="color|reference" />
+    <attr name="progress_track_start_color" format="color|reference" />
+    <attr name="progress_track_center_color" format="color|reference" />
+    <attr name="progress_track_end_color" format="color|reference" />
+    <attr name="light_category_color" format="color|reference" />
+    <attr name="category_color" format="color|reference" />
+    <attr name="dark_category_color" format="color|reference" />
+    <attr name="multiply_color" format="color|reference" />
+    <attr name="all_hyperlink_color" format="color|reference" />
+    <attr name="overlay_color" format="color|reference" />
+    <attr name="light_primaryfont_color" format="color|reference" />
+    <attr name="light_primaryfont_disable_color" format="color|reference" />
+    <attr name="light_secondaryfont_color" format="color|reference" />
+    <attr name="dark_primaryfont_color" format="color|reference" />
+    <attr name="dark_primaryfont_disable_color" format="color|reference" />
+    <attr name="dark_secondaryfont_color" format="color|reference" />
+    <attr name="tabfont_color" format="color|reference" />
+    <attr name="light_separatorfont_color" format="color|reference" />
+    <attr name="list_item_bg_center_color" format="color|reference" />
+    <attr name="list_item_bg_top_color" format="color|reference" />
+    <attr name="list_item_bg_bottom_color" format="color|reference" />
+    <attr name="highlight_color" format="color|reference" />
+    <attr name="ap_background_color" format="color|reference" />
+    <attr name="dark_ap_background_color" format="color|reference" />
+    <attr name="focused_color" format="color|reference" />
+    <attr name="standard_color" format="color|reference" />
+    <attr name="active_color" format="color|reference" />
+    <attr name="themeTexture" format="reference" />
+    <attr name="fakescreenDisable" format="boolean" />
+    <attr name="displayMode">
+        <enum name="mode_light" value="0x0" />
+        <enum name="mode_dark" value="0x1" />
+        <enum name="mode_full" value="0x2" />
+    </attr>
+    <attr name="htcActionBarProgressBarStyle" format="reference" />
+    <attr name="def_child_weight" format="float" />
+    <attr name="footer_display_mode">
+        <enum name="mode_default" value="0x0" />
+        <enum name="mode_alwaysright" value="0x1" />
+        <enum name="mode_alwaysbottom" value="0x2" />
+    </attr>
+    <attr name="indicatorMode">
+        <enum name="defaultMode" value="0" />
+        <enum name="darkMode" value="1" />
+    </attr>
+    <attr name="textMode">
+        <enum name="whitelist" value="0" />
+        <enum name="darklist" value="1" />
+        <enum name="automotive_whitelist" value="2" />
+        <enum name="automotive_darklist" value="4" />
+    </attr>
+    <attr name="isMarquee" format="boolean" />
+    <attr name="indicator" format="reference" />
+    <attr name="itemMode">
+        <enum name="defaultMode" value="0" />
+        <enum name="customizedMode" value="1" />
+        <enum name="keepMediumHeightMode" value="2" />
+        <enum name="automotiveMode" value="3" />
+        <enum name="popupMenuMode" value="4" />
+    </attr>
+    <attr name="leftText" format="string" />
+    <attr name="middleText" format="string" />
+    <attr name="rightText" format="string" />
+    <attr name="leftIcon" format="reference" />
+    <attr name="layout_type">
+        <flag name="size_wrap_content" value="0x1" />
+        <flag name="size_147" value="0x2" />
+        <flag name="size_default_height" value="0x4" />
+        <flag name="size_rest" value="0x8" />
+        <flag name="size_1_3_rest" value="0x10" />
+        <flag name="size_2_3_rest" value="0x20" />
+        <flag name="size_auto_1_3_rest" value="0x10" />
+        <flag name="size_auto_2_3_rest" value="0x20" />
+        <flag name="size_3_10_rest" value="0x40" />
+        <flag name="size_4_10_rest" value="0x80" />
+        <flag name="start" value="0x100" />
+        <flag name="end" value="0x200" />
+        <flag name="align_start_edge" value="0x400" />
+        <flag name="align_start_147_edge" value="0x800" />
+        <flag name="align_start_default_height_edge" value="0x1000" />
+        <flag name="align_end_edge" value="0x2000" />
+        <flag name="align_end_147_edge" value="0x4000" />
+        <flag name="align_end_default_height_edge" value="0x8000" />
+        <flag name="divider_start" value="0x10000" />
+        <flag name="divider_end" value="0x20000" />
+        <flag name="center_horizontal" value="0x40000" />
+        <flag name="center_vertical" value="0x80000" />
+        <flag name="align_top_edge" value="0x100000" />
+        <flag name="primary" value="0x200000" />
+        <flag name="secondary" value="0x400000" />
+        <flag name="first_line" value="0x800000" />
+        <flag name="secondary_line" value="0x1000000" />
+        <flag name="footer_line" value="0x2000000" />
+        <flag name="default_height_center_vertical" value="0x4000000" />
+    </attr>
+    <attr name="popupBubbleBackground" format="color|reference" />
+    <attr name="popupBubbleTriangle" format="reference" />
+    <attr name="popupBubbleLeftTriangle" format="reference" />
+    <attr name="popupBubbleAnimationStyle" format="reference" />
+    <attr name="id" format="string" />
+    <attr name="label" format="string|reference" />
+    <attr name="date" format="reference" />
+    <attr name="alertDialogStyle" format="reference" />
+    <attr name="buttonStyle" format="reference" />
+    <attr name="dateTimePickerStyle" format="reference" />
+    <attr name="popupBubbleWindowStyle" format="reference" />
+    <attr name="listPopupBubbleWindowStyle" format="reference" />
+    <attr name="dropDownExpandableListViewStyle" format="reference" />
+    <attr name="dropDownListViewStyle" format="reference" />
+    <attr name="attr_progress_dialog_drawable" format="color|reference" />
+    <attr name="skin_b_button_primary" format="color|reference" />
+    <attr name="htcListItemStyle" format="reference" />
+    <attr name="spinnerStyle" format="reference" />
+    <attr name="tabbarStyle" format="reference" />
+    <attr name="skin_color" format="reference" />
+    <attr name="htcReorderListViewStyle" format="reference" />
+    <attr name="quickContactBadgeStyle" format="reference" />
+    <attr name="htcListItemSeparatorStyle" format="reference" />
+    <attr name="htcListViewStyle" format="reference" />
+    <attr name="htcAutoCompleteTextViewStyle" format="reference" />
+    <attr name="htcEditTextStyle" format="reference" />
+    <attr name="footerStyle" format="reference" />
+    <attr name="footerButtonStyle" format="reference" />
+    <attr name="HtcPreferenceSeekBarAttr" format="reference" />
+    <attr name="htcProgressBarStyle" format="reference" />
+    <attr name="htcProgressBarStyleIndeterminate" format="reference" />
+    <attr name="htcProgressBarStyleIndeterminateSmall" format="reference" />
+    <attr name="htcProgressBarStyleHorizontalFull" format="reference" />
+    <attr name="htcSeekBarStyle" format="reference" />
+    <attr name="htcPopupContainerStyle" format="reference" />
+    <attr name="actionBarStyle" format="reference" />
+    <attr name="actionBarBackupStyle" format="reference" />
+    <attr name="actionBarSearchStyle" format="reference" />
+    <attr name="actionBarRefreshStyle" format="reference" />
+    <attr name="actionBarDropDownStyle" format="reference" />
+    <attr name="htcListItemSerialNumberStyle" format="reference" />
+    <attr name="htcSwitchStyle" format="reference" />
+    <attr name="backgroundMode">
+        <enum name="light" value="0" />
+        <enum name="dark" value="1" />
+        <enum name="automotiveDark" value="2" />
+        <enum name="automotiveLight" value="3" />
+        <enum name="lightFull" value="4" />
+        <enum name="smallLight" value="5" />
+        <enum name="full" value="6" />
+        <enum name="colorful" value="7" />
+        <enum name="transparent" value="8" />
+        <enum name="pureLight" value="9" />
+    </attr>
+    <attr name="extAnimationMode">
+        <flag name="none" value="0x0" />
+        <flag name="noRimMultiply" value="0x1" />
+    </attr>
+    <attr name="isContentMultiply" format="boolean" />
+    <attr name="hasOnState" format="boolean" />
+    <attr name="panelHeight" format="dimension" />
+    <attr name="shadowHeight" format="dimension" />
+    <attr name="paralaxOffset" format="dimension" />
+    <attr name="fadeColor" format="color" />
+    <attr name="flingVelocity" format="integer" />
+    <attr name="dragView" format="reference" />
+    <attr name="overlay" format="boolean" />
+    <attr name="anchorPoint" format="float" />
+    <attr name="initialState">
+        <enum name="expanded" value="0" />
+        <enum name="collapsed" value="1" />
+        <enum name="anchored" value="2" />
+        <enum name="hidden" value="3" />
+    </attr>
+</resources>

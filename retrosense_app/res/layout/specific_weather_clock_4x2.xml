@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:paddingLeft="@dimen/widget_padding" android:paddingTop="@dimen/widget_padding" android:paddingRight="@dimen/widget_padding" android:paddingBottom="@dimen/widget_padding" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true" style="@style/widget_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_panel" android:background="@drawable/common_panel_dark" android:layout_width="@dimen/weatherclock_base_width" android:layout_height="@dimen/weatherclock_base_height" android:layout_marginLeft="@dimen/weatherclock_base_margin_left" android:layout_marginTop="@dimen/weatherclock_base_margin_top" />
+    <include android:id="@id/digital_clock" android:layout_width="@dimen/digitalclock_width" android:layout_height="@dimen/digitalclock_height" android:layout_marginLeft="@dimen/digitalclock_margin_left" android:layout_marginTop="@dimen/digitalclock_margin_top" layout="@layout/specific_weather_clock_4x2_digital" />
+    <FrameLayout android:id="@id/sun_block" android:layout_width="@dimen/sun_width" android:layout_height="@dimen/sun_height" android:layout_marginLeft="@dimen/sun_margin_left" android:layout_marginTop="@dimen/sun_margin_top" android:layout_marginBottom="@dimen/sun_margin_bottom" android:contentDescription="@string/accessibility_weather" style="@style/weather_clock_4x2_sun_layout_params">
+        <ImageView android:id="@id/sun" android:paddingRight="@dimen/sun_padding_right" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/temp_info_block" android:layout_width="@dimen/weatherclock_base_width" android:layout_height="@dimen/weatherclock_base_height" android:layout_alignRight="@id/background_panel" android:layout_alignBottom="@id/background_panel" style="@style/weather_clock_4x2_temp_info_block_layout_params">
+        <include android:id="@id/temp_block" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/weather_clock_4x2_temp_block_layout_params" layout="@layout/specific_weather_clock_4x2_temp" />
+        <include android:id="@id/info_block" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/weather_clock_4x2_info_block_layout_params" layout="@layout/specific_weather_clock_4x2_info" />
+    </RelativeLayout>
+    <include android:id="@id/location_block" android:visibility="gone" android:layout_width="@dimen/weatherclock_base_width" android:layout_height="@dimen/weatherclock_base_height" android:layout_marginLeft="@dimen/location_block_margin_left" android:layout_alignBottom="@id/background_panel" style="@style/weather_clock_4x2_location_block_layout_params" layout="@layout/specific_weather_clock_4x2_location" />
+</RelativeLayout>

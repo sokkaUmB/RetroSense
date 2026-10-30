@@ -1,0 +1,54 @@
+# Build directories and decompiled temporary caches
+retrosense_app/build/
+exact_frames_*
+improved_frames_*
+recorded_flip_frames/
+recorded_frames/
+test_frames/
+temp_*
+widget_bridge_bin/
+widget_bridge_dex/
+widget_bridge_smali/
+weatherclock_decoded/
+htc_weather_decoded/
+
+# Temporary and intermediate APKs / signatures
+*.idsig
+*_aligned.apk
+*_built.apk
+*unaligned.apk
+weatherclock_test.apk
+dummy.apk
+com.htc.*.apk
+
+# Root debug dumps and test media
+/*.xml
+/*.png
+/*.mp4
+/*.gif
+!/docs/images/*
+
+# One-off development & exploration scratch scripts
+patch_*.py
+read_*.py
+find_*.py
+check_*.py
+apply_*.py
+dump_*.py
+inspect_*.py
+localize_*.py
+rename_*.py
+remove_*.py
+test_*.py
+search_*.py
+start_*.py
+run_*.py
+fix_*.py
+add_*.py
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+__pycache__/

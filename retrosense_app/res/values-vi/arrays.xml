@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>vào các chủ nhật đầu tiên</item>
+        <item>vào các chủ nhật thứ hai</item>
+        <item>vào các chủ nhật thứ ba</item>
+        <item>vào các chủ nhật thứ tư</item>
+        <item>vào các chủ nhật cuối cùng</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>vào các thứ hai đầu tiên</item>
+        <item>vào các thứ hai thứ hai</item>
+        <item>vào các thứ hai thứ ba</item>
+        <item>vào các thứ hai thứ tư</item>
+        <item>vào các thứ hai cuối cùng</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>vào các thứ ba đầu tiên</item>
+        <item>vào các thứ ba thứ hai</item>
+        <item>vào các thứ ba thứ ba</item>
+        <item>vào các thứ ba thứ tư</item>
+        <item>vào các thứ ba cuối cùng</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>vào các thứ tư đầu tiên</item>
+        <item>vào các thứ tư thứ hai</item>
+        <item>vào các thứ tư thứ ba</item>
+        <item>vào các thứ tư thứ tư</item>
+        <item>vào các thứ tư cuối cùng</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>vào các thứ năm đầu tiên</item>
+        <item>vào các thứ năm thứ hai</item>
+        <item>vào các thứ năm thứ ba</item>
+        <item>vào các thứ năm thứ tư</item>
+        <item>vào các thứ năm cuối cùng</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>vào các thứ sáu đầu tiên</item>
+        <item>vào các thứ sáu thứ hai</item>
+        <item>vào các thứ sáu thứ ba</item>
+        <item>vào các thứ sáu thứ tư</item>
+        <item>vào các thứ sáu cuối cùng</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>vào các thứ bảy đầu tiên</item>
+        <item>vào các thứ bảy thứ hai</item>
+        <item>vào các thứ bảy thứ ba</item>
+        <item>vào các thứ bảy thứ tư</item>
+        <item>vào các thứ bảy cuối cùng</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Nhiều nắng</item>
+        <item>Trời nhiều nắng</item>
+        <item>Có nắng vài nơi</item>
+        <item>Có mây rải rác</item>
+        <item>Sáng lờ mờ</item>
+        <item>Nhiều mây</item>
+        <item>Có mây</item>
+        <item>Trời ảm đạm</item>
+        <item>Có sương mù</item>
+        <item>Có mưa rào</item>
+        <item>Nhiều mây &amp; mưa rải rác</item>
+        <item>Nắng &amp; mưa rải rác</item>
+        <item>Bão có sấm chớp</item>
+        <item>Nhiều mây&amp;mưa với sấm chớp</item>
+        <item>Có nắng rải rác &amp; mưa với sấm chớp</item>
+        <item>Mưa</item>
+        <item>Mưa giông</item>
+        <item>Nhiều mây &amp; mưa giông</item>
+        <item>Nắng rải rác &amp; mưa giông</item>
+        <item>Có tuyết rơi</item>
+        <item>Nhiều mây và có tuyết</item>
+        <item>Có băng</item>
+        <item>Mưa tuyết</item>
+        <item>Có mưa băng</item>
+        <item>Có mưa và tuyết pha lẫn</item>
+        <item>Nóng</item>
+        <item>Lạnh</item>
+        <item>Có gió</item>
+        <item>Trời trong</item>
+        <item>Trời trong</item>
+        <item>Có mây rải rác</item>
+        <item>Có mây rải rác</item>
+        <item>Trời mù mịt</item>
+        <item>Nhiều mây</item>
+        <item>Có mây rải rác &amp; mưa rào</item>
+        <item>Nhiều mây &amp; mưa rải rác</item>
+        <item>Có mây rải rác,mưa rào&amp;sấm chớp</item>
+        <item>Nhiều mây&amp;mưa với sấm chớp</item>
+        <item>Có mây rải rác &amp; mưa giông</item>
+        <item>Nhiều mây &amp; mưa giông</item>
+        <item>Sấm sét kèm theo mưa đá</item>
+        <item>Cát</item>
+        <item>Bụi</item>
+        <item>Bão</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Nhỏ</item>
+        <item>Trung bình</item>
+        <item>Lớn</item>
+        <item>Quá lớn</item>
+        <item>Rất lớn</item>
+    </string-array>
+</resources>

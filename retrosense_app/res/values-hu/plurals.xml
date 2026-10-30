@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Minden %1$d. héten a következő napon: %2$s</item>
+        <item quantity="one">Hetente a következő napon: %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d alkalommal</item>
+        <item quantity="one">egyszer</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Minden %d nap</item>
+        <item quantity="one">Minden %d nap</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Minden %d hét</item>
+        <item quantity="one">Minden %d hét</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Minden %d hónap</item>
+        <item quantity="one">Minden %d hónap</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Minden %d év</item>
+        <item quantity="one">Minden %d év</item>
+    </plurals>
+</resources>

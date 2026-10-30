@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>on every third Sunday</item>
+        <item>on every fourth Sunday</item>
+        <item>on every last Sunday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>on every fourth Monday</item>
+        <item>on every last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>on every first Tuesday</item>
+        <item>on every second Tuesday</item>
+        <item>on every third Tuesday</item>
+        <item>on every fourth Tuesday</item>
+        <item>on every last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>on every fourth Wednesday</item>
+        <item>on every last Wednesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>on every second Thursday</item>
+        <item>on every third Thursday</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>on every second Friday</item>
+        <item>on every third Friday</item>
+        <item>on every fourth Friday</item>
+        <item>on every last Friday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>on every first Saturday</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </string-array>
+    <string-array name="htc_mCnMonths">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="htc_mCnDays">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="htc_mCnDaysSmall">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+    </string-array>
+    <string-array name="htc_mCnGans">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="htc_mCnZhis">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="htc_mCnZodiacs">
+        <item>鼠</item>
+        <item>牛</item>
+        <item>虎</item>
+        <item>兔</item>
+        <item>龍</item>
+        <item>蛇</item>
+        <item>馬</item>
+        <item>羊</item>
+        <item>猴</item>
+        <item>雞</item>
+        <item>狗</item>
+        <item>豬</item>
+    </string-array>
+    <string-array name="htc_mSolarTerms">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>驚蟄</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>穀雨</item>
+        <item>立夏</item>
+        <item>小滿</item>
+        <item>芒種</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>處暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="htc_SolarHolidays">
+        <item>元旦</item>
+        <item>情人節</item>
+        <item>婦女節</item>
+        <item>植樹節</item>
+        <item>愚人節</item>
+        <item>勞動節</item>
+        <item>青年節</item>
+        <item>兒童節</item>
+        <item>建黨節</item>
+        <item>建軍節</item>
+        <item>教師節</item>
+        <item>國慶節</item>
+        <item>平安夜</item>
+        <item>耶誕節</item>
+    </string-array>
+    <string-array name="htc_SolarHolidays_date">
+        <item>0101</item>
+        <item>0214</item>
+        <item>0308</item>
+        <item>0312</item>
+        <item>0401</item>
+        <item>0501</item>
+        <item>0504</item>
+        <item>0601</item>
+        <item>0701</item>
+        <item>0801</item>
+        <item>0910</item>
+        <item>1001</item>
+        <item>1224</item>
+        <item>1225</item>
+    </string-array>
+    <string-array name="htc_LunarHolidays">
+        <item>春節</item>
+        <item>元宵節</item>
+        <item>端午節</item>
+        <item>七夕</item>
+        <item>中秋節</item>
+        <item>重陽節</item>
+        <item>臘八節</item>
+    </string-array>
+    <string-array name="htc_LunarHolidays_date">
+        <item>0101</item>
+        <item>0115</item>
+        <item>0505</item>
+        <item>0707</item>
+        <item>0815</item>
+        <item>0909</item>
+        <item>1208</item>
+    </string-array>
+    <string-array name="htc_Japanease_Holidays_date">
+        <item>0101</item>
+        <item>0211</item>
+        <item>0429</item>
+        <item>0503</item>
+        <item>0504</item>
+        <item>0505</item>
+        <item>1103</item>
+        <item>1123</item>
+        <item>1223</item>
+    </string-array>
+    <string-array name="htc_Japanease_Holidays">
+        <item>元日</item>
+        <item>建国記念の日</item>
+        <item>昭和の日</item>
+        <item>憲法記念日</item>
+        <item>みどり の日</item>
+        <item>こども の日</item>
+        <item>文化の日</item>
+        <item>勤労感謝の日</item>
+        <item>天皇誕生日</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Sunny</item>
+        <item>Mostly Sunny</item>
+        <item>Partly Sunny</item>
+        <item>Intermittent Clouds</item>
+        <item>Hazy Sunshine</item>
+        <item>Mostly Cloudy</item>
+        <item>Cloudy</item>
+        <item>Dreary</item>
+        <item>Fog</item>
+        <item>Showers</item>
+        <item>Mostly Cloudy with Showers</item>
+        <item>Partly Sunny with Showers</item>
+        <item>Thunderstorms</item>
+        <item>Mostly Cloudy with Thunder Showers</item>
+        <item>Partly Sunny with Thunder Showers</item>
+        <item>Rain</item>
+        <item>Flurries</item>
+        <item>Mostly Cloudy with Flurries</item>
+        <item>Partly Sunny with Flurries</item>
+        <item>Snow</item>
+        <item>Mostly Cloudy with Snow</item>
+        <item>Ice</item>
+        <item>Sleet</item>
+        <item>Freezing Rain</item>
+        <item>Rain and Snow Mixed</item>
+        <item>Hot</item>
+        <item>Cold</item>
+        <item>Windy</item>
+        <item>Clear</item>
+        <item>Mostly Clear</item>
+        <item>Partly Cloudy</item>
+        <item>Intermittent Clouds</item>
+        <item>Hazy</item>
+        <item>Mostly Cloudy</item>
+        <item>Partly Cloudy with Showers</item>
+        <item>Mostly Cloudy with Showers</item>
+        <item>Partly Cloudy with Thunder Showers</item>
+        <item>Mostly Cloudy with Thunder Showers</item>
+        <item>Partly Cloudy with Flurries</item>
+        <item>Mostly Cloudy with Flurries</item>
+        <item>Thunderstorms with sleet</item>
+        <item>Sand</item>
+        <item>Dust</item>
+        <item>Tornado</item>
+    </string-array>
+    <array name="autocompletetextview_backgrounds">
+        <item>@drawable/common_b_inputfield_pressed</item>
+        <item>@drawable/common_b_inputfield_rest</item>
+        <item>@drawable/common_inputfield_pressed</item>
+        <item>@drawable/common_inputfield_rest</item>
+        <item>@drawable/common_inputfield_full_pressed</item>
+        <item>@drawable/common_inputfield_full_rest</item>
+    </array>
+    <array name="htcbutton_drawables">
+        <item>@drawable/common_button_rest</item>
+        <item>@drawable/common_b_button_rest</item>
+        <item>@drawable/common_circle_outer</item>
+        <item>@drawable/common_b_circle_outer</item>
+        <item>@drawable/common_circle_pressed</item>
+        <item>@drawable/common_checkbox_on</item>
+        <item>@drawable/common_checkbox_rest</item>
+        <item>@drawable/common_checkbox_rest</item>
+        <item>@drawable/common_radio_rest_light</item>
+        <item>@drawable/common_radio_rest_dark</item>
+        <item>@drawable/common_delete_on</item>
+        <item>@drawable/common_delete_on</item>
+        <item>@drawable/common_collect_rest</item>
+        <item>@drawable/common_rating_rest</item>
+        <item>@drawable/common_flag_rest</item>
+        <item>@drawable/common_flag_on</item>
+        <item>@drawable/common_b_checkbox_rest</item>
+    </array>
+    <array name="skinProgressBarArray">
+        <item>@drawable/htcprogress</item>
+        <item>@drawable/htcprogress_b</item>
+    </array>
+    <array name="categoryOneProgressBarArray">
+        <item>@drawable/htcprogress_category_one</item>
+        <item>@drawable/htcprogress_b_category_one</item>
+    </array>
+    <array name="categoryTwoProgressBarArray">
+        <item>@drawable/htcprogress_category_two</item>
+        <item>@drawable/htcprogress_b_category_two</item>
+    </array>
+    <array name="categoryThreeProgressBarArray">
+        <item>@drawable/htcprogress_category_three</item>
+        <item>@drawable/htcprogress_b_category_three</item>
+    </array>
+    <array name="categoryFourProgressBarArray">
+        <item>@drawable/htcprogress_category_four</item>
+        <item>@drawable/htcprogress_b_category_four</item>
+    </array>
+    <array name="multipleColorThemes">
+        <item>@array/HtcDeviceDefault</item>
+    </array>
+    <array name="HtcDeviceDefault">
+        <item>@style/HtcDeviceDefault</item>
+        <item>@style/HtcDeviceDefault.CategoryOne</item>
+        <item>@style/HtcDeviceDefault.CategoryTwo</item>
+        <item>@style/HtcDeviceDefault.CategoryThree</item>
+    </array>
+    <array name="tabbar_drawables">
+        <item>@drawable/common_app_bkg</item>
+        <item>@drawable/common_app_bkg_down_src</item>
+        <item>@drawable/common_app_bkg_down_land_src</item>
+        <item>@drawable/common_app_bkg_top_src</item>
+        <item>@drawable/zero_dummy_asset</item>
+        <item>@drawable/common_b_div</item>
+        <item>@drawable/common_b_div_land</item>
+        <item>@drawable/common_popupmenu</item>
+        <item>@drawable/zero_dummy_asset</item>
+        <item>@drawable/zero_dummy_asset</item>
+        <item>@drawable/zero_dummy_asset</item>
+        <item>@drawable/zero_dummy_asset</item>
+        <item>@drawable/zero_dummy_asset</item>
+    </array>
+    <array name="tabbar_colors">
+        <item>@color/overlay_color</item>
+    </array>
+    <array name="color_table">
+        <item>@color/text_selection_opacity_color</item>
+        <item>@color/text_selection_color</item>
+        <item>@color/progress_track_start_color</item>
+        <item>@color/progress_track_center_color</item>
+        <item>@color/progress_track_end_color</item>
+        <item>@color/light_category_color</item>
+        <item>@color/category_color</item>
+        <item>@color/dark_category_color</item>
+        <item>@color/multiply_color</item>
+        <item>@color/all_hyperlink_color</item>
+        <item>@color/overlay_color</item>
+        <item>@color/light_primaryfont_color</item>
+        <item>@color/light_primaryfont_disable_color</item>
+        <item>@color/light_secondaryfont_color</item>
+        <item>@color/dark_primaryfont_color</item>
+        <item>@color/dark_primaryfont_disable_color</item>
+        <item>@color/dark_secondaryfont_color</item>
+        <item>@color/tabfont_color</item>
+        <item>@color/light_separatorfont_color</item>
+        <item>@color/list_item_bg_center_color</item>
+        <item>@color/list_item_bg_top_color</item>
+        <item>@color/list_item_bg_bottom_color</item>
+        <item>@color/highlight_color</item>
+        <item>@color/ap_background_color</item>
+        <item>@color/dark_ap_background_color</item>
+        <item>@color/focused_color</item>
+        <item>@color/standard_color</item>
+        <item>@color/active_color</item>
+    </array>
+    <array name="categoryOne_color_table">
+        <item>@color/CategoryOne_text_selection_opacity_color</item>
+        <item>@color/CategoryOne_text_selection_color</item>
+        <item>@color/CategoryOne_progress_track_start_color</item>
+        <item>@color/CategoryOne_progress_track_center_color</item>
+        <item>@color/CategoryOne_progress_track_end_color</item>
+        <item>@color/CategoryOne_light_category_color</item>
+        <item>@color/CategoryOne_category_color</item>
+        <item>@color/CategoryOne_dark_category_color</item>
+        <item>@color/CategoryOne_multiply_color</item>
+        <item>@color/CategoryOne_all_hyperlink_color</item>
+        <item>@color/CategoryOne_overlay_color</item>
+        <item>@color/CategoryOne_light_primaryfont_color</item>
+        <item>@color/CategoryOne_light_primaryfont_disable_color</item>
+        <item>@color/CategoryOne_light_secondaryfont_color</item>
+        <item>@color/CategoryOne_dark_primaryfont_color</item>
+        <item>@color/CategoryOne_dark_primaryfont_disable_color</item>
+        <item>@color/CategoryOne_dark_secondaryfont_color</item>
+        <item>@color/CategoryOne_tabfont_color</item>
+        <item>@color/CategoryOne_light_separatorfont_color</item>
+        <item>@color/CategoryOne_list_item_bg_center_color</item>
+        <item>@color/CategoryOne_list_item_bg_top_color</item>
+        <item>@color/CategoryOne_list_item_bg_bottom_color</item>
+        <item>@color/CategoryOne_highlight_color</item>
+        <item>@color/CategoryOne_ap_background_color</item>
+        <item>@color/CategoryOne_dark_ap_background_color</item>
+        <item>@color/CategoryOne_focused_color</item>
+        <item>@color/CategoryOne_standard_color</item>
+        <item>@color/CategoryOne_active_color</item>
+    </array>
+    <array name="categoryTwo_color_table">
+        <item>@color/CategoryTwo_text_selection_opacity_color</item>
+        <item>@color/CategoryTwo_text_selection_color</item>
+        <item>@color/CategoryTwo_progress_track_start_color</item>
+        <item>@color/CategoryTwo_progress_track_center_color</item>
+        <item>@color/CategoryTwo_progress_track_end_color</item>
+        <item>@color/CategoryTwo_light_category_color</item>
+        <item>@color/CategoryTwo_category_color</item>
+        <item>@color/CategoryTwo_dark_category_color</item>
+        <item>@color/CategoryTwo_multiply_color</item>
+        <item>@color/CategoryTwo_all_hyperlink_color</item>
+        <item>@color/CategoryTwo_overlay_color</item>
+        <item>@color/CategoryTwo_light_primaryfont_color</item>
+        <item>@color/CategoryTwo_light_primaryfont_disable_color</item>
+        <item>@color/CategoryTwo_light_secondaryfont_color</item>
+        <item>@color/CategoryTwo_dark_primaryfont_color</item>
+        <item>@color/CategoryTwo_dark_primaryfont_disable_color</item>
+        <item>@color/CategoryTwo_dark_secondaryfont_color</item>
+        <item>@color/CategoryTwo_tabfont_color</item>
+        <item>@color/CategoryTwo_light_separatorfont_color</item>
+        <item>@color/CategoryTwo_list_item_bg_center_color</item>
+        <item>@color/CategoryTwo_list_item_bg_top_color</item>
+        <item>@color/CategoryTwo_list_item_bg_bottom_color</item>
+        <item>@color/CategoryTwo_highlight_color</item>
+        <item>@color/CategoryTwo_ap_background_color</item>
+        <item>@color/CategoryTwo_dark_ap_background_color</item>
+        <item>@color/CategoryTwo_focused_color</item>
+        <item>@color/CategoryTwo_standard_color</item>
+        <item>@color/CategoryTwo_active_color</item>
+    </array>
+    <array name="categoryThree_color_table">
+        <item>@color/CategoryThree_text_selection_opacity_color</item>
+        <item>@color/CategoryThree_text_selection_color</item>
+        <item>@color/CategoryThree_progress_track_start_color</item>
+        <item>@color/CategoryThree_progress_track_center_color</item>
+        <item>@color/CategoryThree_progress_track_end_color</item>
+        <item>@color/CategoryThree_light_category_color</item>
+        <item>@color/CategoryThree_category_color</item>
+        <item>@color/CategoryThree_dark_category_color</item>
+        <item>@color/CategoryThree_multiply_color</item>
+        <item>@color/CategoryThree_all_hyperlink_color</item>
+        <item>@color/CategoryThree_overlay_color</item>
+        <item>@color/CategoryThree_light_primaryfont_color</item>
+        <item>@color/CategoryThree_light_primaryfont_disable_color</item>
+        <item>@color/CategoryThree_light_secondaryfont_color</item>
+        <item>@color/CategoryThree_dark_primaryfont_color</item>
+        <item>@color/CategoryThree_dark_primaryfont_disable_color</item>
+        <item>@color/CategoryThree_dark_secondaryfont_color</item>
+        <item>@color/CategoryThree_tabfont_color</item>
+        <item>@color/CategoryThree_light_separatorfont_color</item>
+        <item>@color/CategoryThree_list_item_bg_center_color</item>
+        <item>@color/CategoryThree_list_item_bg_top_color</item>
+        <item>@color/CategoryThree_list_item_bg_bottom_color</item>
+        <item>@color/CategoryThree_highlight_color</item>
+        <item>@color/CategoryThree_ap_background_color</item>
+        <item>@color/CategoryThree_dark_ap_background_color</item>
+        <item>@color/CategoryThree_focused_color</item>
+        <item>@color/CategoryThree_standard_color</item>
+        <item>@color/CategoryThree_active_color</item>
+    </array>
+    <array name="categoryFour_color_table">
+        <item>@color/CategoryFour_text_selection_opacity_color</item>
+        <item>@color/CategoryFour_text_selection_color</item>
+        <item>@color/CategoryFour_progress_track_start_color</item>
+        <item>@color/CategoryFour_progress_track_center_color</item>
+        <item>@color/CategoryFour_progress_track_end_color</item>
+        <item>@color/CategoryFour_light_category_color</item>
+        <item>@color/CategoryFour_category_color</item>
+        <item>@color/CategoryFour_dark_category_color</item>
+        <item>@color/CategoryFour_multiply_color</item>
+        <item>@color/CategoryFour_all_hyperlink_color</item>
+        <item>@color/CategoryFour_overlay_color</item>
+        <item>@color/CategoryFour_light_primaryfont_color</item>
+        <item>@color/CategoryFour_light_primaryfont_disable_color</item>
+        <item>@color/CategoryFour_light_secondaryfont_color</item>
+        <item>@color/CategoryFour_dark_primaryfont_color</item>
+        <item>@color/CategoryFour_dark_primaryfont_disable_color</item>
+        <item>@color/CategoryFour_dark_secondaryfont_color</item>
+        <item>@color/CategoryFour_tabfont_color</item>
+        <item>@color/CategoryFour_light_separatorfont_color</item>
+        <item>@color/CategoryFour_list_item_bg_center_color</item>
+        <item>@color/CategoryFour_list_item_bg_top_color</item>
+        <item>@color/CategoryFour_list_item_bg_bottom_color</item>
+        <item>@color/CategoryFour_highlight_color</item>
+        <item>@color/CategoryFour_ap_background_color</item>
+        <item>@color/CategoryFour_dark_ap_background_color</item>
+        <item>@color/CategoryFour_focused_color</item>
+        <item>@color/CategoryFour_standard_color</item>
+        <item>@color/CategoryFour_active_color</item>
+    </array>
+    <array name="click_vibration">
+        <item>0.0dp</item>
+        <item>-0.6700001dp</item>
+        <item>-3.669983dp</item>
+        <item>-8.669983dp</item>
+        <item>-13.0dp</item>
+        <item>-15.669983dp</item>
+        <item>-17.669983dp</item>
+        <item>-18.669983dp</item>
+        <item>-19.669983dp</item>
+        <item>-20.0dp</item>
+        <item>-20.0dp</item>
+        <item>-20.0dp</item>
+        <item>-20.0dp</item>
+        <item>-20.0dp</item>
+        <item>-19.669983dp</item>
+        <item>-19.329987dp</item>
+        <item>-18.669983dp</item>
+        <item>-18.0dp</item>
+        <item>-16.669983dp</item>
+        <item>-15.329987dp</item>
+        <item>-13.329987dp</item>
+        <item>-12.0dp</item>
+        <item>-5.669983dp</item>
+        <item>0.6700001dp</item>
+        <item>1.3299866dp</item>
+        <item>2.0dp</item>
+        <item>0.0dp</item>
+        <item>-2.0dp</item>
+        <item>-1.0dp</item>
+        <item>0.0dp</item>
+    </array>
+    <string-array name="st_font_size_levels">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra large</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="am_pm_of_day">
+        <item>@string/common_tm_am</item>
+        <item>@string/common_tm_pm</item>
+    </string-array>
+</resources>

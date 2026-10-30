@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="columnNum_htcShareActivity">5</integer>
+    <integer name="duration_slide_from_hide_to_collapse">140</integer>
+    <integer name="duration_slide_from_expand_to_hide">280</integer>
+    <integer name="weather_clock_4x2_location_max_lines">6</integer>
+    <integer name="weather_2x1_no_weather_max_lines">3</integer>
+    <integer name="weather_2x1_location_max_lines">3</integer>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Vsake %1$d tedne v %2$s</item>
+        <item quantity="one">Tedensko v %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d-krat</item>
+        <item quantity="one">enkrat</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Vsakih toliko dni: %d</item>
+        <item quantity="one">Vsak %d dan</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Vsakih toliko tednov: %d</item>
+        <item quantity="one">Vsak %d teden</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Vsakih toliko mesecev: %d</item>
+        <item quantity="one">Vsak %d mesec</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Vsakih toliko let: %d</item>
+        <item quantity="one">Vsako %d leto</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalogClock android:layout_width="@dimen/dualclock_clock_width" android:layout_height="@dimen/dualclock_clock_height" android:layout_marginTop="@dimen/dualclock_clock_margin_top" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

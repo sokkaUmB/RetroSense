@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>ogni prima Domenica</item>
+        <item>ogni seconda Domenica</item>
+        <item>ogni terza Domenica</item>
+        <item>ogni quarta Domenica</item>
+        <item>ogni ultima Domenica</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ogni primo Lunedì</item>
+        <item>ogni secondo Lunedì</item>
+        <item>ogni terzo Lunedì</item>
+        <item>ogni quarto Lunedì</item>
+        <item>ogni ultimo Lunedì</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ogni primo Martedì</item>
+        <item>ogni secondo Martedì</item>
+        <item>ogni terzo Martedì</item>
+        <item>ogni quarto Martedì</item>
+        <item>ogni ultimo Martedì</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ogni primo Mercoledì</item>
+        <item>ogni secondo Mercoledì</item>
+        <item>ogni terzo Mercoledì</item>
+        <item>ogni quarto Mercoledì</item>
+        <item>ogni ultimo Mercoledì</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ogni primo Giovedì</item>
+        <item>ogni secondo Giovedì</item>
+        <item>ogni terzo Giovedì</item>
+        <item>ogni quarto Giovedì</item>
+        <item>ogni ultimo Giovedì</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ogni primo Venerdì</item>
+        <item>ogni secondo Venerdì</item>
+        <item>ogni terzo Venerdì</item>
+        <item>ogni quarto Venerdì</item>
+        <item>ogni ultimo Venerdì</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ogni primo Sabato</item>
+        <item>ogni secondo Sabato</item>
+        <item>ogni terzo Sabato</item>
+        <item>ogni quarto Sabato</item>
+        <item>ogni ultimo Sabato</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Soleggiato</item>
+        <item>Molto soleggiato</item>
+        <item>Parzialmente soleggiato</item>
+        <item>Nuvole a tratti</item>
+        <item>Cielo coperto</item>
+        <item>Molto nuvoloso</item>
+        <item>Nuvoloso</item>
+        <item>Uggioso</item>
+        <item>Nebbia</item>
+        <item>Piovoso</item>
+        <item>Molto nuvoloso con pioggia</item>
+        <item>Parzialmente soleggiato con pioggia</item>
+        <item>Temporale</item>
+        <item>Molto nuvoloso con acquazzone</item>
+        <item>Parzialmente soleggiato con acquazzone</item>
+        <item>Pioggia</item>
+        <item>Raffiche</item>
+        <item>Molto nuvoloso con raffiche</item>
+        <item>Parzialmente soleggiato con raffiche</item>
+        <item>Neve</item>
+        <item>Molto nuvoloso con neve</item>
+        <item>Ghiaccio</item>
+        <item>Nevischio</item>
+        <item>Pioggia gelata</item>
+        <item>Pioggia e neve</item>
+        <item>Caldo</item>
+        <item>Freddo</item>
+        <item>Ventoso</item>
+        <item>Chiaro</item>
+        <item>Molto chiaro</item>
+        <item>Parzialmente nuvoloso</item>
+        <item>Nuvole a tratti</item>
+        <item>Coperto</item>
+        <item>Molto nuvoloso</item>
+        <item>Parzialmente nuvoloso con pioggia</item>
+        <item>Molto nuvoloso con pioggia</item>
+        <item>Parzialmente nuvoloso con acquazzone</item>
+        <item>Molto nuvoloso con acquazzone</item>
+        <item>Parzialmente nuvoloso con raffiche</item>
+        <item>Molto nuvoloso con raffiche</item>
+        <item>Temporali con nevischio</item>
+        <item>Sabbia</item>
+        <item>Polvere</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Piccolo</item>
+        <item>Media</item>
+        <item>Grande</item>
+        <item>Molto grande</item>
+        <item>Enorme</item>
+    </string-array>
+</resources>

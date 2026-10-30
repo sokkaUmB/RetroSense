@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>בכל יום ראשון הראשון בחודש</item>
+        <item>בכל יום ראשון השני בחודש</item>
+        <item>בכל יום ראשון השלישי בחודש</item>
+        <item>בכל יום ראשון הרביעי בחודש</item>
+        <item>בכל יום ראשון האחרון בחודש</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>בכל יום שני הראשון בחודש</item>
+        <item>בכל יום שני השני בחודש</item>
+        <item>בכל יום שני השלישי בחודש</item>
+        <item>בכל יום שני הרביעי בחודש</item>
+        <item>בכל יום שני האחרון בחודש</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>בכל יום שלישי הראשון בחודש</item>
+        <item>בכל יום שלישי השני בחודש</item>
+        <item>בכל יום שלישי השלישי בחודש</item>
+        <item>בכל יום שלישי הרביעי בחודש</item>
+        <item>בכל יום שלישי האחרון בחודש</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>בכל יום רביעי הראשון בחודש</item>
+        <item>בכל יום רביעי השני בחודש</item>
+        <item>בכל יום רביעי השלישי בחודש</item>
+        <item>בכל יום רביעי הרביעי בחודש</item>
+        <item>בכל יום רביעי האחרון בחודש</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>בכל יום חמישי הראשון בחודש</item>
+        <item>בכל יום חמישי השני בחודש</item>
+        <item>בכל יום חמישי השלישי בחודש</item>
+        <item>בכל יום חמישי הרביעי בחודש</item>
+        <item>בכל יום חמישי האחרון בחודש</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>בכל יום שישי הראשון בחודש</item>
+        <item>בכל יום שישי השני בחודש</item>
+        <item>בכל יום שישי השלישי בחודש</item>
+        <item>בכל יום שישי הרביעי בחודש</item>
+        <item>בכל יום שישי האחרון בחודש</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>בכל יום שבת הראשון בחודש</item>
+        <item>בכל יום שבת השני בחודש</item>
+        <item>בכל יום שבת השלישי בחודש</item>
+        <item>בכל יום שבת הרביעי בחודש</item>
+        <item>בכל יום שבת האחרון בחודש</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>שטוף שמש</item>
+        <item>רב היום שטוף שמש</item>
+        <item>שמש לפרקים</item>
+        <item>מעונן חלקית</item>
+        <item>שמש לפרקים</item>
+        <item>רוב היום מעונן</item>
+        <item>מעונן</item>
+        <item>קודר</item>
+        <item>ערפל</item>
+        <item>ממטרים</item>
+        <item>רוב היום מעונן עם ממטרים</item>
+        <item>שמש לפרקים עם ממטרים</item>
+        <item>סופות רעמים</item>
+        <item>רוב היום מעונן עם ממטרים ורעמים</item>
+        <item>שמש לפרקים עם ממטרים ורעמים</item>
+        <item>גשם</item>
+        <item>משבי רוח</item>
+        <item>רוב היום מעונן עם משבי רוח</item>
+        <item>שמש לפרקים עם משבי רוח</item>
+        <item>שלג</item>
+        <item>רוב היום מעונן עם שלג</item>
+        <item>קרח</item>
+        <item>גשם מעורב בשלג</item>
+        <item>גשם קפוא</item>
+        <item>גשם ושלג מעורבים</item>
+        <item>חם</item>
+        <item>קר</item>
+        <item>רוחות ערות</item>
+        <item>בהיר</item>
+        <item>רוב היום בהיר</item>
+        <item>מעונן חלקית</item>
+        <item>מעונן חלקית</item>
+        <item>אביך</item>
+        <item>רוב היום מעונן</item>
+        <item>מעונן חלקית עם ממטרים</item>
+        <item>רוב היום מעונן עם ממטרים</item>
+        <item>מעונן חלקית עם גשם ורעמים</item>
+        <item>רוב היום מעונן עם ממטרים ורעמים</item>
+        <item>מעונן חלקית עם משבי רוח</item>
+        <item>רוב היום מעונן עם משבי רוח</item>
+        <item>סופות רעמים עם גשם מעורב בשלג</item>
+        <item>חול</item>
+        <item>אבק</item>
+        <item>טורנדו</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>קטן</item>
+        <item>בינוני</item>
+        <item>גדול</item>
+        <item>גדול מאוד</item>
+        <item>ענק</item>
+    </string-array>
+</resources>

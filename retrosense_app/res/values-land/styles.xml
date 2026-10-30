@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="style" name="ab_primary_textview_style">@style/fixed_title_primary_m</item>
+    <item type="style" name="ab_primary_textview_pulldown_style">@style/fixed_darklist_primary_xxs</item>
+    <item type="style" name="ab_secondary_textview_style">@style/fixed_title_secondary_m</item>
+    <item type="style" name="ab_secondary_textview_pulldown_style">@style/fixed_info_primary_s</item>
+    <item type="style" name="ab_secondary_textview_update_style">@style/fixed_darklist_primary_xxs</item>
+    <item type="style" name="ab_secondary_textview_transparent_style">@style/fixed_title_secondary_m</item>
+    <item type="style" name="ab_counter_textview_style">@style/fixed_darklist_primary_xxs</item>
+    <style name="weather_clock_week_date" parent="@style/fixed_weather_clock_half_10" />
+    <style name="weather_clock_temperature" parent="@style/fixed_weather_clock_half_11" />
+    <style name="weather_clock_temperature_degree" parent="@style/fixed_weather_clock_half_13" />
+    <style name="weather_clock_high_low_temp" parent="@style/fixed_weather_clock_half_14" />
+    <style name="weather_clock_high_low_temp_degree" parent="@style/fixed_weather_clock_half_16" />
+    <style name="weather_clock_city_name" parent="@style/fixed_weather_clock_half_17" />
+    <style name="weather_clock_condition" parent="@style/fixed_weather_clock_half_18" />
+    <style name="weather_condition" parent="@style/fixed_widget_weather_04" />
+    <style name="weather_high_low_temp" parent="@style/fixed_widget_weather_04" />
+    <style name="weather_high_low_temp_degree" parent="@style/fixed_widget_weather_10" />
+    <style name="clock_dual_am_pm" parent="@style/fixed_clock_dual_02" />
+    <style name="widget_2x1_high_low_temp_layout_params">
+        <item name="android:paddingLeft">@dimen/weather_highlow_margin_left</item>
+        <item name="android:layout_toRightOf">@id/temparature_degree</item>
+    </style>
+    <style name="digital_clock_week_date_layout_params">
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="weather_clock_4x2_temp_info_block_layout_params">
+        <item name="android:layout_toRightOf">@id/digital_clock</item>
+    </style>
+    <style name="weather_clock_4x2_temp_block_layout_params" />
+    <style name="weather_clock_4x2_temp_layout_params">
+        <item name="android:gravity">left</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="weather_clock_4x2_curr_temp_layout_params">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="weather_clock_4x2_high_low_temp_layout_params">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/high_low_temp_margin_top</item>
+    </style>
+    <style name="weather_clock_4x2_sun_layout_params">
+        <item name="android:layout_alignRight">@id/background_panel</item>
+    </style>
+    <style name="weather_clock_4x2_info_block_layout_params">
+        <item name="android:layout_toRightOf">@id/digital_clock</item>
+    </style>
+    <style name="weather_clock_4x2_info_layout_params">
+        <item name="android:paddingLeft">@dimen/todayinfo_padding_left</item>
+    </style>
+    <style name="weather_clock_4x2_location_block_layout_params">
+        <item name="android:layout_toRightOf">@id/digital_clock</item>
+        <item name="android:layout_alignRight">@id/background_panel</item>
+    </style>
+</resources>

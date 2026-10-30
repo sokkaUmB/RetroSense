@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_activityDefaultDur">220</integer>
+    <integer name="config_activityShortDur">150</integer>
+    <integer name="tab_customize_flag">0x0</integer>
+    <integer name="min_dropdown_width">200</integer>
+    <integer name="listview_border_height">2</integer>
+    <integer name="listview_blade_padding">3</integer>
+    <integer name="listview_fastscroller_big_height">172</integer>
+    <integer name="listview_fastscroller_big_width">172</integer>
+    <integer name="listview_fastscroller_big_textsize">98</integer>
+    <integer name="listview_fastscroller_big_textmargin">16</integer>
+    <integer name="listview_fastscroller_height">70</integer>
+    <integer name="listview_fastscroller_width">307</integer>
+    <integer name="listview_fastscroller_textsize">45</integer>
+    <integer name="listview_fastscroller_textmargin">10</integer>
+    <integer name="listview_scalex_difference">7</integer>
+    <integer name="listview_scaley_difference">7</integer>
+    <integer name="listview_fastscroller_automotive_big_height">246</integer>
+    <integer name="listview_fastscroller_automotive_big_width">246</integer>
+    <integer name="listview_fastscroller_automotive_big_textsize">226</integer>
+    <integer name="listview_fastscroller_automotive_textsize">45</integer>
+    <integer name="unlock_distance_mm">12</integer>
+    <integer name="columnNum_htcShareActivity">3</integer>
+    <integer name="duration_slide_from_hide_to_collapse">250</integer>
+    <integer name="duration_slide_from_expand_to_hide">500</integer>
+    <integer name="cell_size_1">40</integer>
+    <integer name="cell_size_2">110</integer>
+    <integer name="cell_size_3">180</integer>
+    <integer name="cell_size_4">250</integer>
+    <integer name="cell_size_5">320</integer>
+    <integer name="weather_clock_4x2_location_max_lines">3</integer>
+    <integer name="weather_2x1_no_weather_max_lines">4</integer>
+    <integer name="weather_2x1_location_max_lines">5</integer>
+</resources>

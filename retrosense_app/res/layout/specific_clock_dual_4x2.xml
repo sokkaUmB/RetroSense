@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:paddingLeft="@dimen/widget_padding" android:paddingRight="@dimen/widget_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/accessibility_travel_clock" style="@style/widget_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widget_1" android:layout_width="@dimen/dualclock_clocklayout_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dualclock_clocklayout_margin_left1" layout="@layout/specific_clock_dual_4x2_travel_left" />
+    <include android:id="@id/widget_2" android:layout_width="@dimen/dualclock_clocklayout_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dualclock_clocklayout_margin_left2" android:layout_toRightOf="@id/widget_1" layout="@layout/specific_clock_dual_4x2_travel_right" />
+</RelativeLayout>

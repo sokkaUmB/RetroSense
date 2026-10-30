@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Svake %1$d nedelje u %2$s</item>
+        <item quantity="one">Nedeljno u %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d puta</item>
+        <item quantity="one">jednom</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Na %d dana</item>
+        <item quantity="one">Na %d dan</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Na %d nedelje/-a</item>
+        <item quantity="one">Na %d nedelju</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Na %d meseca/-i</item>
+        <item quantity="one">Na %d mesec</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Na %d godine/-a</item>
+        <item quantity="one">Na %d godinu</item>
+    </plurals>
+</resources>

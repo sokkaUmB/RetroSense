@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>ပထမတနဂၤေႏြေန႔တိုင္း</item>
+        <item>ဒုတိယတနဂၤေႏြေန႔တိုင္း</item>
+        <item>တတိယတနဂၤေႏြေန႔တိုင္း</item>
+        <item>စတုတၳတနဂၤေႏြေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးတနဂၤေႏြေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ပထမတနလၤာေန႔တိုင္း</item>
+        <item>ဒုတိယတနလၤာေန႔တိုင္း</item>
+        <item>တတိယတနလၤာေန႔တိုင္း</item>
+        <item>စတုတၳတနလၤာေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးတနလၤာေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ပထမအဂၤါေန႔တိုင္း</item>
+        <item>ဒုတိယအဂၤါေန႔တိုင္း</item>
+        <item>တတိယအဂၤါေန႔တိုင္း</item>
+        <item>စတုတၳအဂၤါေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးအဂၤါေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ပထမဗုဒၶဟူးေန႔တိုင္း</item>
+        <item>ဒုတိယဗုဒၶဟူးေန႔တိုင္း</item>
+        <item>တတိယဗုဒၶဟူးေန႔တိုင္း</item>
+        <item>စတုတၳဗုဒၶဟူးေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးဗုဒၶဟူးေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ပထမၾကာသပေတးေန႔တိုင္း</item>
+        <item>ဒုတိယၾကာသပေတးေန႔တိုင္း</item>
+        <item>တတိယၾကာသပေတးေန႔တိုင္း</item>
+        <item>စတုတၳၾကာသပေတးေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးၾကာသပေတးေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ပထမေသာၾကာေန႔တိုင္း</item>
+        <item>ဒုတိယေသာၾကာေန႔တိုင္း</item>
+        <item>တတိယေသာၾကာေန႔တိုင္း</item>
+        <item>စတုတၳေသာၾကာေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးေသာၾကာေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ပထမစေနေန႔တိုင္း</item>
+        <item>ဒုတိယစေနေန႔တိုင္း</item>
+        <item>တတိယစေနေန႔တိုင္း</item>
+        <item>စတုတၳစေနေန႔တိုင္း</item>
+        <item>ေနာက္ဆုံးစေနေန႔တိုင္း</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>ေသးငယ္</item>
+        <item>အလယ္အလတ္</item>
+        <item>ႀကီးမား</item>
+        <item>အလြန္ႀကီးမား</item>
+        <item>ဧရာမႀကီးမား</item>
+    </string-array>
+</resources>

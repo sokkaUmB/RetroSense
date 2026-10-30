@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Katru %1$d nedēļu %2$s</item>
+        <item quantity="one">Reizi nedēļa %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d reizes</item>
+        <item quantity="one">viena reize</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Katru %d dienu</item>
+        <item quantity="one">Katru %d dienu</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Ik pēc %d nedēļām</item>
+        <item quantity="one">Ik pēc %d nedēļas</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Katru %d mēnesi</item>
+        <item quantity="one">Katru %d mēnesi</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Katru %d gadu</item>
+        <item quantity="one">Katru %d gadu</item>
+    </plurals>
+</resources>

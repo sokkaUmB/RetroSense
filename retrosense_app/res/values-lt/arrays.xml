@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>kiekvieną pirmą sekmadienį</item>
+        <item>kiekvieną antrą sekmadienį</item>
+        <item>kiekvieną trečią sekmadienį</item>
+        <item>kiekvieną ketvirtą sekmadienį</item>
+        <item>kiekvieną paskutinį sekmadienį</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>kiekvieną pirmą pirmadienį</item>
+        <item>kiekvieną antrą pirmadienį</item>
+        <item>kiekvieną trečią pirmadienį</item>
+        <item>kiekvieną ketvirtą pirmadienį</item>
+        <item>kiekvieną paskutinį pirmadienį</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>kiekvieną pirmą antradienį</item>
+        <item>kiekvieną antrą antradienį</item>
+        <item>kiekvieną trečią antradienį</item>
+        <item>kiekvieną ketvirtą antradienį</item>
+        <item>kiekvieną paskutinį antradienį</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>kiekvieną pirmą trečiadienį</item>
+        <item>kiekvieną antrą trečiadienį</item>
+        <item>kiekvieną trečią trečiadienį</item>
+        <item>kiekvieną ketvirtą trečiadienį</item>
+        <item>kiekvieną paskutinį trečiadienį</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>kiekvieną pirmą ketvirtadienį</item>
+        <item>kiekvieną antrą ketvirtadienį</item>
+        <item>kiekvieną trečią ketvirtadienį</item>
+        <item>kiekvieną ketvirtą ketvirtadienį</item>
+        <item>kiekvieną paskutinį ketvirtadienį</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>kiekvieną pirmą penktadienį</item>
+        <item>kiekvieną antrą penktadienį</item>
+        <item>kiekvieną trečią penktadienį</item>
+        <item>kiekvieną ketvirtą penktadienį</item>
+        <item>kiekvieną paskutinį penktadienį</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>kiekvieną pirmą šeštadienį</item>
+        <item>kiekvieną antrą šeštadienį</item>
+        <item>kiekvieną trečią šeštadienį</item>
+        <item>kiekvieną ketvirtą šeštadienį</item>
+        <item>kiekvieną paskutinį šeštadienį</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Saulėta</item>
+        <item>Daugiausia saulėta</item>
+        <item>Pragiedruliai</item>
+        <item>Protarpiais debesys</item>
+        <item>Migla ir saulėta</item>
+        <item>Daugiausia debesuota</item>
+        <item>Debesuota</item>
+        <item>Niūru</item>
+        <item>Rūkas</item>
+        <item>Liūtys</item>
+        <item>Daugiausia debesuota su pragiedruliais ir liūtys</item>
+        <item>Pragiedruliai ir liūtys</item>
+        <item>Perkūnija</item>
+        <item>Daugiausia debesuota ir liūtys su perkūnija</item>
+        <item>Pragiedruliai ir liūtys su perkūnija</item>
+        <item>Lietus</item>
+        <item>Škvalai</item>
+        <item>Daugiausia debesuota ir škvalai</item>
+        <item>Pragiedruliai ir škvalai</item>
+        <item>Sniegas</item>
+        <item>Daugiausia debesuota ir sniegas</item>
+        <item>Ledas</item>
+        <item>Šlapdriba</item>
+        <item>Lijundra</item>
+        <item>Lietus su sniegu</item>
+        <item>Karšta</item>
+        <item>Šalta</item>
+        <item>Vėjuota</item>
+        <item>Giedra</item>
+        <item>Daugiausia giedra</item>
+        <item>Debesuota su pragiedruliais</item>
+        <item>Protarpiais debesys</item>
+        <item>Migla</item>
+        <item>Daugiausia debesuota</item>
+        <item>Debesuota su pragiedruliais ir liūtys</item>
+        <item>Daugiausia debesuota su pragiedruliais ir liūtys</item>
+        <item>Debesuota su pragiedruliais ir liūtys su perkūnija</item>
+        <item>Daugiausia debesuota ir liūtys su perkūnija</item>
+        <item>Debesuota su pragiedruliais ir škvalai</item>
+        <item>Daugiausia debesuota ir škvalai</item>
+        <item>Perkūnija su šlapdriba</item>
+        <item>Smėlis</item>
+        <item>Dulkės</item>
+        <item>Tornadas</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Mažas</item>
+        <item>Vidutinis</item>
+        <item>Didelis</item>
+        <item>Labai didelis</item>
+        <item>Didžiulis</item>
+    </string-array>
+</resources>

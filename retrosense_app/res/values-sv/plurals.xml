@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Var %1$d vecka på %2$s</item>
+        <item quantity="one">Varje vecka på %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d gånger</item>
+        <item quantity="one">en gång</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Var %d:e dag</item>
+        <item quantity="one">Varje %d dag</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Var %d:e vecka</item>
+        <item quantity="one">Varje %d vecka</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Var %d:e månad</item>
+        <item quantity="one">Varje %d månad</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Var %d år</item>
+        <item quantity="one">Varje %d år</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dial_panel" android:layout_width="@dimen/dualclock_clock_width" android:layout_height="@dimen/dualclock_clock_height" android:layout_marginTop="@dimen/dualclock_clock_margin_top" android:layout_centerHorizontal="true" />
+    <TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/am_pm" android:paddingTop="@dimen/dualclock_ampm_padding_top" android:layout_width="wrap_content" android:layout_height="@dimen/dualclock_clock_height" android:layout_marginRight="@dimen/dualclock_ampm_margin_right" android:singleLine="true" android:layout_alignTop="@id/dial_panel" android:layout_alignParentRight="true" style="@style/clock_dual_am_pm" />
+    <include android:id="@id/analog_clock_right" layout="@layout/specific_clock_dual_4x2_analog" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/home_current_label_right" android:paddingTop="@dimen/dualclock_label_paddingTop" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dualclock_label_marginTop">
+        <TextView android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/week_date_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/fixed_clock_dual_03" />
+        <TextView android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/holiday_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/fixed_clock_dual_03" />
+    </LinearLayout>
+    <TextView android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/city_name_right" android:paddingBottom="@dimen/dualclock_citytext_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dualclock_citytext_margin_top" android:singleLine="true" style="@style/fixed_clock_dual_03" />
+</RelativeLayout>

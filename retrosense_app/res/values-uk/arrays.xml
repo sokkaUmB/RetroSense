@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>кожну першу неділю</item>
+        <item>кожну другу неділю</item>
+        <item>кожну третю неділю</item>
+        <item>кожну четверту неділю</item>
+        <item>кожну останню неділю</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>кожен перший понеділок</item>
+        <item>кожен другий понеділок</item>
+        <item>кожен третій понеділок</item>
+        <item>кожен четвертий понеділок</item>
+        <item>кожен останній понеділок</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>кожен перший вівторок</item>
+        <item>кожен другий вівторок</item>
+        <item>кожен третій вівторок</item>
+        <item>кожен четвертий вівторок</item>
+        <item>кожен останній вівторок</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>кожну першу середу</item>
+        <item>кожну другу середу</item>
+        <item>кожну третю середу</item>
+        <item>кожну четверту середу</item>
+        <item>кожну останню середу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>кожен перший четвер</item>
+        <item>кожен другий четвер</item>
+        <item>кожен третій четвер</item>
+        <item>кожен четвертий четвер</item>
+        <item>кожен останній четвер</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>"кожну першу п'ятницю"</item>
+        <item>"кожну другу п'ятницю"</item>
+        <item>"кожну третю п'ятницю"</item>
+        <item>"кожну четверту п'ятницю"</item>
+        <item>"кожну останню п'ятницю"</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>кожну першу суботу</item>
+        <item>кожну другу суботу</item>
+        <item>кожну третю суботу</item>
+        <item>кожну четверту суботу</item>
+        <item>кожну останню суботу</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Сонячно</item>
+        <item>Переважно сонячно</item>
+        <item>Невелика хмарність</item>
+        <item>Мінлива хмарність</item>
+        <item>Сонячно з легкою хмарністю</item>
+        <item>Значна хмарність</item>
+        <item>Хмарно</item>
+        <item>Похмуро</item>
+        <item>Туман</item>
+        <item>Зливи</item>
+        <item>Значна хмарність зі зливами</item>
+        <item>Невелика хмарність зі зливами</item>
+        <item>Гроза</item>
+        <item>Значна хмарність із грозовими дощами</item>
+        <item>Невелика хмарність із грозовими дощами</item>
+        <item>Дощ</item>
+        <item>Сильні пориви вітру</item>
+        <item>Значна хмарність та сильні пориви вітру</item>
+        <item>Невелика хмарність, сильні пориви вітру</item>
+        <item>Сніг</item>
+        <item>Значна хмарність зі снігом</item>
+        <item>Ожеледь</item>
+        <item>Сльота</item>
+        <item>Дощ з утворенням ожеледі</item>
+        <item>Дощ зі снігом</item>
+        <item>Спекотно</item>
+        <item>Холодно</item>
+        <item>Вітряно</item>
+        <item>Безхмарно</item>
+        <item>Переважно безхмарно</item>
+        <item>Мінлива хмарність</item>
+        <item>Мінлива хмарність</item>
+        <item>Похмуро</item>
+        <item>Значна хмарність</item>
+        <item>Мінлива хмарність зі зливами</item>
+        <item>Значна хмарність зі зливами</item>
+        <item>Мінлива хмарність із грозою та зливою</item>
+        <item>Значна хмарність із грозовими дощами</item>
+        <item>Значна хмарність та сильні пориви вітру</item>
+        <item>Значна хмарність та сильні пориви вітру</item>
+        <item>Гроза з дощем і снігом</item>
+        <item>Пісок</item>
+        <item>Пил</item>
+        <item>Торнадо</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Малий</item>
+        <item>Середній</item>
+        <item>Великий</item>
+        <item>Надвеликий</item>
+        <item>Дуже великий</item>
+    </string-array>
+</resources>

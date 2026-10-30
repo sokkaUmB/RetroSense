@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.retrosense.lib1.cc.widget.HtcShareSlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" sothree:panelHeight="@dimen/collapsedHeight_htcShareActivity" sothree:shadowHeight="0.0dp" sothree:paralaxOffset="0.0dp" sothree:fadeColor="@android:color/transparent" sothree:dragView="@id/dragView" sothree:initialState="collapsed"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/main" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dragView" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+        <TextView android:gravity="left|center" android:id="@id/title" android:paddingLeft="@dimen/margin_l" android:paddingRight="@dimen/margin_l" android:layout_width="match_parent" android:layout_height="@dimen/headerHeight_htcShareActivity" android:text="@string/common_string_share_title" style="@style/fixed_title_primary_m" />
+        <com.retrosense.lib1.cc.widget.HtcShareGridView android:id="@id/gridview" android:background="#252525" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchMode="spacingWidthUniform" android:columnWidth="@dimen/width_shareGridItem" android:numColumns="@integer/columnNum_htcShareActivity" android:importantForAccessibility="yes" style="@style/HtcGridView.Dark" />
+    </LinearLayout>
+</com.retrosense.lib1.cc.widget.HtcShareSlidingUpPanelLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Iga %1$d nädala järel: %2$s</item>
+        <item quantity="one">Iga nädal: %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d korda</item>
+        <item quantity="one">üks kord</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">%d päeva tagant</item>
+        <item quantity="one">%d päeva tagant</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">%d nädala tagant</item>
+        <item quantity="one">%d nädala tagant</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">%d kuu tagant</item>
+        <item quantity="one">%d kuu tagant</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">%d aasta tagant</item>
+        <item quantity="one">%d aasta tagant</item>
+    </plurals>
+</resources>

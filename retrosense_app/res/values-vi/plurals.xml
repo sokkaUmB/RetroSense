@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Mỗi %1$d tuần vào %2$s</item>
+        <item quantity="one">Hàng tuần vào %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d lần</item>
+        <item quantity="one">một lần</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Mỗi %d ngày</item>
+        <item quantity="one">Mỗi %d ngày</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Mỗi %d tuần</item>
+        <item quantity="one">Mỗi %d tuần</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Mỗi %d tháng</item>
+        <item quantity="one">Mỗi %d tháng</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Mỗi %d năm</item>
+        <item quantity="one">Mỗi %d năm</item>
+    </plurals>
+</resources>

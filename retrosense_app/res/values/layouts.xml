@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <layout name="zero_dummy_layout">@layout/alert_dialog</layout>
+</resources>

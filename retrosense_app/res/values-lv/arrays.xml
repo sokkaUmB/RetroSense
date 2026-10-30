@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>katrā pirmajā svētdienā</item>
+        <item>katrā otrajā svētdienā</item>
+        <item>katrā trešajā svētdienā</item>
+        <item>katrā ceturtajā svētdienā</item>
+        <item>katrā pēdējā svētdienā</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>katrā pirmajā pirmdienā</item>
+        <item>katrā otrajā pirmdienā</item>
+        <item>katrā trešajā pirmdienā</item>
+        <item>katrā ceturtajā pirmdienā</item>
+        <item>katrā pēdējā pirmdienā</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>katrā pirmajā otrdienā</item>
+        <item>katrā otrajā otrdienā</item>
+        <item>katrā trešajā otrdienā</item>
+        <item>katrā ceturtajā otrdienā</item>
+        <item>katrā pēdējā otrdienā</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>katrā pirmajā trešdienā</item>
+        <item>katrā otrajā trešdienā</item>
+        <item>katrā trešajā trešdienā</item>
+        <item>katrā ceturtajā trešdienā</item>
+        <item>katrā pēdējā trešdienā</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>katrā pirmajā ceturtdienā</item>
+        <item>katrā otrajā ceturtdienā</item>
+        <item>katrā trešajā ceturtdienā</item>
+        <item>katrā ceturtajā ceturtdienā</item>
+        <item>katrā pēdējā ceturtdienā</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>katrā pirmajā piektdienā</item>
+        <item>katrā otrajā piektdienā</item>
+        <item>katrā trešajā piektdienā</item>
+        <item>katrā ceturtajā piektdienā</item>
+        <item>katrā pēdējā piektdienā</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>katrā pirmajā sestdienā</item>
+        <item>katrā otrajā sestdienā</item>
+        <item>katrā trešajā sestdienā</item>
+        <item>katrā ceturtajā sestdienā</item>
+        <item>katrā pēdējā sestdienā</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Saulains</item>
+        <item>Galvenokārt saulains</item>
+        <item>Daļēji saulains</item>
+        <item>Brīžiem mākoņains</item>
+        <item>Miglaina saule</item>
+        <item>Galvenokārt mākoņains</item>
+        <item>Mākoņains</item>
+        <item>Apmācies</item>
+        <item>Migla</item>
+        <item>Lietusgāzes</item>
+        <item>Galvenokārt mākoņains ar lietusgāzēm</item>
+        <item>Daļēji saulains ar lietusgāzēm</item>
+        <item>Pērkona negaisi</item>
+        <item>Galvenokārt mākoņains ar lietusgāzēm</item>
+        <item>Daļēji saulains ar lietusgāzēm</item>
+        <item>Lietus</item>
+        <item>Vēja brāzmas</item>
+        <item>Galvenokārt mākoņains ar vēja brāzmām</item>
+        <item>Daļēji saulains ar vēja brāzmām</item>
+        <item>Sniegs</item>
+        <item>Galvenokārt mākoņains ar sniegu</item>
+        <item>Ledus</item>
+        <item>Slapjdraņķis</item>
+        <item>Stindzinošs lietus</item>
+        <item>Lietus ar sniegu</item>
+        <item>Karsts</item>
+        <item>Auksts</item>
+        <item>Vējains</item>
+        <item>Skaidrs</item>
+        <item>Galvenokārt skaidrs</item>
+        <item>Daļēji mākoņains</item>
+        <item>Brīžiem mākoņains</item>
+        <item>Miglains</item>
+        <item>Galvenokārt mākoņains</item>
+        <item>Daļēji mākoņains ar lietusgāzēm</item>
+        <item>Galvenokārt mākoņains ar lietusgāzēm</item>
+        <item>Daļēji mākoņains ar pērkona negaisa lietusgāzēm</item>
+        <item>Galvenokārt mākoņains ar lietusgāzēm</item>
+        <item>Daļēji mākoņains ar vēja brāzmām</item>
+        <item>Galvenokārt mākoņains ar vēja brāzmām</item>
+        <item>Pērkona negaisi ar slapjdraņķi</item>
+        <item>Smiltis</item>
+        <item>Putekļi</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Mazs</item>
+        <item>Vidēji</item>
+        <item>Liels</item>
+        <item>Īpaši liels</item>
+        <item>Milzīgs</item>
+    </string-array>
+</resources>

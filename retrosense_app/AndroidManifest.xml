@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.retrosense.clock">
+    <application android:icon="@drawable/icon_launcher_world_clock" android:label="@string/weather_clock_widget">
+        <service android:name="com.retrosense.clock.util.WidgetService"/>
+        <receiver android:icon="@drawable/preview_clock_weather_half" android:label="@string/widget_flip_clock" android:name="com.retrosense.clock.WeatherClock4x2" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/weather_clock_4x2"/>
+            <meta-data android:name="com.retrosense.launcher.widget_metadata.vendor" android:value="RetroSense"/>
+            <meta-data android:name="com.retrosense.launcher.widget_metadata.editable" android:value="true"/>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.retrosense.clock.util.WidgetReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.retrosense.clock.action.MINUTE_TICK"/>
+                <action android:name="com.retrosense.clock.action.TRIGGER_WEATHER_DATA"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.retrosense.app.autosetting.location"/>
+                <action android:name="com.retrosense.app.autosetting.cancel"/>
+                <action android:name="com.retrosense.sync.provider.weather.NOTIFY_AUTOSYNC_AGENT"/>
+                <action android:name="com.retrosense.intent.action.TIMEFORMAT_CHANGED"/>
+                <action android:name="com.retrosense.sync.provider.weather.trigger.weatherwidget"/>
+                <category android:name="trigger_widget_update"/>
+                <action android:name="com.retrosense.Weather.delete_current_location"/>
+                <action android:name="com.retrosense.sync.provider.weather.SETTINGS_UPDATED"/>
+                <category android:name="com.retrosense.sync.provider.weather.setting.temperatureunit"/>
+                <action android:name="android.location.PROVIDERS_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="com.retrosense.intent.action.HOME_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+                <activity android:name="com.retrosense.clock.setting.ConfigWeatherClock4x2" android:screenOrientation="unspecified" android:theme="@style/custom_style" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.retrosense.clock.setting.HtcClockSetting" android:screenOrientation="unspecified" android:theme="@style/custom_style"/>
+        <meta-data android:name="senseVersion" android:value="Sense 7.0"/>
+        <meta-data android:name="srcChangelist" android:value="497815"/>
+        <meta-data android:name="BuildTime" android:value="-1781834458"/>
+        <meta-data android:name="HDK_Lib1_API19_Sense60_Stable" android:value="19.Sense60.386569"/>
+        <meta-data android:name="HDK_Lib0_API19_1_Stable" android:value="19.1.363503"/>
+        <activity android:name="com.retrosense.lib1.cc.app.HtcShareActivity" android:theme="@style/ThemeHtcShareActivity"/>
+        <meta-data android:name="hdkapi_weather" android:value="1.0.0"/>
+        <activity android:name="com.retrosense.clock.modern.RetroSenseBridge$RefreshActivity" android:exported="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.retrosense.clock.modern.RetroSenseBridge$WeatherLaunchActivity" android:exported="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.retrosense.clock.modern.RetroSenseBridge$CompanionActivity" android:exported="true" android:icon="@drawable/icon_launcher_world_clock" android:label="RetroSense" android:theme="@android:style/Theme.DeviceDefault.DayNight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <queries>
+        <package android:name="com.nothing.weather"/>
+        <package android:name="com.google.android.apps.weather"/>
+        <package android:name="com.sec.android.daemonapp"/>
+        <package android:name="com.miui.weather2"/>
+        <package android:name="com.accuweather.android"/>
+        <package android:name="it.meteo.android.app"/>
+        <package android:name="com.ilmeteo.android"/>
+        <package android:name="de.wetteronline.wetterapp"/>
+        <package android:name="com.weather.Weather"/>
+        <package android:name="com.windyty.app"/>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent>
+    </queries>
+</manifest>

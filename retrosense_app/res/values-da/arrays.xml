@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>til hver første søndag</item>
+        <item>til hver anden søndag</item>
+        <item>til hver tredje søndag</item>
+        <item>til hver fjerde søndag</item>
+        <item>til hver sidste søndag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>til hver første mandag</item>
+        <item>til hver anden mandag</item>
+        <item>til hver tredje mandag</item>
+        <item>til hver fjerde mandag</item>
+        <item>til hver sidste mandag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>til hver første tirsdag</item>
+        <item>til hver anden tirsdag</item>
+        <item>til hver tredje tirsdag</item>
+        <item>til hver fjerde tirsdag</item>
+        <item>til hver sidste tirsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>til hver første onsdag</item>
+        <item>til hver anden onsdag</item>
+        <item>til hver tredje onsdag</item>
+        <item>til hver fjerde onsdag</item>
+        <item>til hver sidste onsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>til hver første torsdag</item>
+        <item>til hver anden torsdag</item>
+        <item>til hver tredje torsdag</item>
+        <item>til hver fjerde torsdag</item>
+        <item>til hver sidste torsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>til hver første fredag</item>
+        <item>til hver anden fredag</item>
+        <item>til hver tredje fredag</item>
+        <item>til hver fjerde fredag</item>
+        <item>til hver sidste fredag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>til hver første lørdag</item>
+        <item>til hver anden lørdag</item>
+        <item>til hver tredje lørdag</item>
+        <item>til hver fjerde lørdag</item>
+        <item>til hver sidste lørdag</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Solrigt</item>
+        <item>Mest sol</item>
+        <item>Delvis sol</item>
+        <item>Varierende skydække</item>
+        <item>Delvis overskyet</item>
+        <item>Mest skyet</item>
+        <item>Overskyet</item>
+        <item>Gråvejr</item>
+        <item>Tåge</item>
+        <item>Byger</item>
+        <item>Mest skyet med byger</item>
+        <item>Delvis sol med byger</item>
+        <item>Torden</item>
+        <item>Mest skyet med torden</item>
+        <item>Delvis sol med torden</item>
+        <item>Regn</item>
+        <item>Snebyger</item>
+        <item>Mest skyet med snebyger</item>
+        <item>Delvis sol med snebyger</item>
+        <item>Sne</item>
+        <item>Mest skyet med sne</item>
+        <item>Is</item>
+        <item>Slud</item>
+        <item>Isslag</item>
+        <item>Regn blandet med sne</item>
+        <item>Varmt</item>
+        <item>Koldt</item>
+        <item>Blæsende</item>
+        <item>Klart</item>
+        <item>Mest klart</item>
+        <item>Delvis skyet</item>
+        <item>Varierende skydække</item>
+        <item>Diset</item>
+        <item>Mest skyet</item>
+        <item>Delvis skyet med byger</item>
+        <item>Mest skyet med byger</item>
+        <item>Delvis skyet med tordenbyger</item>
+        <item>Mest skyet med torden</item>
+        <item>Delvist skyet med snebyger</item>
+        <item>Mest skyet med snebyger</item>
+        <item>Torden med slud</item>
+        <item>Sand</item>
+        <item>Støv</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Lille</item>
+        <item>Medium</item>
+        <item>Stor</item>
+        <item>Ekstra stor</item>
+        <item>Kæmpestor</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Joka %1$d viikko %2$s</item>
+        <item quantity="one">Viikoittain %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d kertaa</item>
+        <item quantity="one">yksi kerta</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Joka %d päivä</item>
+        <item quantity="one">Joka %d päivä</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Joka %d viikko</item>
+        <item quantity="one">Joka %d viikko</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Joka %d kuukausi</item>
+        <item quantity="one">Joka %d kuukausi</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Joka %d vuosi</item>
+        <item quantity="one">Joka %d vuosi</item>
+    </plurals>
+</resources>

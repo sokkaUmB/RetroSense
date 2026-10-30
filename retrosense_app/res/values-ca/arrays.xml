@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>cada primer diumenge</item>
+        <item>cada segon diumenge</item>
+        <item>cada tercer diumenge</item>
+        <item>cada quart diumenge</item>
+        <item>cada darrer diumenge</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>cada primer dilluns</item>
+        <item>cada segon dilluns</item>
+        <item>cada tercer dilluns</item>
+        <item>cada quart dilluns</item>
+        <item>cada darrer dilluns</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>cada primer dimarts</item>
+        <item>cada segon dimarts</item>
+        <item>cada tercer dimarts</item>
+        <item>cada quart dimarts</item>
+        <item>cada darrer dimarts</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>cada primer dimecres</item>
+        <item>cada segon dimecres</item>
+        <item>cada tercer dimecres</item>
+        <item>cada quart dimecres</item>
+        <item>cada darrer dimecres</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>cada primer dijous</item>
+        <item>cada segon dijous</item>
+        <item>cada tercer dijous</item>
+        <item>cada quart dijous</item>
+        <item>cada darrer dijous</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>cada primer divendres</item>
+        <item>cada segon divendres</item>
+        <item>cada tercer divendres</item>
+        <item>cada quart divendres</item>
+        <item>cada darrer divendres</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>cada primer dissabte</item>
+        <item>cada segon dissabte</item>
+        <item>cada tercer dissabte</item>
+        <item>cada quart dissabte</item>
+        <item>cada darrer dissabte</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Sol</item>
+        <item>Principalment assolellat</item>
+        <item>Parcialment assolellat</item>
+        <item>Intervals de núvols</item>
+        <item>Sol amb cel enteranyinat</item>
+        <item>Principalment ennuvolat</item>
+        <item>Núvols</item>
+        <item>Rúfol</item>
+        <item>Boira</item>
+        <item>Ruixats</item>
+        <item>Principalment ennuvolat amb ruixats</item>
+        <item>Parcialment assolellat amb ruixats</item>
+        <item>Tempestes</item>
+        <item>Principalment ennuvolat amb tempestes</item>
+        <item>Parcialment assolellat amb tempestes</item>
+        <item>Pluja</item>
+        <item>Ruixats de neu</item>
+        <item>Principalment ennuvolat amb ruixats de neu</item>
+        <item>Parcialment assolellat amb ruixats de neu</item>
+        <item>Neu</item>
+        <item>Principalment ennuvolat amb neu</item>
+        <item>Gel</item>
+        <item>Aiguaneu</item>
+        <item>Pluja gelant</item>
+        <item>Pluja i neu</item>
+        <item>Càlid</item>
+        <item>Fred</item>
+        <item>Ventós</item>
+        <item>Serè</item>
+        <item>Principalment clar</item>
+        <item>Parcialment ennuvolat</item>
+        <item>Intervals de núvols</item>
+        <item>Cel enteranyinat</item>
+        <item>Principalment ennuvolat</item>
+        <item>Parcialment ennuvolat amb ruixats</item>
+        <item>Principalment ennuvolat amb ruixats</item>
+        <item>Parcialment ennuvolat amb tempestes</item>
+        <item>Principalment ennuvolat amb tempestes</item>
+        <item>Parcialment ennuvolat amb ruixats de neu</item>
+        <item>Principalment ennuvolat amb ruixats de neu</item>
+        <item>Tempestes amb aiguaneu</item>
+        <item>Sorra</item>
+        <item>Pols</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Petita</item>
+        <item>Mitjana</item>
+        <item>Gran</item>
+        <item>Extra gran</item>
+        <item>Enorme</item>
+    </string-array>
+</resources>

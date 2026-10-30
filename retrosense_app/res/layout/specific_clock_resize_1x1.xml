@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:paddingLeft="@dimen/widget_padding" android:paddingRight="@dimen/widget_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/accessibility_analog_clock" style="@style/widget_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/city_name" android:layout_width="match_parent" android:layout_height="@dimen/resizeclock_citytext_height" android:maxLines="@string/resizeclock_citytext_max_lines" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/resizeclock_citytext_line_spacing" style="@style/fixed_analog_clock_a_13" />
+    <RelativeLayout android:id="@id/resize_clock" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/resizeclock_small_margin_top" android:layout_marginBottom="@dimen/resizeclock_small_margin_bottom">
+        <ImageView android:id="@id/dial_panel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/resizeclock_half_ampm_text_size" android:textStyle="bold" android:id="@id/am_pm" android:paddingTop="@dimen/resizeclock_half_ampm_padding_top" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="sans-serif-condensed" />
+        <TextView android:textSize="@dimen/resizeclock_half_center_line_text_size" android:ellipsize="marquee" android:gravity="right" android:id="@id/center_line" android:paddingTop="@dimen/resizeclock_half_center_line_padding_top" android:paddingRight="@dimen/resizeclock_half_center_line_padding_right" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:fontFamily="sans-serif-condensed" />
+        <include android:id="@id/analog_clock" layout="@layout/specific_clock_resize_1x1_analog" />
+    </RelativeLayout>
+</RelativeLayout>

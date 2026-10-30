@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">На всеки %1$d седмици в/във %2$s</item>
+        <item quantity="one">Седмично в %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d пъти</item>
+        <item quantity="one">веднъж</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">На %d дни</item>
+        <item quantity="one">Всеки %d ден</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">На %d седмици</item>
+        <item quantity="one">Всяка %d седмица</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">На %d месеца</item>
+        <item quantity="one">Всеки %d месец</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">На %d години</item>
+        <item quantity="one">Всяка %d година</item>
+    </plurals>
+</resources>

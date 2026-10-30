@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="@dimen/todayinfo_padding_left_right" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/weather_clock_4x2_info_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@id/week_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/week_day_margin_top" android:singleLine="true" android:includeFontPadding="false" style="@style/weather_clock_week_date" />
+    <TextView android:ellipsize="marquee" android:id="@id/holiday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/week_day_margin_top" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/week_date" style="@style/weather_clock_week_date" />
+    <TextView android:ellipsize="marquee" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cityname_margin_top" android:singleLine="true" android:includeFontPadding="false" style="@style/weather_clock_city_name" />
+    <TextView android:ellipsize="marquee" android:id="@id/condition_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/crossview_margin_top" android:singleLine="true" android:includeFontPadding="false" style="@style/weather_clock_condition" />
+</RelativeLayout>

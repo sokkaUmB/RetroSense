@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>ทุกวันอาทิตย์แรก</item>
+        <item>ทุกวันอาทิตย์ที่สอง</item>
+        <item>ทุกวันอาทิตย์ที่สาม</item>
+        <item>ทุกวันอาทิตย์ที่สี่</item>
+        <item>ทุกวันเสาร์สุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ทุกวันจันทร์แรก</item>
+        <item>ทุกวันจันทร์ที่สอง</item>
+        <item>ทุกวันจันทร์ที่สาม</item>
+        <item>ทุกวันจันทร์ที่สี่</item>
+        <item>ทุกวันจันทร์สุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ทุกวันอังคารแรก</item>
+        <item>ทุกวันอังคารที่สอง</item>
+        <item>ทุกวันอังคารที่สาม</item>
+        <item>ทุกวันอังคารที่สี่</item>
+        <item>ทุกวันอังคารสุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ทุกวันพุธแรก</item>
+        <item>ทุกวันพุธที่สอง</item>
+        <item>ทุกวันพุธที่สาม</item>
+        <item>ทุกวันพุธที่สี่</item>
+        <item>ทุกวันพุธสุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ทุกวันพฤหัสบดีแรก</item>
+        <item>ทุกวันพฤหัสบดีที่สอง</item>
+        <item>ทุกวันพฤหัสบดีที่สาม</item>
+        <item>ทุกวันพฤหัสบดีที่สี่</item>
+        <item>ทุกวันพฤหัสบดีสุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ทุกวันศุกร์แรก</item>
+        <item>ทุกวันศุกร์ที่สอง</item>
+        <item>ทุกวันศุกร์ที่สาม</item>
+        <item>ทุกวันศุกร์ที่สี่</item>
+        <item>ทุกวันศุกร์สุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ทุกวันเสาร์แรก</item>
+        <item>ทุกวันเสาร์ที่สอง</item>
+        <item>ทุกวันเสาร์ที่สาม</item>
+        <item>ทุกวันเสาร์ที่สี่</item>
+        <item>ทุกวันเสาร์สุดท้าย</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>มีแสงแดดมาก</item>
+        <item>ส่วนใหญ่มีแสงแดด</item>
+        <item>มีแสงแดดบางพื้นที่</item>
+        <item>มีเมฆไม่สม่ำเสมอ</item>
+        <item>แสงแดดสลัว</item>
+        <item>มีเมฆเป็นส่วนมาก</item>
+        <item>มีเมฆมาก</item>
+        <item>มืดครึ้ม</item>
+        <item>มีหมอก</item>
+        <item>มีฝนตกปรอยๆ</item>
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item>
+        <item>มีแดดและฝนตกเล็กน้อยบางพื้นที่</item>
+        <item>มีพายุ</item>
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item>
+        <item>มีแดดบางส่วนและฝนฟ้าคะนอง</item>
+        <item>มีฝนตก</item>
+        <item>มีฝนตกปรอยๆ</item>
+        <item>มีเมฆมากและฝนตกปรอยๆ</item>
+        <item>มีแดดบางส่วนและฝนตกปรอยๆ</item>
+        <item>มีหิมะตก</item>
+        <item>มีเมฆมากและหิมะตก</item>
+        <item>มีน้ำแข็งเกาะ</item>
+        <item>มีฝนลูกเห็บ</item>
+        <item>มีฝนตกเป็นน้ำแข็ง</item>
+        <item>มีฝนปนหิมะตก</item>
+        <item>อากาศร้อน</item>
+        <item>อากาศเย็น</item>
+        <item>มีลมกระโชกแรง</item>
+        <item>อากาศปลอดโปร่ง</item>
+        <item>ท้องฟ้าโปร่ง</item>
+        <item>มีเมฆบางส่วน</item>
+        <item>มีเมฆไม่สม่ำเสมอ</item>
+        <item>มีหมอกมาก</item>
+        <item>มีเมฆเป็นส่วนมาก</item>
+        <item>มีเมฆบางส่วนและฝนตกโปรยปราย</item>
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item>
+        <item>มีเมฆบางส่วนและฝนฟ้าคะนอง</item>
+        <item>มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ</item>
+        <item>มีเมฆบางส่วนและฝนตกปรอยๆ</item>
+        <item>มีเมฆมากและฝนตกปรอยๆ</item>
+        <item>พายุฟ้าคะนองและมีลูกเห็บ</item>
+        <item>หาดทราย</item>
+        <item>ฝุ่นละออง</item>
+        <item>พายุทอร์นาโด</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>เล็ก</item>
+        <item>กลาง</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่พิเศษ</item>
+        <item>ขนาดใหญ่</item>
+    </string-array>
+</resources>

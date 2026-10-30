@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/todaytempview_margin_top" android:paddingRight="@dimen/todayinfo_padding_left_right" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/weather_clock_4x2_temp_layout_params"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" style="@style/weather_clock_4x2_curr_temp_layout_params">
+        <TextView android:id="@id/temparature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/temparature_margin_top" android:includeFontPadding="false" style="@style/weather_clock_temperature" />
+        <TextView android:id="@id/temparature_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/temparature_degree_margin_top" android:includeFontPadding="false" style="@style/weather_clock_temperature_degree" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/high_low_temp" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/high_low_temp_margin_left" style="@style/weather_clock_4x2_high_low_temp_layout_params">
+        <TextView android:id="@id/high_temparature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/weather_clock_high_low_temp" />
+        <TextView android:id="@id/high_temparature_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlow_temp_degree_margin_top" android:includeFontPadding="false" style="@style/weather_clock_high_low_temp_degree" />
+        <TextView android:id="@id/temparature_seperator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slash" android:includeFontPadding="false" style="@style/weather_clock_high_low_temp" />
+        <TextView android:id="@id/low_temparature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/low_temp_margin_top" android:includeFontPadding="false" style="@style/weather_clock_high_low_temp" />
+        <TextView android:id="@id/low_temparature_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/highlow_temp_degree_margin_top" android:includeFontPadding="false" style="@style/weather_clock_high_low_temp_degree" />
+    </LinearLayout>
+</LinearLayout>

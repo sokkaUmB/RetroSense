@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>el primer domingo de cada mes</item>
+        <item>el segundo domingo de cada mes</item>
+        <item>el tercer domingo de cada mes</item>
+        <item>el cuarto domingo de cada mes</item>
+        <item>el último domingo de cada mes</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>el primer lunes de cada mes</item>
+        <item>el segundo lunes de cada mes</item>
+        <item>el tercer lunes de cada mes</item>
+        <item>el cuarto lunes de cada mes</item>
+        <item>el último lunes de cada mes</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>el primer martes de cada mes</item>
+        <item>el segundo martes de cada mes</item>
+        <item>el tercer martes de cada mes</item>
+        <item>el cuarto martes de cada mes</item>
+        <item>el último martes de cada mes</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>el primer miér. de cada mes</item>
+        <item>segundo miércoles de cada mes</item>
+        <item>tercer miércoles de cada mes</item>
+        <item>cuarto miércoles de cada mes</item>
+        <item>último miércoles de cada mes</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>el primer jueves de cada mes</item>
+        <item>el segundo jueves de cada mes</item>
+        <item>el tercer jueves de cada mes</item>
+        <item>el cuarto jueves de cada mes</item>
+        <item>el último jueves de cada mes</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>el primer viernes de cada mes</item>
+        <item>el segundo viernes de cada mes</item>
+        <item>el tercer viernes de cada mes</item>
+        <item>el cuarto viernes de cada mes</item>
+        <item>el último viernes de cada mes</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>el primer sábado de cada mes</item>
+        <item>el segundo sábado de cada mes</item>
+        <item>el tercer sábado de cada mes</item>
+        <item>el cuarto sábado de cada mes</item>
+        <item>el último sábado de cada mes</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Soleado</item>
+        <item>Despejado</item>
+        <item>Parcialmente soleado</item>
+        <item>Intervalos nubosos</item>
+        <item>Nubes con claros</item>
+        <item>Nuboso</item>
+        <item>Nublado</item>
+        <item>Frío y sombrío</item>
+        <item>Niebla</item>
+        <item>Precipitaciones</item>
+        <item>Intervalos nubosos con precipitaciones</item>
+        <item>Parcialmente soleado con precipitaciones</item>
+        <item>Tormentas</item>
+        <item>Intervalos nubosos con tormentas</item>
+        <item>Parcialmente soleado con tormentas</item>
+        <item>Lluvia</item>
+        <item>Ráfagas</item>
+        <item>Intervalos nubosos con ráfagas</item>
+        <item>Parcialmente soleado con ráfagas</item>
+        <item>Nieve</item>
+        <item>Intervalos nubosos con nieve</item>
+        <item>Hielo</item>
+        <item>Aguanieve</item>
+        <item>Lluvia congelada</item>
+        <item>Lluvia y nieve</item>
+        <item>Calor</item>
+        <item>Frío</item>
+        <item>Vientos</item>
+        <item>Despejado</item>
+        <item>Claros</item>
+        <item>Parcialmente nuboso</item>
+        <item>Intervalos nubosos</item>
+        <item>Bruma</item>
+        <item>Nuboso</item>
+        <item>Parcialmente nuboso con precipitaciones</item>
+        <item>Intervalos nubosos con precipitaciones</item>
+        <item>Parcialmente nuboso con tormentas</item>
+        <item>Intervalos nubosos con tormentas</item>
+        <item>Parcialmente nublado con ráfagas</item>
+        <item>Intervalos nubosos con ráfagas</item>
+        <item>Tormentas con aguanieve</item>
+        <item>Arena</item>
+        <item>Polvo</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Pequeño</item>
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>Extra grande</item>
+        <item>Enorme</item>
+    </string-array>
+</resources>

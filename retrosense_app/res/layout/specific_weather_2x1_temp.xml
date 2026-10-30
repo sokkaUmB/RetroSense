@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/accessibility_weather"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/temparature" android:paddingLeft="@dimen/weather_temp_margin_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/digitalclock_divider_margin_left_right" android:layout_marginTop="@dimen/weather_temp_margin_top" android:includeFontPadding="false" style="@style/fixed_widget_weather_02" />
+    <TextView android:id="@id/temparature_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_temp_degree_margin_top" android:includeFontPadding="false" android:layout_toRightOf="@id/temparature" style="@style/fixed_widget_weather_06" />
+    <LinearLayout android:id="@id/high_low_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_highlow_margin_top" style="@style/widget_2x1_high_low_temp_layout_params">
+        <TextView android:id="@id/high_temparature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/weather_high_low_temp" />
+        <TextView android:id="@id/high_temparature_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_highlow_degree_margin_top" android:includeFontPadding="false" style="@style/weather_high_low_temp_degree" />
+        <TextView android:id="@id/temparature_seperator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slash" android:includeFontPadding="false" style="@style/weather_high_low_temp" />
+        <TextView android:id="@id/low_temparature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/weather_high_low_temp" />
+        <TextView android:id="@id/low_temparature_degree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_highlow_degree_margin_top" android:includeFontPadding="false" style="@style/weather_high_low_temp_degree" />
+    </LinearLayout>
+</RelativeLayout>

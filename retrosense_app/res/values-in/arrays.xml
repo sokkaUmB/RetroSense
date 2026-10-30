@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>pada tiap hari Minggu pertama</item>
+        <item>pada tiap hari Minggu kedua</item>
+        <item>pada tiap hari Minggu ketiga</item>
+        <item>pada tiap hari Minggu keempat</item>
+        <item>pada tiap hari Minggu terakhir</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>pada tiap Senin pertama</item>
+        <item>pada tiap Senin kedua</item>
+        <item>pada tiap Senin ketiga</item>
+        <item>pada tiap Senin keempat</item>
+        <item>pada tiap Senin terakhir</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>pada tiap Selasa pertama</item>
+        <item>pada tiap Selasa kedua</item>
+        <item>pada tiap Selasa ketiga</item>
+        <item>pada tiap Selasa keempat</item>
+        <item>pada tiap Selasa terakhir</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>pada tiap Rabu pertama</item>
+        <item>pada tiap Rabu kedua</item>
+        <item>pada tiap Rabu ketiga</item>
+        <item>pada tiap Rabu keempat</item>
+        <item>pada tiap Rabu terakhir</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>pada tiap Kamis pertama</item>
+        <item>pada tiap Kamis kedua</item>
+        <item>pada tiap Kamis ketiga</item>
+        <item>pada tiap Kamis keempat</item>
+        <item>pada tiap Kamis terakhir</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>pada tiap Jumat pertama</item>
+        <item>pada tiap Jumat kedua</item>
+        <item>pada tiap Jumat ketiga</item>
+        <item>pada tiap Jumat keempat</item>
+        <item>pada tiap Jumat terakhir</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>pada tiap Sabtu pertama</item>
+        <item>pada tiap Sabtu kedua</item>
+        <item>pada tiap Sabtu ketiga</item>
+        <item>pada tiap Sabtu keempat</item>
+        <item>pada tiap Sabtu terakhir</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Panas Cerah</item>
+        <item>Sebagian Besar Panas Cerah</item>
+        <item>Sebagian Panas Cerah</item>
+        <item>Awan Tidak Merata</item>
+        <item>Sinar Matahari Berkabut</item>
+        <item>Sebagian Besar Berawan</item>
+        <item>Berawan</item>
+        <item>Suram</item>
+        <item>Kabut</item>
+        <item>Hujan rintik-rintik</item>
+        <item>Sebagian Besar Berawan dengan Hujan Rintik-rintik</item>
+        <item>Sebagian Panas Cerah dengan Hujan Rintik</item>
+        <item>Hujan badai</item>
+        <item>Sebagian Besar Berawan dengan Hujan Rintik-rintik dan Guntur</item>
+        <item>Sebagian Panas Cerah dengan Hujan Rintik dan Guntur</item>
+        <item>Hujan</item>
+        <item>Sedikit Salju</item>
+        <item>Sebagian Besar Berawan dengan Sedikit Salju</item>
+        <item>Sebagian Panas Cerah dengan Sedikit Salju</item>
+        <item>Salju</item>
+        <item>Sebagian Besar Berawan bercampur Salju</item>
+        <item>Es</item>
+        <item>Hujan es dan salju</item>
+        <item>Hujan Membeku</item>
+        <item>Hujan bercampur Salju</item>
+        <item>Panas</item>
+        <item>Dingin</item>
+        <item>Berangin</item>
+        <item>Cerah</item>
+        <item>Sebagian Besar Cerah</item>
+        <item>Berawan Sebagian</item>
+        <item>Awan Tidak Merata</item>
+        <item>Berkabut</item>
+        <item>Sebagian Besar Berawan</item>
+        <item>Sebagian Berawan dengan Hujan Rintik-rintik</item>
+        <item>Sebagian Besar Berawan dengan Hujan Rintik-rintik</item>
+        <item>Berawan Sebagian dengan Hujan Guntur</item>
+        <item>Sebagian Besar Berawan dengan Hujan Rintik-rintik dan Guntur</item>
+        <item>Sebagian Berawan dengan Sedikit Salju</item>
+        <item>Sebagian Besar Berawan dengan Sedikit Salju</item>
+        <item>Hujan badai bercampur es</item>
+        <item>Pasir</item>
+        <item>Debu</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Kecil</item>
+        <item>Sedang</item>
+        <item>Besar</item>
+        <item>Ekstra besar</item>
+        <item>Sangat besar</item>
+    </string-array>
+</resources>

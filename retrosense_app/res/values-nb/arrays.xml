@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>på hver første søndag</item>
+        <item>på hver andre søndag</item>
+        <item>på hver tredje søndag</item>
+        <item>på hver fjerde søndag</item>
+        <item>på hver siste søndag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>på hver første mandag</item>
+        <item>på hver andre mandag</item>
+        <item>på hver tredje mandag</item>
+        <item>på hver fjerde mandag</item>
+        <item>på hver siste mandag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>på hver første tirsdag</item>
+        <item>på hver andre tirsdag</item>
+        <item>på hver tredje tirsdag</item>
+        <item>på hver fjerde tirsdag</item>
+        <item>på hver siste tirsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>på hver første onsdag</item>
+        <item>på hver andre onsdag</item>
+        <item>på hver tredje onsdag</item>
+        <item>på hver fjerde onsdag</item>
+        <item>på hver siste onsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>på hver første torsdag</item>
+        <item>på hver andre torsdag</item>
+        <item>på hver tredje torsdag</item>
+        <item>på hver fjerde torsdag</item>
+        <item>på hver siste torsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>på hver første fredag</item>
+        <item>på hver andre fredag</item>
+        <item>på hver tredje fredag</item>
+        <item>på hver fjerde fredag</item>
+        <item>på hver siste fredag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>på hver første lørdag</item>
+        <item>på hver andre lørdag</item>
+        <item>på hver tredje lørdag</item>
+        <item>på hver fjerde lørdag</item>
+        <item>på hver siste lørdag</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Sol</item>
+        <item>Sol for det meste</item>
+        <item>Delvis sol</item>
+        <item>Spredte skyer</item>
+        <item>Disig sol</item>
+        <item>For det meste skyet</item>
+        <item>Overskyet</item>
+        <item>Guffent</item>
+        <item>Tåke</item>
+        <item>Regnskurer</item>
+        <item>For det meste skyet med regnskurer</item>
+        <item>Delvis solfylt med regnskurer</item>
+        <item>Tordenvær</item>
+        <item>For det meste skyet med tordenskurer</item>
+        <item>Delvis solfylt med regnskurer</item>
+        <item>Regn</item>
+        <item>Sludd</item>
+        <item>For det meste skyet med sludd</item>
+        <item>Delvis solfylt med sludd</item>
+        <item>Snø</item>
+        <item>For det meste skyet med snø</item>
+        <item>Is</item>
+        <item>Sludd</item>
+        <item>Isregn</item>
+        <item>Regn og snø</item>
+        <item>Varmt</item>
+        <item>Kaldt</item>
+        <item>Vind</item>
+        <item>Klart</item>
+        <item>For det meste skyfritt</item>
+        <item>Delvis skyet</item>
+        <item>Spredte skyer</item>
+        <item>Disig</item>
+        <item>For det meste skyet</item>
+        <item>Delvis skyet med regnbyger</item>
+        <item>For det meste skyet med regnskurer</item>
+        <item>Delvis skyet med tordenskruer</item>
+        <item>For det meste skyet med tordenskurer</item>
+        <item>Delvis skyet med sludd</item>
+        <item>For det meste skyet med sludd</item>
+        <item>Tordenvær med sludd</item>
+        <item>Sand</item>
+        <item>Støv</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Liten</item>
+        <item>Middels</item>
+        <item>Stor</item>
+        <item>Ekstra stor</item>
+        <item>Kjempestor</item>
+    </string-array>
+</resources>

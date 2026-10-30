@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>a cada primeiro Domingo</item>
+        <item>a cada segundo Domingo</item>
+        <item>a cada terceiro Domingo</item>
+        <item>a cada quarto Domingo</item>
+        <item>a cada último Domingo</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>a cada primeira Segunda-Feira</item>
+        <item>a cada segunda Segunda-Feira</item>
+        <item>a cada terceira Segunda-Feira</item>
+        <item>a cada quarta Segunda-Feira</item>
+        <item>a cada última Segunda-Feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>a cada primeira Terça-Feira</item>
+        <item>a cada segunda Terça-Feira</item>
+        <item>a cada terceira Terça-Feira</item>
+        <item>a cada quarta Terça-Feira</item>
+        <item>a cada última Terça-Feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>a cada primeira Quarta-Feira</item>
+        <item>a cada segunda Quarta-Feira</item>
+        <item>a cada terceira Quarta-Feira</item>
+        <item>a cada quarta Quarta-Feira</item>
+        <item>a cada última Quarta-Feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>a cada primeira Quinta-Feira</item>
+        <item>a cada segunda Quinta-Feira</item>
+        <item>a cada terceira Quinta-Feira</item>
+        <item>a cada quarta Quinta-Feira</item>
+        <item>a cada última Quinta-Feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>a cada primeira Sexta-Feira</item>
+        <item>a cada segunda Sexta-Feira</item>
+        <item>a cada terceira Sexta-Feira</item>
+        <item>a cada quarta Sexta-Feira</item>
+        <item>a cada última Sexta-Feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>a cada primeiro Sábado</item>
+        <item>a cada segundo Sábado</item>
+        <item>a cada terceiro Sábado</item>
+        <item>a cada quarto Sábado</item>
+        <item>a cada último Sábado</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Céu limpo</item>
+        <item>Geralmente limpo</item>
+        <item>Pouco nublado</item>
+        <item>Nuvens passageiras</item>
+        <item>Neblina</item>
+        <item>Geralmente nublado</item>
+        <item>Nublado</item>
+        <item>Escuro</item>
+        <item>Nevoeiro</item>
+        <item>Aguaceiros</item>
+        <item>Geralmente nublado com aguaceiros</item>
+        <item>Pouco nublado com aguaceiros</item>
+        <item>Trovoada</item>
+        <item>Geralmente nublado com trovoada e aguaceiros</item>
+        <item>Pouco nublado com trovoada e aguaceiros</item>
+        <item>Chuva</item>
+        <item>Aguaceiros de neve</item>
+        <item>Geralmente nublado com aguaceiros de neve</item>
+        <item>Pouco nublado com aguaceiros de neve</item>
+        <item>Neve</item>
+        <item>Geralmente nublado com neve</item>
+        <item>Gelo</item>
+        <item>Neve de pouca intensidade</item>
+        <item>Saraiva</item>
+        <item>Mistura de chuva e neve</item>
+        <item>Calor</item>
+        <item>Frio</item>
+        <item>Vento</item>
+        <item>Limpo</item>
+        <item>Geralmente limpo</item>
+        <item>Pouco nublado</item>
+        <item>Nuvens passageiras</item>
+        <item>Enevoado</item>
+        <item>Geralmente nublado</item>
+        <item>Pouco nublado com aguaceiros</item>
+        <item>Geralmente nublado com aguaceiros</item>
+        <item>Pouco nublado com aguaceiros e trovoada</item>
+        <item>Geralmente nublado com trovoada e aguaceiros</item>
+        <item>Pouco nublado com aguaceiros de neve</item>
+        <item>Geralmente nublado com aguaceiros de neve</item>
+        <item>Trovoada com granizo</item>
+        <item>Areia</item>
+        <item>Poeira</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Pequeno</item>
+        <item>Média</item>
+        <item>Grande</item>
+        <item>Muito grande</item>
+        <item>Enorme</item>
+    </string-array>
+</resources>

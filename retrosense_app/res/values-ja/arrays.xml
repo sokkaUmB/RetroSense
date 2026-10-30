@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>毎月第一日曜日</item>
+        <item>毎月第二日曜日</item>
+        <item>毎月第三日曜日</item>
+        <item>毎月第四日曜日</item>
+        <item>毎月最終日曜日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>毎月第一月曜日</item>
+        <item>毎月第二月曜日</item>
+        <item>毎月第三月曜日</item>
+        <item>毎月第四月曜日</item>
+        <item>毎月最終月曜日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>毎月第一火曜日</item>
+        <item>毎月第二火曜日</item>
+        <item>毎月第三火曜日</item>
+        <item>毎月第四火曜日</item>
+        <item>毎月最終火曜日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>毎月第一水曜日</item>
+        <item>毎月第二水曜日</item>
+        <item>毎月第三水曜日</item>
+        <item>毎月第四水曜日</item>
+        <item>毎月最終水曜日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>毎月第一木曜日</item>
+        <item>毎月第二木曜日</item>
+        <item>毎月第三木曜日</item>
+        <item>毎月第四木曜日</item>
+        <item>毎月最終木曜日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>毎月第一金曜日</item>
+        <item>毎月第二金曜日</item>
+        <item>毎月第三金曜日</item>
+        <item>毎月第四金曜日</item>
+        <item>毎月最終金曜日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>毎月第一土曜日</item>
+        <item>毎月第二土曜日</item>
+        <item>毎月第三土曜日</item>
+        <item>毎月第四土曜日</item>
+        <item>毎月最終土曜日</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>晴れ</item>
+        <item>晴れ</item>
+        <item>晴れ</item>
+        <item>時々曇り</item>
+        <item>もやのかかった晴れ</item>
+        <item>曇り</item>
+        <item>曇り</item>
+        <item>曇り</item>
+        <item>霧</item>
+        <item>にわか雨</item>
+        <item>曇り、ときどき雨</item>
+        <item>晴れ、ときどき雨</item>
+        <item>雷雨</item>
+        <item>曇り、ときどき雷雨</item>
+        <item>晴れ、ときどき雷雨</item>
+        <item>雨</item>
+        <item>突風</item>
+        <item>曇り、ときどき突風</item>
+        <item>晴れ、ときどき突風</item>
+        <item>雪</item>
+        <item>曇り、ときどき雪</item>
+        <item>氷</item>
+        <item>みぞれ</item>
+        <item>雨氷</item>
+        <item>みぞれ</item>
+        <item>暑い</item>
+        <item>寒い</item>
+        <item>強風</item>
+        <item>晴れ</item>
+        <item>晴れ、所により曇り</item>
+        <item>晴れ、所により曇り</item>
+        <item>時々曇り</item>
+        <item>もや</item>
+        <item>曇り</item>
+        <item>晴れ、ときどき雨</item>
+        <item>曇り、ときどき雨</item>
+        <item>晴れ、ときどき雷雨</item>
+        <item>曇り、ときどき雷雨</item>
+        <item>晴れ、ときどき突風</item>
+        <item>曇り、ときどき突風</item>
+        <item>みぞれを伴う雷</item>
+        <item>砂</item>
+        <item>埃</item>
+        <item>トルネード</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+        <item>極大</item>
+    </string-array>
+</resources>

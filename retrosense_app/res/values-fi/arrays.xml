@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>joka ensimmäinen sunnuntai</item>
+        <item>joka toinen sunnuntai</item>
+        <item>joka kolmas sunnuntai</item>
+        <item>joka neljäs sunnuntai</item>
+        <item>joka viimeinen sunnuntai</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>joka ensimmäinen maanantai</item>
+        <item>joka toinen maanantai</item>
+        <item>joka kolmas maanantai</item>
+        <item>joka neljäs maanantai</item>
+        <item>joka viimeinen maanantai</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>joka ensimmäinen tiistai</item>
+        <item>joka toinen tiistai</item>
+        <item>joka kolmas tiistai</item>
+        <item>joka neljäs tiistai</item>
+        <item>joka viimeinen tiistai</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>joka ensimmäinen keskiviikko</item>
+        <item>joka toinen keskiviikko</item>
+        <item>joka kolmas keskiviikko</item>
+        <item>joka neljäs keskiviikko</item>
+        <item>joka viimeinen keskiviikko</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>joka ensimmäinen torstai</item>
+        <item>joka toinen torstai</item>
+        <item>joka kolmas torstai</item>
+        <item>joka neljäs torstai</item>
+        <item>joka viimeinen torstai</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>joka ensimmäinen perjantai</item>
+        <item>joka toinen perjantai</item>
+        <item>joka kolmas perjantai</item>
+        <item>joka neljäs perjantai</item>
+        <item>joka viimeinen perjantai</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>joka ensimmäinen lauantai</item>
+        <item>joka toinen lauantai</item>
+        <item>joka kolmas lauantai</item>
+        <item>joka neljäs lauantai</item>
+        <item>joka viimeinen lauantai</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Aurinkoista</item>
+        <item>Enimmäkseen aurinkoista</item>
+        <item>Osittain aurinkoista</item>
+        <item>Vaihtelevaa pilvisyyttä</item>
+        <item>Usvaa ja auringonpaistetta</item>
+        <item>Enimmäkseen pilvistä</item>
+        <item>Pilvistä</item>
+        <item>Synkkää</item>
+        <item>Sumua</item>
+        <item>Sadekuuroja</item>
+        <item>Enimmäkseen pilvistä ja sadekuuroja</item>
+        <item>Osittain aurinkoista ja sadekuuroja</item>
+        <item>Ukkosta</item>
+        <item>Enimmäkseen pilvistä ja ukkoskuuroja</item>
+        <item>Osittain aurinkoista ja ukkoskuuroja</item>
+        <item>Sadetta</item>
+        <item>Lumikuuroja</item>
+        <item>Enimmäkseen pilvistä ja lumikuuroja</item>
+        <item>Osittain aurinkoista ja lumikuuroja</item>
+        <item>Lumisadetta</item>
+        <item>Enimmäkseen pilvistä ja lumisadetta</item>
+        <item>Jäätä</item>
+        <item>Räntäsadetta</item>
+        <item>Jäätävää tihkusadetta</item>
+        <item>Vesi- ja lumisadetta</item>
+        <item>Helteistä</item>
+        <item>Kylmää</item>
+        <item>Tuulista</item>
+        <item>Selkeää</item>
+        <item>Enimmäkseen selkeää</item>
+        <item>Osittain pilvistä</item>
+        <item>Vaihtelevaa pilvisyyttä</item>
+        <item>Usvaa</item>
+        <item>Enimmäkseen pilvistä</item>
+        <item>Osittain pilvistä ja sadekuuroja</item>
+        <item>Enimmäkseen pilvistä ja sadekuuroja</item>
+        <item>Osittain pilvistä ja ukkoskuuroja</item>
+        <item>Enimmäkseen pilvistä ja ukkoskuuroja</item>
+        <item>Osittain pilvistä ja lumikuuroja</item>
+        <item>Enimmäkseen pilvistä ja lumikuuroja</item>
+        <item>Ukkosta ja rakeita</item>
+        <item>Hiekkaa</item>
+        <item>Pölyistä</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Suuri</item>
+        <item>Ekstra-suuri</item>
+        <item>Valtava</item>
+    </string-array>
+</resources>

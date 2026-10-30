@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.retrosense.lib1.cc.widget.HtcListItem android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.retrosense.lib1.cc.widget.preference.DontUsePreferenceColorIcon android:id="@id/image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    <com.retrosense.lib1.cc.widget.preference.DontUsePreference2LineText android:id="@id/stamp" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" />
+</com.retrosense.lib1.cc.widget.HtcListItem>

@@ -1,0 +1,27 @@
+version: 3.0.3
+apkFileName: RetroSense.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 33
+versionInfo:
+  versionCode: 1
+  versionName: 1.0.0
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- ogg
+- png
+- webp
+- res/raw/sound_clouds.flac
+- res/raw/sound_cold.flac
+- res/raw/sound_fog.flac
+- res/raw/sound_hot.flac
+- res/raw/sound_showers.flac
+- res/raw/sound_snow.flac
+- res/raw/sound_sunny.flac
+- res/raw/sound_thunder.flac
+- res/raw/sound_windy.flac

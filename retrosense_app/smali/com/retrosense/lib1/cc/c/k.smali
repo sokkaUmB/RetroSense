@@ -1,0 +1,8 @@
+.class interface abstract Lcom/retrosense/lib1/cc/c/k;
+.super Ljava/lang/Object;
+.source "HtcThemeUtils.java"
+
+
+# virtual methods
+.method public abstract onThemeChange(I)V
+.end method

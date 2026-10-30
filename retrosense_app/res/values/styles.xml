@@ -1,0 +1,3034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HtcDeviceDefault" parent="@style/Theme.DeviceDefault">
+        <item name="android:dropDownListViewStyle">@style/HtcListView</item>
+        <item name="android:spinnerStyle">@style/HtcWidget.SpinnerStyle</item>
+        <item name="android:textColorHighlight">@color/text_selection_color</item>
+        <item name="android:actionBarStyle">@style/HtcWidget.ActionBar</item>
+        <item name="android:actionButtonStyle">@style/HtcWidget.ActionButton.Overflow</item>
+        <item name="android:actionModeCloseDrawable">@drawable/icon_btn_done_dark</item>
+        <item name="android:actionBarSize">@dimen/ab_height</item>
+        <item name="android:actionOverflowButtonStyle">@style/HtcWidget.ActionButton.Overflow</item>
+        <item name="android:actionModeCloseButtonStyle">@style/HtcWidget.ActionButton.CloseMode</item>
+        <item name="android:dialogTheme">@style/HtcDeviceDefault.Dialog</item>
+        <item name="android:alertDialogTheme">@style/HtcDeviceDefault.Dialog.Alert</item>
+        <item name="android:dividerVertical">@drawable/common_b_div</item>
+        <item name="android:dividerHorizontal">@drawable/common_b_div_land</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/common_scroller_grip</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/common_dialogbox_full_dark</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:fastScrollOverlayPosition">floating</item>
+        <item name="android:textColorHighlightInverse">@color/text_selection_color</item>
+        <item name="android:switchPreferenceStyle">@style/HtcSwitchPreference</item>
+        <item name="android:actionModeStyle">@style/HtcWidget.ActionMode</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="themeTexture">@style/ThemeTexture</item>
+        <item name="htcActionBarProgressBarStyle">?htcProgressBarStyleIndeterminateSmall</item>
+        <item name="actionBarStyle">@style/HtcActionBar</item>
+        <item name="actionBarBackupStyle">@style/ActionBarBackup</item>
+        <item name="actionBarSearchStyle">@style/ActionBarSearch</item>
+        <item name="actionBarRefreshStyle">@style/ActionBarRefresh</item>
+        <item name="actionBarDropDownStyle">@style/ActionBarDropDown</item>
+        <item name="htcSwitchStyle">@style/HtcSwitch</item>
+    </style>
+    <style name="HtcDeviceDefault.DevelopDontUse" parent="@style/HtcDeviceDefault">
+        <item name="android:preferenceScreenStyle">@style/Preference.DevelopDontUse.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.DevelopDontUse.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.DevelopDontUse.Information</item>
+        <item name="android:preferenceStyle">@style/Preference.DevelopDontUse</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.DevelopDontUse.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.DevelopDontUse.DialogPreference.YesNoPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.DevelopDontUse.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.DevelopDontUse.DialogPreference.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.DevelopDontUse.RingtonePreference</item>
+        <item name="android:preferenceLayoutChild">@layout/dontuse_preference_child</item>
+        <item name="android:alertDialogTheme">@style/PreferenceDialogThemeDevelopDontUse</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.DevelopDontUse.SwitchPreference</item>
+        <item name="android:defaultToDeviceProtectedStorage">@style/Preference.DevelopDontUse.SeekBarPreferenceStyle</item>
+    </style>
+    <style name="PreferenceDialogThemeDevelopDontUse" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textAppearanceMedium">@style/list_primary_m</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@style/DialogTitle</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.DevelopDontUse</item>
+        <item name="android:editTextStyle">@style/htcEditTextStyleDefault</item>
+        <item name="android:listViewStyle">@style/HtcWidget.ListView</item>
+        <item name="android:progressBarStyleHorizontal">@style/HTCProgressBarStyle</item>
+        <item name="android:progressBarStyleLarge">@style/HTCProgressBarStyle.Indeterminate</item>
+        <item name="android:seekBarStyle">@style/HTCSeekBarStyle.DevelopDontUse</item>
+        <item name="android:textViewStyle">@style/HtcWidget.TextView.DevelopDontUse</item>
+        <item name="android:textColorHighlight">@color/text_selection_color</item>
+        <item name="android:listDividerAlertDialog">@drawable/inset_list_divider</item>
+        <item name="android:textColorAlertDialogListItem">@color/light_primaryfont</item>
+        <item name="android:dividerVertical">@drawable/common_b_div</item>
+        <item name="android:dividerHorizontal">@drawable/common_div</item>
+        <item name="android:buttonBarStyle">@style/HtcWidget.ButtonBar.DevelopDontUse</item>
+        <item name="android:buttonBarButtonStyle">@style/HtcWidget.Button.DevelopDontUse</item>
+        <item name="android:textColorHighlightInverse">@color/text_selection_color</item>
+        <item name="android:textAppearanceListItemSmall">@style/list_primary_m</item>
+    </style>
+    <style name="Preference.DevelopDontUse" parent="@style/Preference">
+        <item name="android:layout">@layout/dontuse_preference</item>
+    </style>
+    <style name="Preference.DevelopDontUse.Information" parent="@style/Preference.DevelopDontUse">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@layout/dontuse_preference_information</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.DevelopDontUse.Category" parent="@style/Preference.DevelopDontUse">
+        <item name="android:layout">@layout/dontuse_preference_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.DevelopDontUse.CheckBoxPreference" parent="@style/Preference.DevelopDontUse">
+        <item name="android:widgetLayout">@layout/dontuse_preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.DevelopDontUse.SwitchPreference" parent="@style/Preference.DevelopDontUse">
+        <item name="android:widgetLayout">@layout/dontuse_preference_widget_switch</item>
+    </style>
+    <style name="Preference.DevelopDontUse.SeekBarPreferenceStyle" parent="@style/Preference.DevelopDontUse">
+        <item name="android:layout">@layout/dontuse_preference_widget_seekbar</item>
+    </style>
+    <style name="Preference.DevelopDontUse.PreferenceScreen" parent="@style/Preference.DevelopDontUse" />
+    <style name="Preference.DevelopDontUse.DialogPreference" parent="@style/Preference.DevelopDontUse">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference.DevelopDontUse.DialogPreference.YesNoPreference" parent="@style/Preference.DevelopDontUse.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+    <style name="Preference.DevelopDontUse.DialogPreference.EditTextPreference" parent="@style/Preference.DevelopDontUse.DialogPreference">
+        <item name="android:dialogLayout">@layout/dontuse_preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.DevelopDontUse.RingtonePreference" parent="@style/Preference.DevelopDontUse">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showDefault">true</item>
+        <item name="android:showSilent">true</item>
+    </style>
+    <style name="DevelopDontUsePreferencePanel" />
+    <style name="DevelopDontUsePreferencePanel.Dialog" parent="@style/DevelopDontUsePreferencePanel">
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">0.0dp</item>
+        <item name="android:layout_marginTop">0.0dp</item>
+        <item name="android:layout_marginRight">0.0dp</item>
+        <item name="android:layout_marginBottom">0.0dp</item>
+    </style>
+    <style name="AlertDialog.DevelopDontUse" parent="@style/AlertDialog">
+        <item name="android:centerDark">@drawable/common_dialogbox_center_bright</item>
+    </style>
+    <style name="HTCSeekBarStyle.DevelopDontUse" parent="@style/HTCSeekBarStyle">
+        <item name="android:maxHeight">@dimen/htc_progressbar_height</item>
+    </style>
+    <style name="HtcWidget.Button.DevelopDontUse" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:textAppearance">@style/fixed_separator_secondary_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+        <item name="android:paddingTop">@dimen/margin_m</item>
+        <item name="android:paddingBottom">@dimen/margin_m</item>
+        <item name="android:paddingStart">@dimen/margin_s</item>
+        <item name="android:paddingEnd">@dimen/margin_s</item>
+    </style>
+    <style name="HtcWidget.ButtonBar.DevelopDontUse" parent="@android:style/Holo.ButtonBar">
+        <item name="android:background">@drawable/list_selector_light</item>
+        <item name="android:divider">@drawable/common_div</item>
+    </style>
+    <style name="HtcWidget.TextView.DevelopDontUse" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textAppearance">@style/list_secondary_m</item>
+    </style>
+    <style name="zero_dummy_style">
+        <item name="android:background">@drawable/zero_dummy_asset</item>
+    </style>
+    <item type="style" name="ab_primary_textview_style">@style/fixed_title_primary_m</item>
+    <item type="style" name="ab_primary_textview_pulldown_style">@style/fixed_darklist_primary_xxs</item>
+    <item type="style" name="ab_secondary_textview_style">@style/fixed_title_secondary_m</item>
+    <item type="style" name="ab_secondary_textview_pulldown_style">@style/fixed_info_primary_s</item>
+    <item type="style" name="ab_secondary_textview_update_style">@style/fixed_darklist_primary_xxs</item>
+    <item type="style" name="ab_secondary_textview_transparent_style">@style/fixed_info_primary_s</item>
+    <item type="style" name="ab_counter_textview_style">@style/fixed_darklist_primary_xxs</item>
+    <style name="ThemeHtcShareActivity_v16">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="ThemeHtcShareActivity" parent="@style/ThemeHtcShareActivity_v16" />
+    <style name="ActionBarPrimaryTextView">
+        <item name="android:textAppearance">@style/ab_primary_textview_style</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_TwoLine">
+        <item name="android:textAppearance">@style/ab_primary_textview_style</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_Update">
+        <item name="android:textAppearance">@style/ab_primary_textview_pulldown_style</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_PullDown">
+        <item name="android:textAppearance">@style/ab_primary_textview_pulldown_style</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_PullDown_TwoLine">
+        <item name="android:textAppearance">@style/ab_primary_textview_pulldown_style</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_Automotive">
+        <item name="android:textAppearance">@style/fixed_automotive_title_primary_m</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_Automotive_TwoLine">
+        <item name="android:textAppearance">@style/fixed_automotive_title_primary_s</item>
+    </style>
+    <style name="ActionBarPrimaryTextView_Multiline">
+        <item name="android:textAppearance">@style/fixed_title_primary_xs</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="ActionBarSecondaryTextView">
+        <item name="android:textAppearance">@style/ab_secondary_textview_style</item>
+    </style>
+    <style name="ActionBarSecondaryTextView_PullDown">
+        <item name="android:textAppearance">@style/ab_secondary_textview_pulldown_style</item>
+    </style>
+    <style name="ActionBarSecondaryTextView_Update">
+        <item name="android:textAppearance">@style/ab_secondary_textview_update_style</item>
+    </style>
+    <style name="ActionBarSecondaryTextView_Transparent">
+        <item name="android:textAppearance">@style/ab_secondary_textview_transparent_style</item>
+    </style>
+    <style name="ActionBarSecondaryTextView_Automotive">
+        <item name="android:textAppearance">@style/fixed_automotive_title_secondary_m</item>
+    </style>
+    <style name="ActionBarCounter_FollowPrimary">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_FollowSecondary">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_VerticalCenter">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_FollowPrimary_Automotive">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarCounter_FollowSecondary_Automotive">
+        <item name="android:textAppearance">@style/ab_counter_textview_style</item>
+    </style>
+    <style name="ActionBarBackup">
+        <item name="android:src">@drawable/icon_btn_up_dark_xl</item>
+        <item name="android:drawable">@drawable/icon_btn_previous_dark</item>
+    </style>
+    <style name="ActionBarSearch">
+        <item name="android:src">@drawable/icon_btn_cancel_dark_s</item>
+    </style>
+    <style name="ActionBarRefresh">
+        <item name="android:src">@drawable/icon_indicator_scroll_up_dark_s</item>
+    </style>
+    <style name="ActionBarDropDown">
+        <item name="android:src">@drawable/automotive_common_arrow_down</item>
+        <item name="android:drawable">@drawable/common_arrow_down</item>
+    </style>
+    <style name="HtcActionBar">
+        <item name="android:panelFullBackground">@drawable/common_app_bkg_top_full</item>
+        <item name="android:background">?multiply_color</item>
+        <item name="android:drawable">@drawable/common_app_bkg_top_full_land</item>
+    </style>
+    <style name="HtcWidget.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/starting_window_header</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="HtcWidget.ActionMode" parent="@android:style/Widget.Holo.Light.ActionMode.Inverse">
+        <item name="android:background">?multiply_color</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:titleTextStyle">@style/ab_primary_textview_style</item>
+        <item name="android:subtitleTextStyle">@style/ab_secondary_textview_style</item>
+    </style>
+    <style name="ActionBarWidgetTheme">
+        <item name="android:dropDownListViewStyle">@style/HtcWidget.ListView.DropDown.ActionBar</item>
+        <item name="android:listPopupWindowStyle">@style/HtcWidget.ListPopupWindow.ActionBar</item>
+        <item name="android:popupMenuStyle">@style/HtcWidget.PopupMenu.ActionBar</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/darklist_primary_s</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/htc_list_item_height_popup_menu</item>
+    </style>
+    <style name="HtcWidget.ListPopupWindow.ActionBar" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/popupbg_inset</item>
+    </style>
+    <style name="HtcWidget.PopupMenu.ActionBar" parent="@android:style/Widget.Holo.PopupMenu">
+        <item name="android:popupBackground">@drawable/popupbg_inset</item>
+    </style>
+    <style name="HtcWidget.ListView.DropDown.ActionBar" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+        <item name="android:divider">@drawable/inset_list_divider_dark</item>
+    </style>
+    <style name="HtcWidget.ActionButton" parent="@android:style/Widget.Holo.ActionButton">
+        <item name="android:background">@drawable/list_selector_dark</item>
+        <item name="android:layout_width">@dimen/action_button_min_width</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+    </style>
+    <style name="HtcWidget.ActionButton.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:background">@drawable/list_selector_dark</item>
+        <item name="android:src">@drawable/icon_btn_menu_dark</item>
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+    </style>
+    <style name="HtcWidget.ActionButton.CloseMode" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/list_selector_dark</item>
+    </style>
+    <style name="HtcDateTimePicker">
+        <item name="android:drawable">@drawable/htcdatetimepicker_background</item>
+    </style>
+    <style name="FooterBarStyle">
+        <item name="android:layout_width">@dimen/htc_footer_height</item>
+        <item name="android:layout_height">@dimen/htc_footer_height</item>
+        <item name="android:src">@drawable/footerbkg</item>
+        <item name="android:divider">@drawable/common_footer_divider</item>
+        <item name="def_child_weight">1.0</item>
+        <item name="footer_display_mode">mode_default</item>
+        <item name="backgroundMode">light</item>
+    </style>
+    <style name="FooterBarStyle.Dark" parent="@style/FooterBarStyle">
+        <item name="backgroundMode">dark</item>
+    </style>
+    <style name="FooterBarStyle.Full" parent="@style/FooterBarStyle">
+        <item name="backgroundMode">full</item>
+    </style>
+    <style name="FooterBarButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="backgroundMode">light</item>
+    </style>
+    <style name="FooterBarButtonStyle.Dark" parent="@style/FooterBarButtonStyle">
+        <item name="backgroundMode">dark</item>
+    </style>
+    <style name="htcAutoCompleteTextViewStyleDefault" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:textAppearance">@style/input_default_m</item>
+        <item name="android:textColor">@color/list_primary</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+        <item name="android:entries">@array/autocompletetextview_backgrounds</item>
+        <item name="android:background">@null</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_light</item>
+        <item name="android:popupBackground">@drawable/common_dropdown_background</item>
+        <item name="android:dropDownWidth">-1.0px</item>
+        <item name="android:dropDownHorizontalOffset">-1.0px</item>
+        <item name="android:dropDownVerticalOffset">-1.0px</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="overlay_color">?category_color</item>
+        <item name="backgroundMode">light</item>
+    </style>
+    <style name="htcAutoCompleteTextViewStyleDefault.Dark" parent="@style/htcAutoCompleteTextViewStyleDefault">
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_dark</item>
+        <item name="android:popupBackground">@drawable/common_dropdown_background</item>
+        <item name="backgroundMode">dark</item>
+    </style>
+    <style name="htcEditTextStyleDefault" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/input_default_m</item>
+        <item name="android:textColor">@color/list_primary</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+        <item name="android:entries">@array/autocompletetextview_backgrounds</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="overlay_color">?category_color</item>
+        <item name="backgroundMode">light</item>
+    </style>
+    <style name="htcEditTextStyleDefault.Dark" parent="@style/htcEditTextStyleDefault">
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+        <item name="backgroundMode">dark</item>
+    </style>
+    <style name="HtcButton">
+        <item name="android:drawable">@array/htcbutton_drawables</item>
+        <item name="overlay_color">?category_color</item>
+    </style>
+    <style name="HtcButton.Dark" parent="@style/HtcButton">
+        <item name="android:drawable">@array/htcbutton_drawables</item>
+        <item name="overlay_color">?category_color</item>
+    </style>
+    <style name="ButtonBarButtonStyle" parent="@android:style/Widget.Holo.Light.Button.Borderless.Small">
+        <item name="android:textAppearance">@style/fixed_separator_secondary_m</item>
+        <item name="android:paddingTop">@dimen/margin_m</item>
+        <item name="android:paddingBottom">@dimen/margin_m</item>
+        <item name="android:paddingStart">@dimen/margin_s</item>
+        <item name="android:paddingEnd">@dimen/margin_s</item>
+    </style>
+    <style name="ButtonBarStyle" parent="@android:style/Holo.ButtonBar">
+        <item name="android:background">@drawable/list_selector_light</item>
+        <item name="android:divider">@drawable/common_div</item>
+    </style>
+    <style name="HtcListItemSeparatorStyle">
+        <item name="android:layout_height">@dimen/htc_list_item_separator_with_actionbutton_height</item>
+        <item name="android:drawable">@drawable/htclistitemseparator</item>
+    </style>
+    <style name="HtcListItemSeparatorStyle.Dark" parent="@style/HtcListItemSeparatorStyle">
+        <item name="android:drawable">@drawable/htclistitemseparator</item>
+    </style>
+    <style name="HtcListView" parent="@android:style/Widget.Holo.ExpandableListView">
+        <item name="android:listSelector">@drawable/list_selector_light</item>
+        <item name="android:childDivider">@drawable/inset_list_divider</item>
+        <item name="android:divider">@drawable/inset_list_divider</item>
+    </style>
+    <style name="HtcListView.Dark" parent="@style/HtcListView">
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+        <item name="android:childDivider">@drawable/inset_list_divider_dark</item>
+        <item name="android:divider">@drawable/inset_list_divider_dark</item>
+    </style>
+    <style name="HtcPreferenceSeekBarStyle">
+        <item name="android:drawable">@drawable/htcpreference_seekbar_progress</item>
+    </style>
+    <style name="HtcSwitch">
+        <item name="android:textOn">@string/switch_on</item>
+        <item name="android:textOff">@string/switch_off</item>
+        <item name="android:thumb">@drawable/common_switch_thumb</item>
+    </style>
+    <style name="htcListItem">
+        <item name="android:background">@drawable/common_list_item_background</item>
+        <item name="android:childIndicator">@drawable/common_b_div_land</item>
+        <item name="android:childDivider">@drawable/common_list_divider</item>
+        <item name="android:divider">@drawable/common_list_item_vertical_divider</item>
+        <item name="android:drawable">@drawable/common_list_item_background_activated</item>
+        <item name="android:repeatCount">@drawable/common_circle_pressed</item>
+    </style>
+    <style name="htcListItem.Dark" parent="@style/htcListItem">
+        <item name="android:background">@drawable/common_list_item_background</item>
+        <item name="android:drawable">@drawable/common_list_item_background_activated</item>
+    </style>
+    <style name="HtcListItemSerialNumber">
+        <item name="android:background">@drawable/common_photo_frame</item>
+    </style>
+    <style name="HTCProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:entries">@array/skinProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress</item>
+        <item name="android:minHeight">@dimen/htc_progressbar_height</item>
+        <item name="displayMode">mode_light</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryOne" parent="@style/HTCProgressBarStyle">
+        <item name="android:entries">@array/categoryOneProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_one</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryTwo" parent="@style/HTCProgressBarStyle">
+        <item name="android:entries">@array/categoryTwoProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryThree" parent="@style/HTCProgressBarStyle">
+        <item name="android:entries">@array/categoryThreeProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_three</item>
+    </style>
+    <style name="HTCProgressBarStyle.CategoryFour" parent="@style/HTCProgressBarStyle">
+        <item name="android:entries">@array/categoryFourProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+    </style>
+    <style name="HTCProgressBarStyle.Indeterminate" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/htcprogress_medium</item>
+        <item name="android:indeterminateDuration">1500</item>
+        <item name="android:minWidth">8.0dp</item>
+        <item name="android:minHeight">8.0dp</item>
+        <item name="displayMode">mode_light</item>
+    </style>
+    <style name="HTCProgressBarStyle.Indeterminate.Dark" parent="@style/HTCProgressBarStyle.Indeterminate">
+        <item name="displayMode">mode_dark</item>
+    </style>
+    <style name="HTCProgressBarStyle.Indeterminate.Small" parent="@style/HTCProgressBarStyle.Indeterminate">
+        <item name="android:indeterminateDrawable">@drawable/htcprogress_small</item>
+        <item name="displayMode">mode_light</item>
+    </style>
+    <style name="HTCProgressBarStyle.Indeterminate.Small.Dark" parent="@style/HTCProgressBarStyle.Indeterminate.Small">
+        <item name="displayMode">mode_dark</item>
+    </style>
+    <style name="HTCProgressBarStyle.Dark" parent="@style/HTCProgressBarStyle">
+        <item name="android:progressDrawable">@drawable/htcprogress_b</item>
+        <item name="displayMode">mode_dark</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">@dimen/htc_progressbar_height</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_full</item>
+        <item name="android:minHeight">@dimen/htc_progressbar_height</item>
+        <item name="displayMode">mode_full</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryOne" parent="@style/HTCProgressBarStyle.Full">
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_one</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryTwo" parent="@style/HTCProgressBarStyle.Full">
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_two</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryThree" parent="@style/HTCProgressBarStyle.Full">
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_three</item>
+    </style>
+    <style name="HTCProgressBarStyle.Full.CategoryFour" parent="@style/HTCProgressBarStyle.Full">
+        <item name="android:progressDrawable">@drawable/htcprogress_full_category_two</item>
+    </style>
+    <style name="HTCSeekBarStyle" parent="@android:style/Widget.Holo.SeekBar">
+        <item name="android:entries">@array/skinProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress</item>
+        <item name="android:minHeight">@dimen/htc_thumb_size</item>
+        <item name="android:thumb">@drawable/htcthumb</item>
+        <item name="android:thumbOffset">@dimen/htc_thumbOffset</item>
+        <item name="displayMode">mode_light</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryOne" parent="@style/HTCSeekBarStyle">
+        <item name="android:entries">@array/categoryOneProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_one</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryTwo" parent="@style/HTCSeekBarStyle">
+        <item name="android:entries">@array/categoryTwoProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryThree" parent="@style/HTCSeekBarStyle">
+        <item name="android:entries">@array/categoryThreeProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_three</item>
+    </style>
+    <style name="HTCSeekBarStyle.CategoryFour" parent="@style/HTCSeekBarStyle">
+        <item name="android:entries">@array/categoryFourProgressBarArray</item>
+        <item name="android:progressDrawable">@drawable/htcprogress_category_two</item>
+    </style>
+    <style name="HTCSeekBarStyle.Dark" parent="@style/HTCSeekBarStyle">
+        <item name="android:progressDrawable">@drawable/htcprogress_b</item>
+        <item name="android:thumb">@drawable/htcthumb_b</item>
+        <item name="displayMode">mode_dark</item>
+    </style>
+    <style name="HTCPopupContainerStyle">
+        <item name="android:background">@drawable/common_dialogbox_full_dark</item>
+        <item name="android:padding">@dimen/htcpopupwindow_shift</item>
+        <item name="android:layout_margin">@dimen/htcpopupwindow_margin</item>
+        <item name="android:minHeight">@dimen/htc_seekbar_min_height</item>
+        <item name="android:thumb">@drawable/htcthumb</item>
+        <item name="android:drawable">@drawable/popupwindow_drawable</item>
+    </style>
+    <style name="QuickContactBadgeStyle">
+        <item name="android:drawable">@drawable/common_photo_frame_quick_contact_mask</item>
+    </style>
+    <style name="HtcReorderListViewStyle">
+        <item name="android:drawable">@drawable/common_rearrange_rest</item>
+    </style>
+    <style name="TabBarStyle">
+        <item name="android:drawable">@array/tabbar_drawables</item>
+        <item name="android:color">@array/tabbar_colors</item>
+    </style>
+    <style name="ThemeTexture">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:panelBackground">@null</item>
+        <item name="android:headerBackground">@null</item>
+    </style>
+    <style name="AlertDialog">
+        <item name="android:fullDark">@drawable/common_dialogbox_full_dark</item>
+        <item name="android:topDark">@drawable/common_dialogbox_top_dark</item>
+        <item name="android:centerDark">@drawable/common_dialogbox_center_dark</item>
+        <item name="android:bottomDark">@drawable/common_dialogbox_bottom_dark</item>
+        <item name="android:fullBright">@drawable/common_dialogbox_full_bright</item>
+        <item name="android:topBright">@drawable/common_dialogbox_top_bright</item>
+        <item name="android:centerBright">@drawable/common_dialogbox_center_bright</item>
+        <item name="android:bottomBright">@drawable/common_dialogbox_bottom_bright</item>
+        <item name="android:bottomMedium">@drawable/common_dialogbox_bottom_medium</item>
+    </style>
+    <style name="DropDownList">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+    <style name="ReorderListViewDragWindow">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+    </style>
+    <style name="HtcWidget">
+        <item name="android:textAppearance">@android:style/TextAppearance</item>
+    </style>
+    <style name="HtcWidget.PopupBubbleWindow" parent="@style/HtcWidget">
+        <item name="android:windowEnterAnimation">@anim/popup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_fade_out</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+    </style>
+    <style name="HtcWidget.ListPopupBubbleWindow" parent="@style/HtcWidget">
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dp</item>
+        <item name="android:dropDownVerticalOffset">-10.0dp</item>
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+    </style>
+    <style name="HtcWidget.AbsListView" parent="@style/HtcWidget">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    <style name="HtcWidget.ListView" parent="@style/HtcWidget.AbsListView">
+        <item name="android:listSelector">?android:selectableItemBackground</item>
+        <item name="android:cacheColorHint">?android:colorBackgroundCacheHint</item>
+        <item name="android:childDivider">@drawable/inset_list_divider</item>
+        <item name="android:divider">@drawable/inset_list_divider</item>
+    </style>
+    <style name="HtcWidget.ExpandableListView.DropDown" parent="@style/HtcListView.Dark" />
+    <style name="HtcWidget.ListView.DropDown" parent="@style/HtcListView.Dark" />
+    <style name="HtcAnimation" />
+    <style name="HtcAnimation.PopupBubbleWindow" parent="@style/HtcAnimation" />
+    <style name="HtcWidget.SpinnerStyle" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner</item>
+    </style>
+    <style name="HtcSwitchPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+    </style>
+    <style name="EditWindow">
+        <item name="android:configChanges">keyboard|keyboardHidden|orientation</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="regular" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="condensed" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="bold_condensed" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="light" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="title_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/title_primary_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_primary_xs" parent="@style/title_primary_xs">
+        <item name="android:textSize">@dimen/fixed_title_primary_xs</item>
+    </style>
+    <style name="title_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/title_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_primary_s" parent="@style/title_primary_s">
+        <item name="android:textSize">@dimen/fixed_title_primary_s</item>
+    </style>
+    <style name="title_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/title_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_primary_m" parent="@style/title_primary_m">
+        <item name="android:textSize">@dimen/fixed_title_primary_m</item>
+    </style>
+    <style name="title_primary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/title_primary_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_primary_l" parent="@style/title_primary_l">
+        <item name="android:textSize">@dimen/fixed_title_primary_l</item>
+    </style>
+    <style name="title_primary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/title_primary_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_primary_xl" parent="@style/title_primary_xl">
+        <item name="android:textSize">@dimen/fixed_title_primary_xl</item>
+    </style>
+    <style name="title_secondary_xs" parent="@style/light">
+        <item name="android:textSize">@dimen/title_secondary_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_secondary_xs" parent="@style/title_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_title_secondary_xs</item>
+    </style>
+    <style name="title_secondary_s" parent="@style/light">
+        <item name="android:textSize">@dimen/title_secondary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_secondary_s" parent="@style/title_secondary_s">
+        <item name="android:textSize">@dimen/fixed_title_secondary_s</item>
+    </style>
+    <style name="title_secondary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/title_secondary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_secondary_m" parent="@style/title_secondary_m">
+        <item name="android:textSize">@dimen/fixed_title_secondary_m</item>
+    </style>
+    <style name="title_secondary_l" parent="@style/light">
+        <item name="android:textSize">@dimen/title_secondary_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_secondary_l" parent="@style/title_secondary_l">
+        <item name="android:textSize">@dimen/fixed_title_secondary_l</item>
+    </style>
+    <style name="title_secondary_xl" parent="@style/light">
+        <item name="android:textSize">@dimen/title_secondary_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_title_secondary_xl" parent="@style/title_secondary_xl">
+        <item name="android:textSize">@dimen/fixed_title_secondary_xl</item>
+    </style>
+    <style name="button_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/button_primary_xs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_button_primary_xs" parent="@style/button_primary_xs">
+        <item name="android:textSize">@dimen/fixed_button_primary_xs</item>
+    </style>
+    <style name="b_button_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_button_primary_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_b_button_primary_xs" parent="@style/b_button_primary_xs">
+        <item name="android:textSize">@dimen/fixed_b_button_primary_xs</item>
+    </style>
+    <style name="button_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/button_primary_s</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_button_primary_s" parent="@style/button_primary_s">
+        <item name="android:textSize">@dimen/fixed_button_primary_s</item>
+    </style>
+    <style name="b_button_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_button_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_b_button_primary_s" parent="@style/b_button_primary_s">
+        <item name="android:textSize">@dimen/fixed_b_button_primary_s</item>
+    </style>
+    <style name="button_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/button_primary_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_button_primary_m" parent="@style/button_primary_m">
+        <item name="android:textSize">@dimen/fixed_button_primary_m</item>
+    </style>
+    <style name="b_button_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_button_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_b_button_primary_m" parent="@style/b_button_primary_m">
+        <item name="android:textSize">@dimen/fixed_b_button_primary_m</item>
+    </style>
+    <style name="button_primary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/button_primary_l</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_button_primary_l" parent="@style/button_primary_l">
+        <item name="android:textSize">@dimen/fixed_button_primary_l</item>
+    </style>
+    <style name="b_button_primary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_button_primary_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_b_button_primary_l" parent="@style/b_button_primary_l">
+        <item name="android:textSize">@dimen/fixed_b_button_primary_l</item>
+    </style>
+    <style name="button_primary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/button_primary_xl</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_button_primary_xl" parent="@style/button_primary_xl">
+        <item name="android:textSize">@dimen/fixed_button_primary_xl</item>
+    </style>
+    <style name="b_button_primary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_button_primary_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_b_button_primary_xl" parent="@style/b_button_primary_xl">
+        <item name="android:textSize">@dimen/fixed_b_button_primary_xl</item>
+    </style>
+    <style name="list_primary_xxs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_primary_xxs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_xxs" parent="@style/list_primary_xxs">
+        <item name="android:textSize">@dimen/fixed_list_primary_xxs</item>
+    </style>
+    <style name="darklist_primary_xxs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_xxs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_xxs" parent="@style/darklist_primary_xxs">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_xxs</item>
+    </style>
+    <style name="list_primary_xxs_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/list_primary_xxs_bold</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_xxs_bold" parent="@style/list_primary_xxs_bold">
+        <item name="android:textSize">@dimen/fixed_list_primary_xxs_bold</item>
+    </style>
+    <style name="darklist_primary_xxs_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/darklist_primary_xxs_bold</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_xxs_bold" parent="@style/darklist_primary_xxs_bold">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_xxs_bold</item>
+    </style>
+    <style name="list_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_primary_xs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_xs" parent="@style/list_primary_xs">
+        <item name="android:textSize">@dimen/fixed_list_primary_xs</item>
+    </style>
+    <style name="darklist_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_xs" parent="@style/darklist_primary_xs">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_xs</item>
+    </style>
+    <style name="list_primary_xs_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/list_primary_xs_bold</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_xs_bold" parent="@style/list_primary_xs_bold">
+        <item name="android:textSize">@dimen/fixed_list_primary_xs_bold</item>
+    </style>
+    <style name="darklist_primary_xs_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/darklist_primary_xs_bold</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_xs_bold" parent="@style/darklist_primary_xs_bold">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_xs_bold</item>
+    </style>
+    <style name="list_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_primary_s</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_s" parent="@style/list_primary_s">
+        <item name="android:textSize">@dimen/fixed_list_primary_s</item>
+    </style>
+    <style name="darklist_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_s" parent="@style/darklist_primary_s">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_s</item>
+    </style>
+    <style name="list_primary_s_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/list_primary_s_bold</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_s_bold" parent="@style/list_primary_s_bold">
+        <item name="android:textSize">@dimen/fixed_list_primary_s_bold</item>
+    </style>
+    <style name="darklist_primary_s_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/darklist_primary_s_bold</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_s_bold" parent="@style/darklist_primary_s_bold">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_s_bold</item>
+    </style>
+    <style name="list_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_primary_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_m" parent="@style/list_primary_m">
+        <item name="android:textSize">@dimen/fixed_list_primary_m</item>
+    </style>
+    <style name="darklist_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_m" parent="@style/darklist_primary_m">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_m</item>
+    </style>
+    <style name="list_primary_m_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/list_primary_m_bold</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_m_bold" parent="@style/list_primary_m_bold">
+        <item name="android:textSize">@dimen/fixed_list_primary_m_bold</item>
+    </style>
+    <style name="darklist_primary_m_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/darklist_primary_m_bold</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_m_bold" parent="@style/darklist_primary_m_bold">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_m_bold</item>
+    </style>
+    <style name="list_primary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_primary_l</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_l" parent="@style/list_primary_l">
+        <item name="android:textSize">@dimen/fixed_list_primary_l</item>
+    </style>
+    <style name="darklist_primary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_l" parent="@style/darklist_primary_l">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_l</item>
+    </style>
+    <style name="list_primary_l_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/list_primary_l_bold</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_l_bold" parent="@style/list_primary_l_bold">
+        <item name="android:textSize">@dimen/fixed_list_primary_l_bold</item>
+    </style>
+    <style name="darklist_primary_l_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/darklist_primary_l_bold</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_l_bold" parent="@style/darklist_primary_l_bold">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_l_bold</item>
+    </style>
+    <style name="list_primary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_primary_xl</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_xl" parent="@style/list_primary_xl">
+        <item name="android:textSize">@dimen/fixed_list_primary_xl</item>
+    </style>
+    <style name="darklist_primary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_primary_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_xl" parent="@style/darklist_primary_xl">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_xl</item>
+    </style>
+    <style name="list_primary_xl_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/list_primary_xl_bold</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_primary_xl_bold" parent="@style/list_primary_xl_bold">
+        <item name="android:textSize">@dimen/fixed_list_primary_xl_bold</item>
+    </style>
+    <style name="darklist_primary_xl_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/darklist_primary_xl_bold</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_primary_xl_bold" parent="@style/darklist_primary_xl_bold">
+        <item name="android:textSize">@dimen/fixed_darklist_primary_xl_bold</item>
+    </style>
+    <style name="list_secondary_xxs" parent="@style/light">
+        <item name="android:textSize">@dimen/list_secondary_xxs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_secondary_xxs" parent="@style/list_secondary_xxs">
+        <item name="android:textSize">@dimen/fixed_list_secondary_xxs</item>
+    </style>
+    <style name="darklist_secondary_xxs" parent="@style/light">
+        <item name="android:textSize">@dimen/darklist_secondary_xxs</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_darklist_secondary_xxs" parent="@style/darklist_secondary_xxs">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary_xxs</item>
+    </style>
+    <style name="list_secondary_xs" parent="@style/light">
+        <item name="android:textSize">@dimen/list_secondary_xs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_secondary_xs" parent="@style/list_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_list_secondary_xs</item>
+    </style>
+    <style name="darklist_secondary_xs" parent="@style/light">
+        <item name="android:textSize">@dimen/darklist_secondary_xs</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_darklist_secondary_xs" parent="@style/darklist_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary_xs</item>
+    </style>
+    <style name="list_secondary_s" parent="@style/light">
+        <item name="android:textSize">@dimen/list_secondary_s</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_secondary_s" parent="@style/list_secondary_s">
+        <item name="android:textSize">@dimen/fixed_list_secondary_s</item>
+    </style>
+    <style name="darklist_secondary_s" parent="@style/light">
+        <item name="android:textSize">@dimen/darklist_secondary_s</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_darklist_secondary_s" parent="@style/darklist_secondary_s">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary_s</item>
+    </style>
+    <style name="list_secondary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/list_secondary_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_secondary_m" parent="@style/list_secondary_m">
+        <item name="android:textSize">@dimen/fixed_list_secondary_m</item>
+    </style>
+    <style name="darklist_secondary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/darklist_secondary_m</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_darklist_secondary_m" parent="@style/darklist_secondary_m">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary_m</item>
+    </style>
+    <style name="list_secondary_l" parent="@style/light">
+        <item name="android:textSize">@dimen/list_secondary_l</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_secondary_l" parent="@style/list_secondary_l">
+        <item name="android:textSize">@dimen/fixed_list_secondary_l</item>
+    </style>
+    <style name="darklist_secondary_l" parent="@style/light">
+        <item name="android:textSize">@dimen/darklist_secondary_l</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_darklist_secondary_l" parent="@style/darklist_secondary_l">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary_l</item>
+    </style>
+    <style name="list_secondary_xl" parent="@style/light">
+        <item name="android:textSize">@dimen/list_secondary_xl</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_secondary_xl" parent="@style/list_secondary_xl">
+        <item name="android:textSize">@dimen/fixed_list_secondary_xl</item>
+    </style>
+    <style name="darklist_secondary_xl" parent="@style/light">
+        <item name="android:textSize">@dimen/darklist_secondary_xl</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_darklist_secondary_xl" parent="@style/darklist_secondary_xl">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary_xl</item>
+    </style>
+    <style name="list_body_primary_xs" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_primary_xs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_body_primary_xs" parent="@style/list_body_primary_xs">
+        <item name="android:textSize">@dimen/fixed_list_body_primary_xs</item>
+    </style>
+    <style name="list_body_primary_s" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_primary_s</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_body_primary_s" parent="@style/list_body_primary_s">
+        <item name="android:textSize">@dimen/fixed_list_body_primary_s</item>
+    </style>
+    <style name="list_body_primary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_primary_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_body_primary_m" parent="@style/list_body_primary_m">
+        <item name="android:textSize">@dimen/fixed_list_body_primary_m</item>
+    </style>
+    <style name="list_body_primary_l" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_primary_l</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_body_primary_l" parent="@style/list_body_primary_l">
+        <item name="android:textSize">@dimen/fixed_list_body_primary_l</item>
+    </style>
+    <style name="list_body_primary_xl" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_primary_xl</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_list_body_primary_xl" parent="@style/list_body_primary_xl">
+        <item name="android:textSize">@dimen/fixed_list_body_primary_xl</item>
+    </style>
+    <style name="list_body_secondary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_secondary_xs</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_list_body_secondary_xs" parent="@style/list_body_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_list_body_secondary_xs</item>
+    </style>
+    <style name="list_body_secondary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_secondary_s</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_list_body_secondary_s" parent="@style/list_body_secondary_s">
+        <item name="android:textSize">@dimen/fixed_list_body_secondary_s</item>
+    </style>
+    <style name="list_body_secondary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_secondary_m</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_list_body_secondary_m" parent="@style/list_body_secondary_m">
+        <item name="android:textSize">@dimen/fixed_list_body_secondary_m</item>
+    </style>
+    <style name="list_body_secondary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_secondary_l</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_list_body_secondary_l" parent="@style/list_body_secondary_l">
+        <item name="android:textSize">@dimen/fixed_list_body_secondary_l</item>
+    </style>
+    <style name="list_body_secondary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_secondary_xl</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_list_body_secondary_xl" parent="@style/list_body_secondary_xl">
+        <item name="android:textSize">@dimen/fixed_list_body_secondary_xl</item>
+    </style>
+    <style name="input_default_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/input_default_xs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_input_default_xs" parent="@style/input_default_xs">
+        <item name="android:textSize">@dimen/fixed_input_default_xs</item>
+    </style>
+    <style name="input_default_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/input_default_s</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_input_default_s" parent="@style/input_default_s">
+        <item name="android:textSize">@dimen/fixed_input_default_s</item>
+    </style>
+    <style name="input_default_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/input_default_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_input_default_m" parent="@style/input_default_m">
+        <item name="android:textSize">@dimen/fixed_input_default_m</item>
+    </style>
+    <style name="input_default_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/input_default_l</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_input_default_l" parent="@style/input_default_l">
+        <item name="android:textSize">@dimen/fixed_input_default_l</item>
+    </style>
+    <style name="input_default_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/input_default_xl</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_input_default_xl" parent="@style/input_default_xl">
+        <item name="android:textSize">@dimen/fixed_input_default_xl</item>
+    </style>
+    <style name="list_body_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_list_body_xs" parent="@style/list_body_xs">
+        <item name="android:textSize">@dimen/fixed_list_body_xs</item>
+    </style>
+    <style name="list_body_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_list_body_s" parent="@style/list_body_s">
+        <item name="android:textSize">@dimen/fixed_list_body_s</item>
+    </style>
+    <style name="list_body_m" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_list_body_m" parent="@style/list_body_m">
+        <item name="android:textSize">@dimen/fixed_list_body_m</item>
+    </style>
+    <style name="list_body_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_l</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+        <item name="android:textColorHint">@color/light_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_list_body_l" parent="@style/list_body_l">
+        <item name="android:textSize">@dimen/fixed_list_body_l</item>
+    </style>
+    <style name="list_body_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_body_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="fixed_list_body_xl" parent="@style/list_body_xl">
+        <item name="android:textSize">@dimen/fixed_list_body_xl</item>
+    </style>
+    <style name="info_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/info_primary_xs</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_info_primary_xs" parent="@style/info_primary_xs">
+        <item name="android:textSize">@dimen/fixed_info_primary_xs</item>
+    </style>
+    <style name="info_primary_s" parent="@style/light">
+        <item name="android:textSize">@dimen/info_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_info_primary_s" parent="@style/info_primary_s">
+        <item name="android:textSize">@dimen/fixed_info_primary_s</item>
+    </style>
+    <style name="info_primary_m" parent="@style/regular">
+        <item name="android:textSize">@dimen/info_primary_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_info_primary_m" parent="@style/info_primary_m">
+        <item name="android:textSize">@dimen/fixed_info_primary_m</item>
+    </style>
+    <style name="info_primary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/info_primary_l</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+    </style>
+    <style name="fixed_info_primary_l" parent="@style/info_primary_l">
+        <item name="android:textSize">@dimen/fixed_info_primary_l</item>
+    </style>
+    <style name="info_primary_xl" parent="@style/light">
+        <item name="android:textSize">@dimen/info_primary_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_info_primary_xl" parent="@style/info_primary_xl">
+        <item name="android:textSize">@dimen/fixed_info_primary_xl</item>
+    </style>
+    <style name="primary_focused_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/primary_focused_s</item>
+        <item name="android:textColor">@color/standard_color</item>
+    </style>
+    <style name="fixed_primary_focused_s" parent="@style/primary_focused_s">
+        <item name="android:textSize">@dimen/fixed_primary_focused_s</item>
+    </style>
+    <style name="primary_focused_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/primary_focused_m</item>
+        <item name="android:textColor">@color/standard_color</item>
+    </style>
+    <style name="fixed_primary_focused_m" parent="@style/primary_focused_m">
+        <item name="android:textSize">@dimen/fixed_primary_focused_m</item>
+    </style>
+    <style name="primary_focused_m_bold" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/primary_focused_m_bold</item>
+        <item name="android:textColor">@color/standard_color</item>
+    </style>
+    <style name="fixed_primary_focused_m_bold" parent="@style/primary_focused_m_bold">
+        <item name="android:textSize">@dimen/fixed_primary_focused_m_bold</item>
+    </style>
+    <style name="separator_primary_xs" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_primary_xs</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_separator_primary_xs" parent="@style/separator_primary_xs">
+        <item name="android:textSize">@dimen/fixed_separator_primary_xs</item>
+    </style>
+    <style name="b_separator_primary_xs" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/b_separator_primary_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_b_separator_primary_xs" parent="@style/b_separator_primary_xs">
+        <item name="android:textSize">@dimen/fixed_b_separator_primary_xs</item>
+    </style>
+    <style name="separator_primary_s" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_primary_s</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_separator_primary_s" parent="@style/separator_primary_s">
+        <item name="android:textSize">@dimen/fixed_separator_primary_s</item>
+    </style>
+    <style name="b_separator_primary_s" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/b_separator_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_b_separator_primary_s" parent="@style/b_separator_primary_s">
+        <item name="android:textSize">@dimen/fixed_b_separator_primary_s</item>
+    </style>
+    <style name="separator_primary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_primary_m</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_separator_primary_m" parent="@style/separator_primary_m">
+        <item name="android:textSize">@dimen/fixed_separator_primary_m</item>
+    </style>
+    <style name="b_separator_primary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/b_separator_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_b_separator_primary_m" parent="@style/b_separator_primary_m">
+        <item name="android:textSize">@dimen/fixed_b_separator_primary_m</item>
+    </style>
+    <style name="separator_primary_l" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_primary_l</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_separator_primary_l" parent="@style/separator_primary_l">
+        <item name="android:textSize">@dimen/fixed_separator_primary_l</item>
+    </style>
+    <style name="b_separator_primary_l" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/b_separator_primary_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_b_separator_primary_l" parent="@style/b_separator_primary_l">
+        <item name="android:textSize">@dimen/fixed_b_separator_primary_l</item>
+    </style>
+    <style name="separator_primary_xl" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_primary_xl</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_separator_primary_xl" parent="@style/separator_primary_xl">
+        <item name="android:textSize">@dimen/fixed_separator_primary_xl</item>
+    </style>
+    <style name="b_separator_primary_xl" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/b_separator_primary_xl</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_b_separator_primary_xl" parent="@style/b_separator_primary_xl">
+        <item name="android:textSize">@dimen/fixed_b_separator_primary_xl</item>
+    </style>
+    <style name="separator_secondary_xs" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_secondary_xs</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_separator_secondary_xs" parent="@style/separator_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_separator_secondary_xs</item>
+    </style>
+    <style name="b_separator_secondary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_separator_secondary_xs</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_b_separator_secondary_xs" parent="@style/b_separator_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_b_separator_secondary_xs</item>
+    </style>
+    <style name="separator_secondary_s" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_secondary_s</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_separator_secondary_s" parent="@style/separator_secondary_s">
+        <item name="android:textSize">@dimen/fixed_separator_secondary_s</item>
+    </style>
+    <style name="b_separator_secondary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_separator_secondary_s</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_b_separator_secondary_s" parent="@style/b_separator_secondary_s">
+        <item name="android:textSize">@dimen/fixed_b_separator_secondary_s</item>
+    </style>
+    <style name="separator_secondary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_secondary_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_separator_secondary_m" parent="@style/separator_secondary_m">
+        <item name="android:textSize">@dimen/fixed_separator_secondary_m</item>
+    </style>
+    <style name="b_separator_secondary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_separator_secondary_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_b_separator_secondary_m" parent="@style/b_separator_secondary_m">
+        <item name="android:textSize">@dimen/fixed_b_separator_secondary_m</item>
+    </style>
+    <style name="separator_secondary_l" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_secondary_l</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_separator_secondary_l" parent="@style/separator_secondary_l">
+        <item name="android:textSize">@dimen/fixed_separator_secondary_l</item>
+    </style>
+    <style name="b_separator_secondary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_separator_secondary_l</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_b_separator_secondary_l" parent="@style/b_separator_secondary_l">
+        <item name="android:textSize">@dimen/fixed_b_separator_secondary_l</item>
+    </style>
+    <style name="separator_secondary_xl" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_secondary_xl</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_separator_secondary_xl" parent="@style/separator_secondary_xl">
+        <item name="android:textSize">@dimen/fixed_separator_secondary_xl</item>
+    </style>
+    <style name="b_separator_secondary_xl" parent="@style/condensed">
+        <item name="android:textSize">@dimen/b_separator_secondary_xl</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_b_separator_secondary_xl" parent="@style/b_separator_secondary_xl">
+        <item name="android:textSize">@dimen/fixed_b_separator_secondary_xl</item>
+    </style>
+    <style name="notification_info_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/notification_info_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_notification_info_xs" parent="@style/notification_info_xs">
+        <item name="android:textSize">@dimen/fixed_notification_info_xs</item>
+    </style>
+    <style name="notification_info_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/notification_info_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_notification_info_s" parent="@style/notification_info_s">
+        <item name="android:textSize">@dimen/fixed_notification_info_s</item>
+    </style>
+    <style name="notification_info_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/notification_info_m</item>
+        <item name="android:textColor">?light_category_color</item>
+    </style>
+    <style name="fixed_notification_info_m" parent="@style/notification_info_m">
+        <item name="android:textSize">@dimen/fixed_notification_info_m</item>
+    </style>
+    <style name="label_off_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/label_off_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_label_off_m" parent="@style/label_off_m">
+        <item name="android:textSize">@dimen/fixed_label_off_m</item>
+    </style>
+    <style name="label_on_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/label_on_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_label_on_m" parent="@style/label_on_m">
+        <item name="android:textSize">@dimen/fixed_label_on_m</item>
+    </style>
+    <style name="toggle_primary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/toggle_primary_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_toggle_primary_m" parent="@style/toggle_primary_m">
+        <item name="android:textSize">@dimen/fixed_toggle_primary_m</item>
+    </style>
+    <style name="b_toggle_primary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/b_toggle_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_b_toggle_primary_m" parent="@style/b_toggle_primary_m">
+        <item name="android:textSize">@dimen/fixed_b_toggle_primary_m</item>
+    </style>
+    <style name="random_access_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/random_access_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_random_access_m" parent="@style/random_access_m">
+        <item name="android:textSize">@dimen/fixed_random_access_m</item>
+    </style>
+    <style name="random_access_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/random_access_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_random_access_l" parent="@style/random_access_l">
+        <item name="android:textSize">@dimen/fixed_random_access_l</item>
+    </style>
+    <style name="time_info_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/time_info_m</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+    </style>
+    <style name="fixed_time_info_m" parent="@style/time_info_m">
+        <item name="android:textSize">@dimen/fixed_time_info_m</item>
+    </style>
+    <style name="list_secondary" parent="@style/condensed">
+        <item name="android:textSize">@dimen/list_secondary</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+    </style>
+    <style name="fixed_list_secondary" parent="@style/list_secondary">
+        <item name="android:textSize">@dimen/fixed_list_secondary</item>
+    </style>
+    <style name="darklist_secondary" parent="@style/condensed">
+        <item name="android:textSize">@dimen/darklist_secondary</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_darklist_secondary" parent="@style/darklist_secondary">
+        <item name="android:textSize">@dimen/fixed_darklist_secondary</item>
+    </style>
+    <style name="time_pick_primary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/time_pick_primary_xs</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_time_pick_primary_xs" parent="@style/time_pick_primary_xs">
+        <item name="android:textSize">@dimen/fixed_time_pick_primary_xs</item>
+    </style>
+    <style name="time_pick_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/time_pick_primary_s</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_time_pick_primary_s" parent="@style/time_pick_primary_s">
+        <item name="android:textSize">@dimen/fixed_time_pick_primary_s</item>
+    </style>
+    <style name="time_pick_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/time_pick_primary_m</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_time_pick_primary_m" parent="@style/time_pick_primary_m">
+        <item name="android:textSize">@dimen/fixed_time_pick_primary_m</item>
+    </style>
+    <style name="shortcut_label_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/shortcut_label_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_shortcut_label_m" parent="@style/shortcut_label_m">
+        <item name="android:textSize">@dimen/fixed_shortcut_label_m</item>
+    </style>
+    <style name="shortcut_label_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/shortcut_label_l</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_shortcut_label_l" parent="@style/shortcut_label_l">
+        <item name="android:textSize">@dimen/fixed_shortcut_label_l</item>
+    </style>
+    <style name="source_label_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/source_label_m</item>
+        <item name="android:textColor">@color/light_primaryfont</item>
+    </style>
+    <style name="fixed_source_label_m" parent="@style/source_label_m">
+        <item name="android:textSize">@dimen/fixed_source_label_m</item>
+    </style>
+    <style name="dark_source_label_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/dark_source_label_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_dark_source_label_m" parent="@style/dark_source_label_m">
+        <item name="android:textSize">@dimen/fixed_dark_source_label_m</item>
+    </style>
+    <style name="automotive_title_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_title_primary_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_title_primary_s" parent="@style/automotive_title_primary_s">
+        <item name="android:textSize">@dimen/fixed_automotive_title_primary_s</item>
+    </style>
+    <style name="automotive_title_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_title_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_title_primary_m" parent="@style/automotive_title_primary_m">
+        <item name="android:textSize">@dimen/fixed_automotive_title_primary_m</item>
+    </style>
+    <style name="automotive_title_secondary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/automotive_title_secondary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_title_secondary_m" parent="@style/automotive_title_secondary_m">
+        <item name="android:textSize">@dimen/fixed_automotive_title_secondary_m</item>
+    </style>
+    <style name="automotive_darklist_primary_xs" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/automotive_darklist_primary_xs</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_darklist_primary_xs" parent="@style/automotive_darklist_primary_xs">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_primary_xs</item>
+    </style>
+    <style name="automotive_darklist_primary_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_darklist_primary_s</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_automotive_darklist_primary_s" parent="@style/automotive_darklist_primary_s">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_primary_s</item>
+    </style>
+    <style name="automotive_darklist_primary_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_darklist_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_darklist_primary_m" parent="@style/automotive_darklist_primary_m">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_primary_m</item>
+    </style>
+    <style name="automotive_darklist_secondary_xs" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_darklist_secondary_xs</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_automotive_darklist_secondary_xs" parent="@style/automotive_darklist_secondary_xs">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_secondary_xs</item>
+    </style>
+    <style name="automotive_darklist_secondary_s" parent="@style/light">
+        <item name="android:textSize">@dimen/automotive_darklist_secondary_s</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_automotive_darklist_secondary_s" parent="@style/automotive_darklist_secondary_s">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_secondary_s</item>
+    </style>
+    <style name="automotive_darklist_secondary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/automotive_darklist_secondary_m</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_automotive_darklist_secondary_m" parent="@style/automotive_darklist_secondary_m">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_secondary_m</item>
+    </style>
+    <style name="automotive_darklist_secondary_l" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_darklist_secondary_l</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_automotive_darklist_secondary_l" parent="@style/automotive_darklist_secondary_l">
+        <item name="android:textSize">@dimen/fixed_automotive_darklist_secondary_l</item>
+    </style>
+    <style name="automotive_input_default_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_input_default_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_input_default_m" parent="@style/automotive_input_default_m">
+        <item name="android:textSize">@dimen/fixed_automotive_input_default_m</item>
+    </style>
+    <style name="automotive_b_separator_primary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/automotive_b_separator_primary_m</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+    </style>
+    <style name="fixed_automotive_b_separator_primary_m" parent="@style/automotive_b_separator_primary_m">
+        <item name="android:textSize">@dimen/fixed_automotive_b_separator_primary_m</item>
+    </style>
+    <style name="automotive_b_separator_primary_s" parent="@style/regular">
+        <item name="android:textSize">@dimen/automotive_b_separator_primary_s</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <style name="fixed_automotive_b_separator_primary_s" parent="@style/automotive_b_separator_primary_s">
+        <item name="android:textSize">@dimen/fixed_automotive_b_separator_primary_s</item>
+    </style>
+    <style name="automotive_list_body_primary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/automotive_list_body_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_list_body_primary_m" parent="@style/automotive_list_body_primary_m">
+        <item name="android:textSize">@dimen/fixed_automotive_list_body_primary_m</item>
+    </style>
+    <style name="automotive_random_access_s" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_random_access_s</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_random_access_s" parent="@style/automotive_random_access_s">
+        <item name="android:textSize">@dimen/fixed_automotive_random_access_s</item>
+    </style>
+    <style name="automotive_random_access_m" parent="@style/condensed">
+        <item name="android:textSize">@dimen/automotive_random_access_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_automotive_random_access_m" parent="@style/automotive_random_access_m">
+        <item name="android:textSize">@dimen/fixed_automotive_random_access_m</item>
+    </style>
+    <style name="HtcGridView" parent="@android:style/Widget.Holo.GridView">
+        <item name="android:listSelector">@drawable/grid_selector_light</item>
+        <item name="android:spacing">@dimen/gridview_gap</item>
+    </style>
+    <style name="HtcGridView.Dark" parent="@style/HtcGridView">
+        <item name="android:listSelector">@drawable/grid_selector_dark</item>
+    </style>
+    <style name="hTC_ShadowText1">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="DropDownDownTopCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out</item>
+    </style>
+    <style name="DropDownDownTopEast">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_east</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_east</item>
+    </style>
+    <style name="DropDownDownTopWest">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_west</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_west</item>
+    </style>
+    <style name="DropDownUpBottomCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="DropDownUpBottomEast">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_from_bottom_east</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_from_bottom_east</item>
+    </style>
+    <style name="DropDownUpBottomWest">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_from_bottom_west</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_from_bottom_west</item>
+    </style>
+    <style name="DropDownLeft">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_left</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_left</item>
+    </style>
+    <style name="DropDownRight">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_right</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_right</item>
+    </style>
+    <style name="DropDownCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_center</item>
+    </style>
+    <style name="Preference" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorSecondary">@color/light_primaryfont</item>
+        <item name="android:textAppearanceMedium">@style/list_primary_m</item>
+        <item name="android:textAppearanceSmall">@style/list_secondary_m</item>
+    </style>
+    <style name="fixed_lockscreen_01">
+        <item name="android:textSize">@dimen/fixed_lockscreen_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">4.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_lockscreen_12">
+        <item name="android:textSize">@dimen/fixed_lockscreen_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_lockscreen_21">
+        <item name="android:textSize">@dimen/fixed_lockscreen_21</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="HtcAlert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/title_primary</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryOne" parent="@style/HtcDeviceDefault">
+        <item name="android:textColorHighlight">@color/CategoryOne_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryOne_text_selection_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryOne_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryOne_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryOne_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryOne_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryOne_progress_track_end_color</item>
+        <item name="light_category_color">@color/CategoryOne_light_category_color</item>
+        <item name="category_color">@color/CategoryOne_category_color</item>
+        <item name="dark_category_color">@color/CategoryOne_dark_category_color</item>
+        <item name="multiply_color">@color/CategoryOne_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryOne_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryOne_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryOne_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryOne_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryOne_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryOne_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryOne_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryOne_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryOne_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryOne_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryOne_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryOne_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryOne_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryOne_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryOne_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryOne_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryOne_focused_color</item>
+        <item name="standard_color">@color/CategoryOne_standard_color</item>
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryOne</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryOne</item>
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryOne</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryTwo" parent="@style/HtcDeviceDefault">
+        <item name="android:textColorHighlight">@color/CategoryTwo_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryTwo_text_selection_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryTwo_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryTwo_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryTwo_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryTwo_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryTwo_progress_track_end_color</item>
+        <item name="light_category_color">@color/CategoryTwo_light_category_color</item>
+        <item name="category_color">@color/CategoryTwo_category_color</item>
+        <item name="dark_category_color">@color/CategoryTwo_dark_category_color</item>
+        <item name="multiply_color">@color/CategoryTwo_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryTwo_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryTwo_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryTwo_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryTwo_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryTwo_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryTwo_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryTwo_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryTwo_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryTwo_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryTwo_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryTwo_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryTwo_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryTwo_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryTwo_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryTwo_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryTwo_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryTwo_focused_color</item>
+        <item name="standard_color">@color/CategoryTwo_standard_color</item>
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryTwo</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryTwo</item>
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryTwo</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryThree" parent="@style/HtcDeviceDefault">
+        <item name="android:textColorHighlight">@color/CategoryThree_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryThree_text_selection_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryThree_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryThree_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryThree_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryThree_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryThree_progress_track_end_color</item>
+        <item name="light_category_color">@color/CategoryThree_light_category_color</item>
+        <item name="category_color">@color/CategoryThree_category_color</item>
+        <item name="dark_category_color">@color/CategoryThree_dark_category_color</item>
+        <item name="multiply_color">@color/CategoryThree_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryThree_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryThree_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryThree_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryThree_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryThree_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryThree_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryThree_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryThree_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryThree_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryThree_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryThree_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryThree_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryThree_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryThree_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryThree_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryThree_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryThree_focused_color</item>
+        <item name="standard_color">@color/CategoryThree_standard_color</item>
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryThree</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryThree</item>
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryThree</item>
+    </style>
+    <style name="HtcDeviceDefault.CategoryFour" parent="@style/HtcDeviceDefault">
+        <item name="android:textColorHighlight">@color/CategoryFour_text_selection_color</item>
+        <item name="android:textColorHighlightInverse">@color/CategoryFour_text_selection_color</item>
+        <item name="text_selection_opacity_color">@color/CategoryFour_text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/CategoryFour_text_selection_color</item>
+        <item name="progress_track_start_color">@color/CategoryFour_progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/CategoryFour_progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/CategoryFour_progress_track_end_color</item>
+        <item name="light_category_color">@color/CategoryFour_light_category_color</item>
+        <item name="category_color">@color/CategoryFour_category_color</item>
+        <item name="dark_category_color">@color/CategoryFour_dark_category_color</item>
+        <item name="multiply_color">@color/CategoryFour_multiply_color</item>
+        <item name="all_hyperlink_color">@color/CategoryFour_all_hyperlink_color</item>
+        <item name="overlay_color">@color/CategoryFour_overlay_color</item>
+        <item name="light_primaryfont_color">@color/CategoryFour_light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/CategoryFour_light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/CategoryFour_light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/CategoryFour_dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/CategoryFour_dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/CategoryFour_dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/CategoryFour_tabfont_color</item>
+        <item name="light_separatorfont_color">@color/CategoryFour_light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/CategoryFour_list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/CategoryFour_list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/CategoryFour_list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/CategoryFour_highlight_color</item>
+        <item name="ap_background_color">@color/CategoryFour_ap_background_color</item>
+        <item name="dark_ap_background_color">@color/CategoryFour_dark_ap_background_color</item>
+        <item name="focused_color">@color/CategoryFour_focused_color</item>
+        <item name="standard_color">@color/CategoryFour_standard_color</item>
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle.CategoryFour</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full.CategoryFour</item>
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle.CategoryFour</item>
+    </style>
+    <style name="Theme.DeviceDefault" parent="@android:style/Theme.Holo">
+        <item name="text_selection_opacity_color">@color/text_selection_opacity_color</item>
+        <item name="text_selection_color">@color/text_selection_color</item>
+        <item name="progress_track_start_color">@color/progress_track_start_color</item>
+        <item name="progress_track_center_color">@color/progress_track_center_color</item>
+        <item name="progress_track_end_color">@color/progress_track_end_color</item>
+        <item name="light_category_color">@color/light_category_color</item>
+        <item name="category_color">@color/category_color</item>
+        <item name="dark_category_color">@color/dark_category_color</item>
+        <item name="multiply_color">@color/multiply_color</item>
+        <item name="all_hyperlink_color">@color/all_hyperlink_color</item>
+        <item name="overlay_color">@color/overlay_color</item>
+        <item name="light_primaryfont_color">@color/light_primaryfont_color</item>
+        <item name="light_primaryfont_disable_color">@color/light_primaryfont_disable_color</item>
+        <item name="light_secondaryfont_color">@color/light_secondaryfont_color</item>
+        <item name="dark_primaryfont_color">@color/dark_primaryfont_color</item>
+        <item name="dark_primaryfont_disable_color">@color/dark_primaryfont_disable_color</item>
+        <item name="dark_secondaryfont_color">@color/dark_secondaryfont_color</item>
+        <item name="tabfont_color">@color/tabfont_color</item>
+        <item name="light_separatorfont_color">@color/light_separatorfont_color</item>
+        <item name="list_item_bg_center_color">@color/list_item_bg_center_color</item>
+        <item name="list_item_bg_top_color">@color/list_item_bg_top_color</item>
+        <item name="list_item_bg_bottom_color">@color/list_item_bg_bottom_color</item>
+        <item name="highlight_color">@color/highlight_color</item>
+        <item name="ap_background_color">@color/ap_background_color</item>
+        <item name="dark_ap_background_color">@color/dark_ap_background_color</item>
+        <item name="focused_color">@color/focused_color</item>
+        <item name="standard_color">@color/standard_color</item>
+        <item name="active_color">@color/active_color</item>
+        <item name="alertDialogStyle">@style/AlertDialog</item>
+        <item name="buttonStyle">@style/HtcButton</item>
+        <item name="dateTimePickerStyle">@style/HtcDateTimePicker</item>
+        <item name="popupBubbleWindowStyle">@style/HtcWidget.PopupBubbleWindow</item>
+        <item name="listPopupBubbleWindowStyle">@style/HtcWidget.ListPopupBubbleWindow</item>
+        <item name="dropDownExpandableListViewStyle">@style/HtcWidget.ExpandableListView.DropDown</item>
+        <item name="dropDownListViewStyle">@style/HtcWidget.ListView.DropDown</item>
+        <item name="htcListItemStyle">@style/htcListItem</item>
+        <item name="tabbarStyle">@style/TabBarStyle</item>
+        <item name="htcReorderListViewStyle">@style/HtcReorderListViewStyle</item>
+        <item name="quickContactBadgeStyle">@style/QuickContactBadgeStyle</item>
+        <item name="htcListItemSeparatorStyle">@style/HtcListItemSeparatorStyle</item>
+        <item name="htcListViewStyle">@style/HtcListView</item>
+        <item name="htcAutoCompleteTextViewStyle">@style/htcAutoCompleteTextViewStyleDefault</item>
+        <item name="htcEditTextStyle">@style/htcEditTextStyleDefault</item>
+        <item name="footerStyle">@style/FooterBarStyle</item>
+        <item name="footerButtonStyle">@style/FooterBarButtonStyle</item>
+        <item name="htcProgressBarStyle">@style/HTCProgressBarStyle</item>
+        <item name="htcProgressBarStyleIndeterminate">@style/HTCProgressBarStyle.Indeterminate</item>
+        <item name="htcProgressBarStyleIndeterminateSmall">@style/HTCProgressBarStyle.Indeterminate.Small</item>
+        <item name="htcProgressBarStyleHorizontalFull">@style/HTCProgressBarStyle.Full</item>
+        <item name="htcSeekBarStyle">@style/HTCSeekBarStyle</item>
+        <item name="htcPopupContainerStyle">@style/HTCPopupContainerStyle</item>
+        <item name="htcListItemSerialNumberStyle">@style/HtcListItemSerialNumber</item>
+    </style>
+    <style name="ShareTheme_Trans_NoTitle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="ContextMenuTheme">
+        <item name="android:alertDialogTheme">@style/dialogAlertTheme</item>
+    </style>
+    <style name="TextAppearance_Large_Inverse">
+        <item name="android:textColor">@color/list_item_primary_text</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="dialogAlertTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:alertDialogStyle">?alertDialogStyle</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance_Large_Inverse</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="HtcDeviceDefault.Dialog.Alert" parent="@style/HtcDeviceDefault.Dialog" />
+    <style name="DialogTitle">
+        <item name="android:textAppearance">@style/title_primary_m</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+    <style name="HtcDeviceDefault.Dialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/HtcWidget.ActionBar</item>
+        <item name="android:actionButtonStyle">@style/HtcWidget.ActionButton.Overflow</item>
+        <item name="android:actionModeCloseDrawable">@drawable/icon_btn_done_dark</item>
+        <item name="android:actionBarSize">@dimen/ab_height</item>
+        <item name="android:actionOverflowButtonStyle">@style/HtcWidget.ActionButton.Overflow</item>
+        <item name="android:actionModeCloseButtonStyle">@style/HtcWidget.ActionButton.CloseMode</item>
+        <item name="android:actionModeStyle">@style/HtcWidget.ActionMode</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
+        <item name="android:actionBarDivider">@null</item>
+    </style>
+    <style name="weather_clock_week_date" parent="@style/fixed_weather_clock_half_01" />
+    <style name="weather_clock_temperature" parent="@style/fixed_weather_clock_half_04" />
+    <style name="weather_clock_temperature_degree" parent="@style/fixed_weather_clock_half_06" />
+    <style name="weather_clock_high_low_temp" parent="@style/fixed_weather_clock_half_07" />
+    <style name="weather_clock_high_low_temp_degree" parent="@style/fixed_weather_clock_half_09" />
+    <style name="weather_clock_city_name" parent="@style/fixed_weather_clock_half_02" />
+    <style name="weather_clock_condition" parent="@style/fixed_weather_clock_half_03" />
+    <style name="weather_condition" parent="@style/fixed_widget_weather_01" />
+    <style name="weather_high_low_temp" parent="@style/fixed_widget_weather_01" />
+    <style name="weather_high_low_temp_degree" parent="@style/fixed_widget_weather_08" />
+    <style name="clock_dual_am_pm" parent="@style/fixed_clock_dual_01" />
+    <style name="fixed_masthead_01">
+        <item name="android:textSize">@dimen/fixed_masthead_01</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_01_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_01_shadowSize</item>
+    </style>
+    <style name="fixed_masthead_02">
+        <item name="android:textSize">@dimen/fixed_masthead_02</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_02_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_02_shadowSize</item>
+    </style>
+    <style name="fixed_masthead_03">
+        <item name="android:textSize">@dimen/fixed_masthead_03</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_03_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_03_shadowSize</item>
+    </style>
+    <style name="fixed_masthead_04">
+        <item name="android:textSize">@dimen/fixed_masthead_04</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_04_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_04_shadowSize</item>
+    </style>
+    <style name="fixed_masthead_05">
+        <item name="android:textSize">@dimen/fixed_masthead_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_05_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_05_shadowSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_masthead_06">
+        <item name="android:textSize">@dimen/fixed_masthead_06</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_06_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_06_shadowSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_masthead_07">
+        <item name="android:textSize">@dimen/fixed_masthead_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_07_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_07_shadowSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_masthead_08">
+        <item name="android:textSize">@dimen/fixed_masthead_08</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_08_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_08_shadowSize</item>
+    </style>
+    <style name="masthead_01">
+        <item name="android:textSize">@dimen/masthead_01</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_01_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_01_shadowSize</item>
+    </style>
+    <style name="masthead_02">
+        <item name="android:textSize">@dimen/masthead_02</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_02_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_02_shadowSize</item>
+    </style>
+    <style name="masthead_03">
+        <item name="android:textSize">@dimen/masthead_03</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_03_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_03_shadowSize</item>
+    </style>
+    <style name="masthead_04">
+        <item name="android:textSize">@dimen/masthead_04</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_04_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_04_shadowSize</item>
+    </style>
+    <style name="masthead_05">
+        <item name="android:textSize">@dimen/masthead_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_05_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_05_shadowSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="masthead_06">
+        <item name="android:textSize">@dimen/masthead_06</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_06_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_06_shadowSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="masthead_07">
+        <item name="android:textSize">@dimen/masthead_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_07_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_07_shadowSize</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="masthead_08">
+        <item name="android:textSize">@dimen/masthead_08</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">@dimen/masthead_08_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/masthead_08_shadowSize</item>
+    </style>
+    <style name="custom_style" parent="@style/HtcDeviceDefault">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="widget_layout_params">
+        <item name="android:tag">htc_widget_port</item>
+    </style>
+    <style name="widget_2x1_high_low_temp_layout_params">
+        <item name="android:layout_marginLeft">@dimen/digitalclock_divider_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/digitalclock_divider_margin_left_right</item>
+    </style>
+    <style name="digital_clock_week_date_layout_params">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="weather_clock_4x2_temp_info_block_layout_params" />
+    <style name="weather_clock_4x2_temp_block_layout_params">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="weather_clock_4x2_temp_layout_params">
+        <item name="android:gravity">right</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="weather_clock_4x2_curr_temp_layout_params">
+        <item name="android:layout_height">@dimen/weatherclock_base_height</item>
+    </style>
+    <style name="weather_clock_4x2_high_low_temp_layout_params">
+        <item name="android:paddingTop">@dimen/high_low_temp_margin_top</item>
+        <item name="android:layout_height">@dimen/weatherclock_base_height</item>
+        <item name="android:layout_marginTop">@dimen/weatherclock_base_height_shift</item>
+    </style>
+    <style name="weather_clock_4x2_sun_layout_params">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="weather_clock_4x2_info_block_layout_params">
+        <item name="android:layout_toLeftOf">@id/temp_block</item>
+    </style>
+    <style name="weather_clock_4x2_info_layout_params">
+        <item name="android:paddingLeft">@dimen/todayinfo_padding_left_right</item>
+    </style>
+    <style name="weather_clock_4x2_location_block_layout_params">
+        <item name="android:layout_alignLeft">@id/background_panel</item>
+    </style>
+    <style name="custom_fixed_masthead_01" parent="@style/fixed_masthead_01">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_masthead_02" parent="@style/fixed_masthead_02">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_masthead_03" parent="@style/fixed_masthead_03">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_masthead_04" parent="@style/fixed_masthead_04">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_masthead_08" parent="@style/fixed_masthead_08">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_weather_clock_quarter_01" parent="@style/fixed_masthead_01">
+        <item name="android:shadowColor">#01000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_weather_clock_quarter_02" parent="@style/fixed_masthead_02">
+        <item name="android:shadowColor">#01000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_weather_clock_quarter_03" parent="@style/fixed_masthead_03">
+        <item name="android:shadowColor">#01000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_weather_clock_quarter_04" parent="@style/fixed_masthead_04">
+        <item name="android:shadowColor">#01000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_fixed_weather_clock_quarter_05" parent="@style/fixed_masthead_08">
+        <item name="android:shadowColor">#01000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_i_fixed_masthead_02" parent="@style/fixed_masthead_02">
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="custom_i_fixed_weather_clock_quarter_02" parent="@style/fixed_masthead_02">
+        <item name="android:textStyle">italic</item>
+        <item name="android:shadowColor">#01000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="fixed_analog_clock_a_01">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_02">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_03">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_03</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_04">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_05">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_06">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_06</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_07">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_08">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_09">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_09</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_10">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_10</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_11">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_12">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_12</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_13" parent="@style/fixed_shortcut_label_m">
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDy">@dimen/analog_clock_a_13_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/analog_clock_a_13_shadowSize</item>
+    </style>
+    <style name="fixed_analog_clock_a_14">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_15">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_15</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_16">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_17">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_18">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_18</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_19">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_19</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_20">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_20</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_21">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_21</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_22">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_22</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_23">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_23</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_24">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_24</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_analog_clock_a_25">
+        <item name="android:textSize">@dimen/fixed_analog_clock_a_25</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_weather_clock_half_01">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_02">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_03">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_03</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_04">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_05">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_06">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_06</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_07">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_08">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_09">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_09</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_10">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_10</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_11">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_12">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_13">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_14">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_15">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_15</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_16">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_17">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_weather_clock_half_18">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_18</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_weather_clock_half_19" parent="@style/fixed_list_body_l">
+        <item name="android:textSize">@dimen/fixed_weather_clock_half_19</item>
+    </style>
+    <style name="fixed_weather_clock_quarter_01">
+        <item name="android:textSize">@dimen/fixed_weather_clock_quarter_01</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_01_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_01_shadowSize</item>
+    </style>
+    <style name="fixed_weather_clock_quarter_02">
+        <item name="android:textSize">@dimen/fixed_weather_clock_quarter_02</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_02_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_02_shadowSize</item>
+    </style>
+    <style name="fixed_weather_clock_quarter_03">
+        <item name="android:textSize">@dimen/fixed_weather_clock_quarter_03</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_03_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_03_shadowSize</item>
+    </style>
+    <style name="fixed_weather_clock_quarter_04">
+        <item name="android:textSize">@dimen/fixed_weather_clock_quarter_04</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_04_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_04_shadowSize</item>
+    </style>
+    <style name="fixed_weather_clock_quarter_05">
+        <item name="android:textSize">@dimen/fixed_weather_clock_quarter_05</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="fixed_weather_clock_quarter_06">
+        <item name="android:textSize">@dimen/fixed_weather_clock_quarter_06</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_06_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_06_shadowSize</item>
+    </style>
+    <style name="fixed_clock_dual_01">
+        <item name="android:textSize">@dimen/fixed_clock_dual_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_clock_dual_02">
+        <item name="android:textSize">@dimen/fixed_clock_dual_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="fixed_clock_dual_03" parent="@style/fixed_shortcut_label_m">
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDy">@dimen/clock_dual_03_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/clock_dual_03_shadowSize</item>
+    </style>
+    <style name="fixed_digital_clock_01">
+        <item name="android:textSize">@dimen/fixed_digital_clock_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_digital_clock_02">
+        <item name="android:textSize">@dimen/fixed_digital_clock_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_digital_clock_03">
+        <item name="android:textSize">@dimen/fixed_digital_clock_03</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_digital_clock_04">
+        <item name="android:textSize">@dimen/fixed_digital_clock_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_01">
+        <item name="android:textSize">@dimen/fixed_widget_weather_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_02">
+        <item name="android:textSize">@dimen/fixed_widget_weather_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_widget_weather_03">
+        <item name="android:textSize">@dimen/fixed_widget_weather_03</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_04">
+        <item name="android:textSize">@dimen/fixed_widget_weather_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_05">
+        <item name="android:textSize">@dimen/fixed_widget_weather_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_06">
+        <item name="android:textSize">@dimen/fixed_widget_weather_06</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_widget_weather_07">
+        <item name="android:textSize">@dimen/fixed_widget_weather_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_08">
+        <item name="android:textSize">@dimen/fixed_widget_weather_08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_09">
+        <item name="android:textSize">@dimen/fixed_widget_weather_09</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_10">
+        <item name="android:textSize">@dimen/fixed_widget_weather_10</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_11">
+        <item name="android:textSize">@dimen/fixed_widget_weather_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_12">
+        <item name="android:textSize">@dimen/fixed_widget_weather_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_widget_weather_13">
+        <item name="android:textSize">@dimen/fixed_widget_weather_13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_14">
+        <item name="android:textSize">@dimen/fixed_widget_weather_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_15">
+        <item name="android:textSize">@dimen/fixed_widget_weather_15</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_16">
+        <item name="android:textSize">@dimen/fixed_widget_weather_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="fixed_widget_weather_17">
+        <item name="android:textSize">@dimen/fixed_widget_weather_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_18">
+        <item name="android:textSize">@dimen/fixed_widget_weather_18</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_19">
+        <item name="android:textSize">@dimen/fixed_widget_weather_19</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="fixed_widget_weather_20">
+        <item name="android:textSize">@dimen/fixed_widget_weather_20</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_01">
+        <item name="android:textSize">@dimen/analog_clock_a_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_02">
+        <item name="android:textSize">@dimen/analog_clock_a_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_03">
+        <item name="android:textSize">@dimen/analog_clock_a_03</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_04">
+        <item name="android:textSize">@dimen/analog_clock_a_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_05">
+        <item name="android:textSize">@dimen/analog_clock_a_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_06">
+        <item name="android:textSize">@dimen/analog_clock_a_06</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_07">
+        <item name="android:textSize">@dimen/analog_clock_a_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_08">
+        <item name="android:textSize">@dimen/analog_clock_a_08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_09">
+        <item name="android:textSize">@dimen/analog_clock_a_09</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_10">
+        <item name="android:textSize">@dimen/analog_clock_a_10</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_11">
+        <item name="android:textSize">@dimen/analog_clock_a_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_12">
+        <item name="android:textSize">@dimen/analog_clock_a_12</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_13" parent="@style/shortcut_label_m">
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDy">@dimen/analog_clock_a_13_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/analog_clock_a_13_shadowSize</item>
+    </style>
+    <style name="analog_clock_a_14">
+        <item name="android:textSize">@dimen/analog_clock_a_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_15">
+        <item name="android:textSize">@dimen/analog_clock_a_15</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_16">
+        <item name="android:textSize">@dimen/analog_clock_a_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_17">
+        <item name="android:textSize">@dimen/analog_clock_a_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_18">
+        <item name="android:textSize">@dimen/analog_clock_a_18</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_19">
+        <item name="android:textSize">@dimen/analog_clock_a_19</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_20">
+        <item name="android:textSize">@dimen/analog_clock_a_20</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_21">
+        <item name="android:textSize">@dimen/analog_clock_a_21</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_22">
+        <item name="android:textSize">@dimen/analog_clock_a_22</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_23">
+        <item name="android:textSize">@dimen/analog_clock_a_23</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_24">
+        <item name="android:textSize">@dimen/analog_clock_a_24</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="analog_clock_a_25">
+        <item name="android:textSize">@dimen/analog_clock_a_25</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="weather_clock_half_01">
+        <item name="android:textSize">@dimen/weather_clock_half_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_02">
+        <item name="android:textSize">@dimen/weather_clock_half_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_03">
+        <item name="android:textSize">@dimen/weather_clock_half_03</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_04">
+        <item name="android:textSize">@dimen/weather_clock_half_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_05">
+        <item name="android:textSize">@dimen/weather_clock_half_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_06">
+        <item name="android:textSize">@dimen/weather_clock_half_06</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_07">
+        <item name="android:textSize">@dimen/weather_clock_half_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_08">
+        <item name="android:textSize">@dimen/weather_clock_half_08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_09">
+        <item name="android:textSize">@dimen/weather_clock_half_09</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_10">
+        <item name="android:textSize">@dimen/weather_clock_half_10</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_11">
+        <item name="android:textSize">@dimen/weather_clock_half_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_12">
+        <item name="android:textSize">@dimen/weather_clock_half_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_13">
+        <item name="android:textSize">@dimen/weather_clock_half_13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_14">
+        <item name="android:textSize">@dimen/weather_clock_half_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_15">
+        <item name="android:textSize">@dimen/weather_clock_half_15</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_16">
+        <item name="android:textSize">@dimen/weather_clock_half_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_17">
+        <item name="android:textSize">@dimen/weather_clock_half_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="weather_clock_half_18">
+        <item name="android:textSize">@dimen/weather_clock_half_18</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="weather_clock_half_19" parent="@style/list_body_l">
+        <item name="android:textSize">@dimen/weather_clock_half_19</item>
+    </style>
+    <style name="weather_clock_quarter_01">
+        <item name="android:textSize">@dimen/weather_clock_quarter_01</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_01_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_01_shadowSize</item>
+    </style>
+    <style name="weather_clock_quarter_02">
+        <item name="android:textSize">@dimen/weather_clock_quarter_02</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_02_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_02_shadowSize</item>
+    </style>
+    <style name="weather_clock_quarter_03">
+        <item name="android:textSize">@dimen/weather_clock_quarter_03</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_03_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_03_shadowSize</item>
+    </style>
+    <style name="weather_clock_quarter_04">
+        <item name="android:textSize">@dimen/weather_clock_quarter_04</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_04_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_04_shadowSize</item>
+    </style>
+    <style name="weather_clock_quarter_05">
+        <item name="android:textSize">@dimen/weather_clock_quarter_05</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+    <style name="weather_clock_quarter_06">
+        <item name="android:textSize">@dimen/weather_clock_quarter_06</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:shadowDy">@dimen/weather_clock_quarter_06_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/weather_clock_quarter_06_shadowSize</item>
+    </style>
+    <style name="clock_dual_01">
+        <item name="android:textSize">@dimen/clock_dual_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="clock_dual_02">
+        <item name="android:textSize">@dimen/clock_dual_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_secondaryfont_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="clock_dual_03" parent="@style/shortcut_label_m">
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDy">@dimen/clock_dual_03_shadowDy</item>
+        <item name="android:shadowRadius">@dimen/clock_dual_03_shadowSize</item>
+    </style>
+    <style name="digital_clock_01">
+        <item name="android:textSize">@dimen/digital_clock_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="digital_clock_02">
+        <item name="android:textSize">@dimen/digital_clock_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="digital_clock_03">
+        <item name="android:textSize">@dimen/digital_clock_03</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="digital_clock_04">
+        <item name="android:textSize">@dimen/digital_clock_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_01">
+        <item name="android:textSize">@dimen/widget_weather_01</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_02">
+        <item name="android:textSize">@dimen/widget_weather_02</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="widget_weather_03">
+        <item name="android:textSize">@dimen/widget_weather_03</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_04">
+        <item name="android:textSize">@dimen/widget_weather_04</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_05">
+        <item name="android:textSize">@dimen/widget_weather_05</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_06">
+        <item name="android:textSize">@dimen/widget_weather_06</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="widget_weather_07">
+        <item name="android:textSize">@dimen/widget_weather_07</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_08">
+        <item name="android:textSize">@dimen/widget_weather_08</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_09">
+        <item name="android:textSize">@dimen/widget_weather_09</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_10">
+        <item name="android:textSize">@dimen/widget_weather_10</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/light_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_11">
+        <item name="android:textSize">@dimen/widget_weather_11</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_12">
+        <item name="android:textSize">@dimen/widget_weather_12</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="widget_weather_13">
+        <item name="android:textSize">@dimen/widget_weather_13</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_14">
+        <item name="android:textSize">@dimen/widget_weather_14</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_15">
+        <item name="android:textSize">@dimen/widget_weather_15</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/tabfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_16">
+        <item name="android:textSize">@dimen/widget_weather_16</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="widget_weather_17">
+        <item name="android:textSize">@dimen/widget_weather_17</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_18">
+        <item name="android:textSize">@dimen/widget_weather_18</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_19">
+        <item name="android:textSize">@dimen/widget_weather_19</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="widget_weather_20">
+        <item name="android:textSize">@dimen/widget_weather_20</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>

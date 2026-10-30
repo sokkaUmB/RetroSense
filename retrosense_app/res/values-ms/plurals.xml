@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="weekly">
+        <item quantity="other">Setiap %1$d minggu pada %2$s</item>
+        <item quantity="one">Setiap minggu pada %2$s</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">%d kali</item>
+        <item quantity="one">satu kali</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">Setiap %d hari</item>
+        <item quantity="one">Setiap %d hari</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">Setiap %d minggu</item>
+        <item quantity="one">Setiap %d minggu</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">Setiap %d bulan</item>
+        <item quantity="one">Setiap %d bulan</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">Setiap %d tahun</item>
+        <item quantity="one">Setiap %d tahun</item>
+    </plurals>
+</resources>

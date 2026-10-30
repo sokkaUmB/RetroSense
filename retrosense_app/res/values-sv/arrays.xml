@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>första söndagen per månad</item>
+        <item>andra söndagen per månad</item>
+        <item>tredje söndagen per månad</item>
+        <item>fjärde söndagen per månad</item>
+        <item>sista söndagen per månad</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>första månaden per månad</item>
+        <item>andra måndagen per månad</item>
+        <item>tredje måndagen per månad</item>
+        <item>fjärde måndagen per månad</item>
+        <item>sista måndagen per månad</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>första tisdagen per månad</item>
+        <item>andra tisdagen per månad</item>
+        <item>tredje tisdagen per månad</item>
+        <item>fjärde tisdagen per månad</item>
+        <item>sista tisdagen per månad</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>första onsdagen per månad</item>
+        <item>andra onsdagen per månad</item>
+        <item>tredje onsdagen per månad</item>
+        <item>fjärde onsdagen per månad</item>
+        <item>sista onsdagen per månad</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>första torsdagen per månad</item>
+        <item>andra torsdagen per månad</item>
+        <item>tredje torsdagen per månad</item>
+        <item>fjärde torsdagen per månad</item>
+        <item>sista torsdagen per månad</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>första fredagen per månad</item>
+        <item>andra fredagen per månad</item>
+        <item>tredje fredagen per månad</item>
+        <item>fjärde fredagen per månad</item>
+        <item>sista fredagen per månad</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>första lördagen per månad</item>
+        <item>andra lördagen per månad</item>
+        <item>tredje lördagen per månad</item>
+        <item>fjärde lördagen per månad</item>
+        <item>sista lördagen per månad</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Soligt</item>
+        <item>Mestadels soligt</item>
+        <item>Delvis soligt</item>
+        <item>Växlande molnighet</item>
+        <item>Sol och dis</item>
+        <item>Mestadels molnigt</item>
+        <item>Molnigt</item>
+        <item>Ostadigt</item>
+        <item>Dimma</item>
+        <item>Regnskurar</item>
+        <item>Mestadels molnigt med regnskurar</item>
+        <item>Delvis soligt med regnskurar</item>
+        <item>Åska</item>
+        <item>Mestadels molnigt med åskskurar</item>
+        <item>Delvis soligt med åskskurar</item>
+        <item>Regn</item>
+        <item>Snöbyar</item>
+        <item>Mestadels molnigt med snöbyar</item>
+        <item>Delvis soligt med snöbyar</item>
+        <item>Snöfall</item>
+        <item>Mestadels molnigt med snöfall</item>
+        <item>Hagel</item>
+        <item>Snöblandat regn</item>
+        <item>Underkylt regn</item>
+        <item>Regn och snöfall</item>
+        <item>Varmt</item>
+        <item>Kallt</item>
+        <item>Blåsigt</item>
+        <item>Klart</item>
+        <item>Mestadels klart</item>
+        <item>Delvis molnigt</item>
+        <item>Växlande molnighet</item>
+        <item>Disigt</item>
+        <item>Mestadels molnigt</item>
+        <item>Delvis molnigt med regnskurar</item>
+        <item>Mestadels molnigt med regnskurar</item>
+        <item>Delvis molnigt med åskskurar</item>
+        <item>Mestadels molnigt med åskskurar</item>
+        <item>Delvis molnigt med snöbyar</item>
+        <item>Mestadels molnigt med snöbyar</item>
+        <item>Åska med snöblandat regn</item>
+        <item>Sand</item>
+        <item>Damm</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Liten</item>
+        <item>Medium</item>
+        <item>Stor</item>
+        <item>Extra stor</item>
+        <item>Mycket stor</item>
+    </string-array>
+</resources>

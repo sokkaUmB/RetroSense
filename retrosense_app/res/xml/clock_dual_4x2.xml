@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/cell_size_5" android:minHeight="@dimen/cell_size_2" android:initialLayout="@layout/specific_widget_initial" android:configure="com.retrosense.clock.setting.ConfigClockDual" android:previewImage="@drawable/preview_clock_dual_half" android:resizeMode="horizontal" android:minResizeWidth="@dimen/cell_size_4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>igal esimesel pühapäeval</item>
+        <item>igal teisel pühapäeval</item>
+        <item>igal kolmandal pühapäeval</item>
+        <item>igal neljandal pühapäeval</item>
+        <item>igal viimasel pühapäeval</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>igal esimesel esmaspäeval</item>
+        <item>igal teisel esmaspäeval</item>
+        <item>igal kolmandal esmaspäeval</item>
+        <item>igal neljandal esmaspäeval</item>
+        <item>igal viimasel esmaspäeval</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>igal esimesel teisipäeval</item>
+        <item>igal teisel teisipäeval</item>
+        <item>igal kolmandal teisipäeval</item>
+        <item>igal neljandal teisipäeval</item>
+        <item>igal viimasel teisipäeval</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>igal esimesel kolmapäeval</item>
+        <item>igal teisel kolmapäeval</item>
+        <item>igal kolmandal kolmapäeval</item>
+        <item>igal neljandal kolmapäeval</item>
+        <item>igal viimasel kolmapäeval</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>igal esimesel neljapäeval</item>
+        <item>igal teisel neljapäeval</item>
+        <item>igal kolmandal neljapäeval</item>
+        <item>igal neljandal neljapäeval</item>
+        <item>igal viimasel neljapäeval</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>igal esimesel reedel</item>
+        <item>igal teisel reedel</item>
+        <item>igal kolmandal reedel</item>
+        <item>igal neljandal reedel</item>
+        <item>igal viimasel reedel</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>igal esimesel laupäeval</item>
+        <item>igal teisel laupäeval</item>
+        <item>igal kolmandal laupäeval</item>
+        <item>igal neljandal laupäeval</item>
+        <item>igal viimasel laupäeval</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Päikeseline</item>
+        <item>Enamasti päikeseline</item>
+        <item>Paiguti päikeseline</item>
+        <item>Vahelduv pilvisus</item>
+        <item>Vines päikesepaiste</item>
+        <item>Enamasti pilvine</item>
+        <item>Pilvine</item>
+        <item>Sompus</item>
+        <item>Udu</item>
+        <item>Hoovihm</item>
+        <item>Enamasti pilvine koos hoovihmaga</item>
+        <item>Paiguti päikeseline koos hoovihmaga</item>
+        <item>Äikesetormid</item>
+        <item>Enamasti pilvine koos äikesevihmaga</item>
+        <item>Paiguti päikeseline koos äikesevihmaga</item>
+        <item>Vihm</item>
+        <item>Tuulepuhangud</item>
+        <item>Enamasti pilvine koos tuulepuhangutega</item>
+        <item>Paiguti päikeseline koos tuulepuhangutega</item>
+        <item>Lumi</item>
+        <item>Enamasti pilvine koos lumega</item>
+        <item>Jää</item>
+        <item>Lörts</item>
+        <item>Jäävihm</item>
+        <item>Vihma- ja lumesegu</item>
+        <item>Kuum</item>
+        <item>Külm</item>
+        <item>Tuuline</item>
+        <item>Selge</item>
+        <item>Enamasti selge</item>
+        <item>Paiguti pilvine</item>
+        <item>Vahelduv pilvisus</item>
+        <item>Udu</item>
+        <item>Enamasti pilvine</item>
+        <item>Paiguti pilvine koos hoovihmaga</item>
+        <item>Enamasti pilvine koos hoovihmaga</item>
+        <item>Paiguti pilvine koos äikesevihmaga</item>
+        <item>Enamasti pilvine koos äikesevihmaga</item>
+        <item>Paiguti pilvine koos tuulepuhangutega</item>
+        <item>Enamasti pilvine koos tuulepuhangutega</item>
+        <item>Äikesetormid koos lörtsiga</item>
+        <item>Liiv</item>
+        <item>Tolm</item>
+        <item>Tornaado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Väike</item>
+        <item>Keskmine</item>
+        <item>Suur</item>
+        <item>Eriti suur</item>
+        <item>Tohutu</item>
+    </string-array>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>her ilk Pazar gününde</item>
+        <item>her ikinci Pazar gününde</item>
+        <item>her üçüncü Pazar gününde</item>
+        <item>her dördüncü Pazar gününde</item>
+        <item>her son Pazar gününde</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>her ilk Pazartesi gününde</item>
+        <item>her ikinci Pazartesi gününde</item>
+        <item>her üçüncü Pazartesi gününde</item>
+        <item>her dördüncü Pazartesi gününde</item>
+        <item>her son Pazartesi gününde</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>her ilk Salı gününde</item>
+        <item>her ikinci Salı gününde</item>
+        <item>her üçüncü Salı gününde</item>
+        <item>her dördüncü Salı gününde</item>
+        <item>her son Salı gününde</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>her ilk Çarşamba gününde</item>
+        <item>her ikinci Çarşamba gününde</item>
+        <item>her üçüncü Çarşamba gününde</item>
+        <item>her dördüncü Çarşamba gününde</item>
+        <item>her son Çarşamba gününde</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>her ilk Perşembe gününde</item>
+        <item>her ikinci Perşembe gününde</item>
+        <item>her üçüncü Perşembe gününde</item>
+        <item>her dördüncü Perşembe gününde</item>
+        <item>her son Perşembe gününde</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>her ilk Cuma gününde</item>
+        <item>her ikinci Cuma gününde</item>
+        <item>her üçüncü Cuma gününde</item>
+        <item>her dördüncü Cuma gününde</item>
+        <item>her son Cuma gününde</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>her ilk Cumartesi gününde</item>
+        <item>her ikinci Cumartesi gününde</item>
+        <item>her üçüncü Cumartesi gününde</item>
+        <item>her dördüncü Cumartesi gününde</item>
+        <item>her son Cumartesi gününde</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Güneşli</item>
+        <item>Çoğunlukla Güneşli</item>
+        <item>Kısmen Güneşli</item>
+        <item>Aralıklı Bulutlar</item>
+        <item>Bulutlu ve Güneşli</item>
+        <item>Çoğunlukla Bulutlu</item>
+        <item>Bulutlu</item>
+        <item>Kapalı</item>
+        <item>Sisli</item>
+        <item>Sağanak Yağış</item>
+        <item>Çoğunlukla Bulutlu Sağanak Yağışlı</item>
+        <item>Parçalı Bulutlu Sağanak Yağışlı</item>
+        <item>Gök Gürültülü</item>
+        <item>Çoğunlukla Bulutlu Gök Gürültülü Sağanak Yağışlı</item>
+        <item>Parçalı Bulutlu Gök Gürültülü Sağanak Yağışlı</item>
+        <item>Yağmur</item>
+        <item>Kısa süreli kar yağışı</item>
+        <item>Çoğunlukla Bulutlu Kısa süreli Yağışlı</item>
+        <item>Parçalı Bulutlu Kısa süreli Yağışlı</item>
+        <item>Kar</item>
+        <item>Çoğunlukla Bulutlu Kar Yağışlı</item>
+        <item>Buzlanma</item>
+        <item>Sulu Kar</item>
+        <item>Dolu</item>
+        <item>Karla Karışık Yağmur</item>
+        <item>Sıcak</item>
+        <item>Soğuk</item>
+        <item>Rüzgarlı</item>
+        <item>Açık</item>
+        <item>Çoğunlukla Açık</item>
+        <item>Parçalı Bulutlu</item>
+        <item>Aralıklı Bulutlar</item>
+        <item>Sisli</item>
+        <item>Çoğunlukla Bulutlu</item>
+        <item>Parçalı Bulutlu Sağanak Yağışlı</item>
+        <item>Çoğunlukla Bulutlu Sağanak Yağışlı</item>
+        <item>Parçalı Bulutlu Gök Gürültülü Sağanak Yağışlı</item>
+        <item>Çoğunlukla Bulutlu Gök Gürültülü Sağanak Yağışlı</item>
+        <item>Parçalı Bulutlu Kısa süreli Yağışlı</item>
+        <item>Çoğunlukla Bulutlu Kısa süreli Yağışlı</item>
+        <item>Sulu karlı gök gürültülü hava</item>
+        <item>Kum</item>
+        <item>Toz</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Küçük</item>
+        <item>Orta</item>
+        <item>Büyük</item>
+        <item>Çok büyük</item>
+        <item>Çok Büyük</item>
+    </string-array>
+</resources>

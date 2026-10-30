@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>әрбір бірінші жексенбіде</item>
+        <item>әрбір екінші жексенбіде</item>
+        <item>әрбір үшінші жексенбіде</item>
+        <item>әрбір төртінші жексенбіде</item>
+        <item>әрбір соңғы жексенбіде</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>әрбір бірінші дүйсенбіде</item>
+        <item>әрбір екінші дүйсенбіде</item>
+        <item>әрбір үшінші дүйсенбіде</item>
+        <item>әрбір төртінші дүйсенбіде</item>
+        <item>әрбір соңғы дүйсенбіде</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>әрбір бірінші сейсенбіде</item>
+        <item>әрбір екінші сейсенбіде</item>
+        <item>әрбір үшінші сейсенбіде</item>
+        <item>әрбір төртінші сейсенбіде</item>
+        <item>әрбір соңғы сейсенбіде</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>әрбір бірінші сәрсенбіде</item>
+        <item>әрбір екінші сәрсенбіде</item>
+        <item>әрбір үшінші сәрсенбіде</item>
+        <item>әрбір төртінші сәрсенбіде</item>
+        <item>әрбір соңғы сәрсенбіде</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>әрбір бірінші бейсенбіде</item>
+        <item>әрбір екінші бейсенбіде</item>
+        <item>әрбір үшінші бейсенбіде</item>
+        <item>әрбір төртінші бейсенбіде</item>
+        <item>әрбір соңғы бейсенбіде</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>әрбір бірінші жұмада</item>
+        <item>әрбір екінші жұмада</item>
+        <item>әрбір үшінші жұмада</item>
+        <item>әрбір төртінші жұмада</item>
+        <item>әрбір соңғы жұмада</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>әрбір бірінші сенбіде</item>
+        <item>әрбір екінші сенбіде</item>
+        <item>әрбір үшінші сенбіде</item>
+        <item>әрбір төртінші сенбіде</item>
+        <item>әрбір соңғы сенбіде</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Күн шуақ</item>
+        <item>Көбінесе күн шуақ</item>
+        <item>Жартылай күн шуақ</item>
+        <item>Өткінші жаңбыр</item>
+        <item>Бұлыңғыр, күн шығып тұр</item>
+        <item>Көбінесе бұлтты</item>
+        <item>Бұлтты</item>
+        <item>Бұлыңғыр</item>
+        <item>Тұман</item>
+        <item>Қатты жаңбыр</item>
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады</item>
+        <item>Жартылай күн шуақ, қатты жаңбыр жауады</item>
+        <item>Найзағай</item>
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады, найзағай ойнайды</item>
+        <item>Жартылай күн шуақ, қатты жаңбыр жауады, найзағай ойнайды</item>
+        <item>Жаңбыр</item>
+        <item>Аздаған жауын</item>
+        <item>Көбінесе бұлтты, аздап жауын жауады</item>
+        <item>Жартылай күн шуақ, аздап жауын жауады</item>
+        <item>Қар</item>
+        <item>Көбінесе бұлтты, қар жауады</item>
+        <item>Мұз</item>
+        <item>Көксоқта қар</item>
+        <item>Суық жаңбыр</item>
+        <item>Қар аралас жаңбыр</item>
+        <item>Ыстық</item>
+        <item>Салқын</item>
+        <item>Жел тұрады</item>
+        <item>Ашық</item>
+        <item>Көбінесе ашық</item>
+        <item>Жартылай бұлтты</item>
+        <item>Өткінші жаңбыр</item>
+        <item>Тұманды</item>
+        <item>Көбінесе бұлтты</item>
+        <item>Жартылай бұлтты, қатты жаңбыр жауады</item>
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады</item>
+        <item>Жартылай бұлтты, қатты жаңбыр жауады, найзағай ойнайды</item>
+        <item>Көбінесе бұлтты, қатты жаңбыр жауады, найзағай ойнайды</item>
+        <item>Жартылай бұлтты, аздап жауын жауады</item>
+        <item>Көбінесе бұлтты, аздап жауын жауады</item>
+        <item>Көксоқта қар мен найзағай</item>
+        <item>Құм</item>
+        <item>Шаң</item>
+        <item>Дауыл</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Кіші</item>
+        <item>Орташа</item>
+        <item>Үлкен</item>
+        <item>Аса үлкен</item>
+        <item>Алып</item>
+    </string-array>
+</resources>

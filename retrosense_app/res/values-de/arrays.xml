@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeat_by_nth_sun">
+        <item>jeden ersten Sonntag</item>
+        <item>jeden zweiten Sonntag</item>
+        <item>jeden dritten Sonntag</item>
+        <item>jeden vierten Sonntag</item>
+        <item>jeden letzten Sonntag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>jeden ersten Montag</item>
+        <item>jeden zweiten Montag</item>
+        <item>jeden dritten Montag</item>
+        <item>jeden vierten Montag</item>
+        <item>jeden letzten Montag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>jeden ersten Dienstag</item>
+        <item>jeden zweiten Dienstag</item>
+        <item>jeden dritten Dienstag</item>
+        <item>jeden vierten Dienstag</item>
+        <item>jeden letzten Dienstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>jeden ersten Mittwoch</item>
+        <item>jeden zweiten Mittwoch</item>
+        <item>jeden dritten Mittwoch</item>
+        <item>jeden vierten Mittwoch</item>
+        <item>jeden letzten Mittwoch</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>jeden ersten Donnerstag</item>
+        <item>jeden zweiten Donnerstag</item>
+        <item>jeden dritten Donnerstag</item>
+        <item>jeden vierten Donnerstag</item>
+        <item>jeden letzten Donnerstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>jeden ersten Freitag</item>
+        <item>jeden zweiten Freitag</item>
+        <item>jeden dritten Freitag</item>
+        <item>jeden vierten Freitag</item>
+        <item>jeden letzten Freitag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>jeden ersten Samstag</item>
+        <item>jeden zweiten Samstag</item>
+        <item>jeden dritten Samstag</item>
+        <item>jeden vierten Samstag</item>
+        <item>jeden letzten Samstag</item>
+    </string-array>
+    <string-array name="htc_weather_conditions">
+        <item>Sonnig</item>
+        <item>Meist sonnig</item>
+        <item>Teils sonnig</item>
+        <item>Teilweise bewölkt</item>
+        <item>Diesig</item>
+        <item>Vorwiegend bewölkt</item>
+        <item>Bewölkt</item>
+        <item>Trüb</item>
+        <item>Neblig</item>
+        <item>Schauer</item>
+        <item>Vorwiegend wolkig mit Schauern</item>
+        <item>Teils sonnig mit Schauern</item>
+        <item>Gewitter</item>
+        <item>Vorwiegend wolkig mit Gewittern</item>
+        <item>Teils sonnig mit Gewittern</item>
+        <item>Regen</item>
+        <item>Böig</item>
+        <item>Vorwiegend wolkig mit Böen</item>
+        <item>Teils sonnig mit Böen</item>
+        <item>Schnee</item>
+        <item>Vorwiegend wolkig mit Schnee</item>
+        <item>Eis</item>
+        <item>Graupel</item>
+        <item>Eisregen</item>
+        <item>Regen und Schnee</item>
+        <item>Heiß</item>
+        <item>Kalt</item>
+        <item>Windig</item>
+        <item>Klar</item>
+        <item>Überwiegend klar</item>
+        <item>Teils bewölkt</item>
+        <item>Teilweise bewölkt</item>
+        <item>Diesig</item>
+        <item>Vorwiegend bewölkt</item>
+        <item>Teils wolkig mit Schauern</item>
+        <item>Vorwiegend wolkig mit Schauern</item>
+        <item>Teils wolkig mit Gewittern</item>
+        <item>Vorwiegend wolkig mit Gewittern</item>
+        <item>Teils wolkig mit Böen</item>
+        <item>Vorwiegend wolkig mit Böen</item>
+        <item>Gewittersturm mit Graupel</item>
+        <item>Sand</item>
+        <item>Staub</item>
+        <item>Tornado</item>
+    </string-array>
+    <string-array name="st_font_size_levels">
+        <item>Klein</item>
+        <item>Mittel</item>
+        <item>Groß</item>
+        <item>Sehr groß</item>
+        <item>Riesig</item>
+    </string-array>
+</resources>
